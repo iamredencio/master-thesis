@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WMS_Capabilities version="1.3.0"
+  xmlns="http://www.opengis.net/wms"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:esri_wms="http://www.esri.com/wms"
+  xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.esri.com/wms https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?version=1.3.0%26service=WMS%26request=GetSchemaExtension">
+  <Service>
+    <Name><![CDATA[WMS]]></Name>
+    <Title><![CDATA[DCGIS_DATA_Recreation_WebMercator]]></Title>
+    <Abstract>WMS</Abstract>
+    <KeywordList><Keyword><![CDATA[]]></Keyword></KeywordList>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson><![CDATA[]]></ContactPerson>
+        <ContactOrganization><![CDATA[]]></ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition><![CDATA[]]></ContactPosition>
+      <ContactAddress>
+        <AddressType><![CDATA[]]></AddressType>
+        <Address><![CDATA[]]></Address>
+        <City><![CDATA[]]></City>
+        <StateOrProvince><![CDATA[]]></StateOrProvince>
+        <PostCode><![CDATA[]]></PostCode>
+        <Country><![CDATA[]]></Country>
+      </ContactAddress>
+      <ContactVoiceTelephone><![CDATA[]]></ContactVoiceTelephone>
+      <ContactFacsimileTelephone><![CDATA[]]></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress><![CDATA[]]></ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees><![CDATA[]]></Fees>
+    <AccessConstraints><![CDATA[]]></AccessConstraints>
+    <MaxWidth>2048</MaxWidth>
+    <MaxHeight>2048</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/bmp</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/tiff</Format>
+        <Format>image/png</Format>
+        <Format>image/png8</Format>
+        <Format>image/png24</Format>
+        <Format>image/png32</Format>
+        <Format>image/gif</Format>
+        <Format>image/svg+xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>application/vnd.esri.wms_raw_xml</Format>
+        <Format>application/vnd.esri.wms_featureinfo_xml</Format>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <Format>application/geojson</Format>
+        <Format>text/xml</Format>
+        <Format>text/html</Format>
+        <Format>text/plain</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+      <esri_wms:GetStyles>
+        <Format>application/vnd.ogc.sld+xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </esri_wms:GetStyles>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+      <Format>application/vnd.ogc.se_inimage</Format>
+      <Format>application/vnd.ogc.se_blank</Format>
+      <Format>text/xml</Format>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title><![CDATA[Recreation - Web Mercator]]></Title>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.119413</westBoundLongitude><eastBoundLongitude>-76.910961</eastBoundLongitude><southBoundLatitude>38.803076</southBoundLatitude><northBoundLatitude>39.011750</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.119413" miny="38.803076" maxx="-76.910961" maxy="39.011750"/>
+<BoundingBox CRS="EPSG:4326" minx="38.803076" miny="-77.119413" maxx="39.011750" maxy="-76.910961"/>
+<BoundingBox CRS="EPSG:3857" minx="-8584893.790903" miny="4693502.979858" maxx="-8561689.001563" maxy="4723354.798769"/>
+      <Layer queryable="1">
+        <Name>0</Name>
+        <Title><![CDATA[Summer Camp Locations]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.104702</westBoundLongitude><eastBoundLongitude>-76.912163</eastBoundLongitude><southBoundLatitude>38.804758</southBoundLatitude><northBoundLatitude>39.011750</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.104702" miny="38.804758" maxx="-76.912163" maxy="39.011750"/>
+<BoundingBox CRS="EPSG:4326" minx="38.804758" miny="-77.104702" maxx="39.011750" maxy="-76.912163"/>
+<BoundingBox CRS="EPSG:3857" minx="-8583256.174625" miny="4693743.266472" maxx="-8561822.829894" maxy="4723354.798769"/>
+        <Style>
+          <Name>default</Name>
+          <Title>0</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>1</Name>
+        <Title><![CDATA[Swimming Pools]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.113573</westBoundLongitude><eastBoundLongitude>-76.917797</eastBoundLongitude><southBoundLatitude>38.815861</southBoundLatitude><northBoundLatitude>38.994617</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.113573" miny="38.815861" maxx="-76.917797" maxy="38.994617"/>
+<BoundingBox CRS="EPSG:4326" minx="38.815861" miny="-77.113573" maxx="38.994617" maxy="-76.917797"/>
+<BoundingBox CRS="EPSG:3857" minx="-8584243.648441" miny="4695329.477984" maxx="-8562450.001892" maxy="4720900.483492"/>
+        <Style>
+          <Name>default</Name>
+          <Title>1</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=1" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MaxScaleDenominator>23623.511905</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>2</Name>
+        <Title><![CDATA[National Parks]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.119413</westBoundLongitude><eastBoundLongitude>-76.922439</eastBoundLongitude><southBoundLatitude>38.803076</southBoundLatitude><northBoundLatitude>38.995531</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.119413" miny="38.803076" maxx="-76.922439" maxy="38.995531"/>
+<BoundingBox CRS="EPSG:4326" minx="38.803076" miny="-77.119413" maxx="38.995531" maxy="-76.922439"/>
+<BoundingBox CRS="EPSG:3857" minx="-8584893.790903" miny="4693502.979858" maxx="-8562966.712415" maxy="4721031.394356"/>
+        <Style>
+          <Name>default</Name>
+          <Title>2</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=2" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>3</Name>
+        <Title><![CDATA[DC Parks]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.111215</westBoundLongitude><eastBoundLongitude>-76.910961</eastBoundLongitude><southBoundLatitude>38.817115</southBoundLatitude><northBoundLatitude>38.988102</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.111215" miny="38.817115" maxx="-76.910961" maxy="38.988102"/>
+<BoundingBox CRS="EPSG:4326" minx="38.817115" miny="-77.111215" maxx="38.988102" maxy="-76.910961"/>
+<BoundingBox CRS="EPSG:3857" minx="-8583981.197496" miny="4695508.633221" maxx="-8561689.001563" maxy="4719967.387698"/>
+        <Style>
+          <Name>default</Name>
+          <Title>3</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=3" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>4</Name>
+        <Title><![CDATA[National Parks by name]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.119413</westBoundLongitude><eastBoundLongitude>-76.922439</eastBoundLongitude><southBoundLatitude>38.803076</southBoundLatitude><northBoundLatitude>38.995531</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.119413" miny="38.803076" maxx="-76.922439" maxy="38.995531"/>
+<BoundingBox CRS="EPSG:4326" minx="38.803076" miny="-77.119413" maxx="38.995531" maxy="-76.922439"/>
+<BoundingBox CRS="EPSG:3857" minx="-8584893.790903" miny="4693502.979858" maxx="-8562966.712415" maxy="4721031.394356"/>
+        <Style>
+          <Name>default</Name>
+          <Title>4</Title>
+          <LegendURL width="220" height="112">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=4" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>5</Name>
+        <Title><![CDATA[Outdoor Recreation Amenities]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.114169</westBoundLongitude><eastBoundLongitude>-76.910978</eastBoundLongitude><southBoundLatitude>38.815585</southBoundLatitude><northBoundLatitude>38.990223</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.114169" miny="38.815585" maxx="-76.910978" maxy="38.990223"/>
+<BoundingBox CRS="EPSG:4326" minx="38.815585" miny="-77.114169" maxx="38.990223" maxy="-76.910978"/>
+<BoundingBox CRS="EPSG:3857" minx="-8584310.039977" miny="4695290.010789" maxx="-8561690.928463" maxy="4720271.144446"/>
+        <Style>
+          <Name>default</Name>
+          <Title>5</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=5" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>6</Name>
+        <Title><![CDATA[Golf Courses]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.046163</westBoundLongitude><eastBoundLongitude>-76.957729</eastBoundLongitude><southBoundLatitude>38.861194</southBoundLatitude><northBoundLatitude>38.969772</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.046163" miny="38.861194" maxx="-76.957729" maxy="38.969772"/>
+<BoundingBox CRS="EPSG:4326" minx="38.861194" miny="-77.046163" maxx="38.969772" maxy="-76.957729"/>
+<BoundingBox CRS="EPSG:3857" minx="-8576739.647880" miny="4701808.263639" maxx="-8566895.166636" maxy="4717342.579783"/>
+        <Style>
+          <Name>default</Name>
+          <Title>6</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=6" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>7</Name>
+        <Title><![CDATA[Boys and Girls Club]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.066882</westBoundLongitude><eastBoundLongitude>-76.943557</eastBoundLongitude><southBoundLatitude>38.842230</southBoundLatitude><northBoundLatitude>38.940091</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.066882" miny="38.842230" maxx="-76.943557" maxy="38.940091"/>
+<BoundingBox CRS="EPSG:4326" minx="38.842230" miny="-77.066882" maxx="38.940091" maxy="-76.943557"/>
+<BoundingBox CRS="EPSG:3857" minx="-8579046.043828" miny="4699097.463473" maxx="-8565317.575924" maxy="4713093.803231"/>
+        <Style>
+          <Name>default</Name>
+          <Title>7</Title>
+          <LegendURL width="16" height="17">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=7" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>8</Name>
+        <Title><![CDATA[Recreation Facilities]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.104641</westBoundLongitude><eastBoundLongitude>-76.912214</eastBoundLongitude><southBoundLatitude>38.818825</southBoundLatitude><northBoundLatitude>38.970273</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.104641" miny="38.818825" maxx="-76.912214" maxy="38.970273"/>
+<BoundingBox CRS="EPSG:4326" minx="38.818825" miny="-77.104641" maxx="38.970273" maxy="-76.912214"/>
+<BoundingBox CRS="EPSG:3857" minx="-8583249.390297" miny="4695752.935914" maxx="-8561828.520881" maxy="4717414.369257"/>
+        <Style>
+          <Name>default</Name>
+          <Title>8</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=8" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>9</Name>
+        <Title><![CDATA[Recreation Facilities - Categorized]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.104641</westBoundLongitude><eastBoundLongitude>-76.912214</eastBoundLongitude><southBoundLatitude>38.818825</southBoundLatitude><northBoundLatitude>38.970273</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.104641" miny="38.818825" maxx="-76.912214" maxy="38.970273"/>
+<BoundingBox CRS="EPSG:4326" minx="38.818825" miny="-77.104641" maxx="38.970273" maxy="-76.912214"/>
+<BoundingBox CRS="EPSG:3857" minx="-8583249.390297" miny="4695752.935914" maxx="-8561828.520881" maxy="4717414.369257"/>
+        <Style>
+          <Name>default</Name>
+          <Title>9</Title>
+          <LegendURL width="121" height="76">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=9" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>10</Name>
+        <Title><![CDATA[Future Recreation Projects (Retired)]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.104641</westBoundLongitude><eastBoundLongitude>-76.926846</eastBoundLongitude><southBoundLatitude>38.818844</southBoundLatitude><northBoundLatitude>38.970273</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.104641" miny="38.818844" maxx="-76.926846" maxy="38.970273"/>
+<BoundingBox CRS="EPSG:4326" minx="38.818844" miny="-77.104641" maxx="38.970273" maxy="-76.926846"/>
+<BoundingBox CRS="EPSG:3857" minx="-8583249.390297" miny="4695755.593609" maxx="-8563457.374188" maxy="4717414.369243"/>
+        <Style>
+          <Name>default</Name>
+          <Title>10</Title>
+          <LegendURL width="17" height="17">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=10" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>11</Name>
+        <Title><![CDATA[Marinas]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.071805</westBoundLongitude><eastBoundLongitude>-76.974117</eastBoundLongitude><southBoundLatitude>38.833800</southBoundLatitude><northBoundLatitude>38.904582</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.071805" miny="38.833800" maxx="-76.974117" maxy="38.904582"/>
+<BoundingBox CRS="EPSG:4326" minx="38.833800" miny="-77.071805" maxx="38.904582" maxy="-76.974117"/>
+<BoundingBox CRS="EPSG:3857" minx="-8579594.132785" miny="4697892.710735" maxx="-8568719.466734" maxy="4708012.950978"/>
+        <Style>
+          <Name>default</Name>
+          <Title>11</Title>
+          <LegendURL width="19" height="19">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=11" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>12</Name>
+        <Title><![CDATA[Tennis Court Sites]]></Title>
+        <Abstract><![CDATA[]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-77.105441</westBoundLongitude><eastBoundLongitude>-76.944953</eastBoundLongitude><southBoundLatitude>38.817454</southBoundLatitude><northBoundLatitude>38.970414</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-77.105441" miny="38.817454" maxx="-76.944953" maxy="38.970414"/>
+<BoundingBox CRS="EPSG:4326" minx="38.817454" miny="-77.105441" maxx="38.970414" maxy="-76.944953"/>
+<BoundingBox CRS="EPSG:3857" minx="-8583338.484679" miny="4695556.983819" maxx="-8565473.010113" maxy="4717434.558176"/>
+        <Style>
+          <Name>default</Name>
+          <Title>12</Title>
+          <LegendURL width="16" height="16">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://maps2.dcgis.dc.gov/dcgis/services/DCGIS_DATA/Recreation_WebMercator/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=12" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>
