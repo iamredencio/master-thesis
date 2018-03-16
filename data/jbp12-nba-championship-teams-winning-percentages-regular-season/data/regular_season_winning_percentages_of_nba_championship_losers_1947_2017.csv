@@ -1,0 +1,72 @@
+year,loser,wins,losses,playoffseed,winratio
+1947,Chicago Stags,39,22,,0.639
+1948,Philadelphia Warriors,27,21,,0.563
+1949,Washington Capitols,38,22,,0.633
+1950,Syracuse Nationals,51,13,,0.797
+1951,New York Knicks,36,30,3,0.545
+1952,New York Knicks,37,29,3,0.561
+1953,New York Knicks,47,23,1,0.671
+1954,Syracuse Nationals,42,30,1,0.583
+1955,Fort Wayne Pistons,43,29,1,0.597
+1956,Fort Wayne Pistons,37,35,1,0.514
+1957,St. Louis Hawks,34,38,1,0.472
+1958,Boston Celtics,49,23,1,0.681
+1959,Minneapolis Lakers,33,39,2,0.458
+1960,St. Louis Hawks,46,29,1,0.613
+1961,St. Louis Hawks,51,28,1,0.646
+1962,Los Angeles Lakers,54,26,1,0.675
+1963,Los Angeles Lakers,53,27,1,0.663
+1964,San Francisco Warriors,48,32,1,0.6
+1965,Los Angeles Lakers,49,31,1,0.613
+1966,Los Angeles Lakers,45,35,1,0.563
+1967,San Francisco Warriors,44,37,1,0.543
+1968,Los Angeles Lakers,52,30,2,0.634
+1969,Los Angeles Lakers,55,27,1,0.671
+1970,Los Angeles Lakers,46,36,2,0.561
+1971,Baltimore Bullets,42,40,1,0.512
+1972,New York Knicks,48,34,2,0.585
+1973,Los Angeles Lakers,60,22,2,0.732
+1974,Milwaukee Bucks,59,23,1,0.72
+1975,Washington Bullets,60,22,2,0.732
+1976,Phoenix Suns,42,40,3,0.512
+1977,Philadelphia 76ers,50,32,1,0.61
+1978,Seattle SuperSonics,47,35,4,0.573
+1979,Washington Bullets,54,28,1,0.659
+1980,Philadelphia 76ers,59,23,3,0.72
+1981,Houston Rockets,40,42,6,0.488
+1982,Philadelphia 76ers,58,24,3,0.707
+1983,Los Angeles Lakers,58,24,1,0.707
+1984,Los Angeles Lakers,54,28,1,0.659
+1985,Boston Celtics,63,19,1,0.768
+1986,Houston Rockets,51,31,2,0.622
+1987,Boston Celtics,59,23,1,0.72
+1988,Detroit Pistons,54,28,2,0.659
+1989,Los Angeles Lakers,57,25,1,0.695
+1990,Portland Trail Blazers,59,23,3,0.72
+1991,Los Angeles Lakers,58,24,3,0.707
+1992,Portland Trail Blazers,57,25,1,0.695
+1993,Phoenix Suns,62,20,1,0.756
+1994,New York Knicks,57,25,2,0.695
+1995,Orlando Magic,57,25,1,0.695
+1996,Seattle SuperSonics,64,18,1,0.78
+1997,Utah Jazz,64,18,1,0.78
+1998,Utah Jazz,62,20,1,0.756
+1999,New York Knicks,27,23,8,0.54
+2000,Indiana Pacers,56,26,1,0.683
+2001,Philadelphia 76ers,56,26,1,0.683
+2002,New Jersey Nets,52,30,1,0.634
+2003,New Jersey Nets,49,33,2,0.598
+2004,Los Angeles Lakers,56,26,2,0.683
+2005,Detroit Pistons,54,28,2,0.659
+2006,Dallas Mavericks,60,22,4,0.732
+2007,Cleveland Cavaliers,50,32,2,0.61
+2008,Los Angeles Lakers,57,25,1,0.695
+2009,Orlando Magic,59,23,3,0.72
+2010,Boston Celtics,50,32,4,0.61
+2011,Miami Heat,58,24,2,0.707
+2012,Oklahoma City Thunder,48,18,2,0.727
+2013,San Antonio Spurs,58,24,2,0.707
+2014,Miami Heat,54,28,2,0.659
+2015,Cleveland Cavaliers,53,29,2,0.646
+2016,Golden State Warriors,73,9,1,0.89
+2017,Cleveland Cavaliers,51,31,2,0.622

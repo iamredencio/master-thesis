@@ -1,0 +1,72 @@
+year,champion,wins,losses,champplayoffseed,champwinratio,loser,wins_2,losses_2,loserplayoffseed,loserwinratio
+1947,Philadelphia Warriors,35,25,,0.583,Chicago Stags,39,22,,0.639
+1948,Baltimore Bullets,28,20,,0.583,Philadelphia Warriors,27,21,,0.563
+1949,Minneapolis Lakers,44,16,,0.733,Washington Capitols,38,22,,0.633
+1950,Minneapolis Lakers,51,17,,0.75,Syracuse Nationals,51,13,,0.797
+1951,Rochester Royals,41,27,2,0.603,New York Knicks,36,30,3,0.545
+1952,Minneapolis Lakers,40,26,2,0.606,New York Knicks,37,29,3,0.561
+1953,Minneapolis Lakers,48,22,1,0.686,New York Knicks,47,23,1,0.671
+1954,Minneapolis Lakers,46,26,1,0.639,Syracuse Nationals,42,30,1,0.583
+1955,Syracuse Nationals,43,29,1,0.597,Fort Wayne Pistons,43,29,1,0.597
+1956,Philadelphia Warriors,45,27,1,0.625,Fort Wayne Pistons,37,35,1,0.514
+1957,Boston Celtics,44,28,1,0.611,St. Louis Hawks,34,38,1,0.472
+1958,St. Louis Hawks,41,31,1,0.569,Boston Celtics,49,23,1,0.681
+1959,Boston Celtics,52,20,1,0.722,Minneapolis Lakers,33,39,2,0.458
+1960,Boston Celtics,59,16,1,0.787,St. Louis Hawks,46,29,1,0.613
+1961,Boston Celtics,57,22,1,0.722,St. Louis Hawks,51,28,1,0.646
+1962,Boston Celtics,60,20,1,0.75,Los Angeles Lakers,54,26,1,0.675
+1963,Boston Celtics,58,22,1,0.725,Los Angeles Lakers,53,27,1,0.663
+1964,Boston Celtics,59,21,1,0.738,San Francisco Warriors,48,32,1,0.6
+1965,Boston Celtics,62,18,1,0.775,Los Angeles Lakers,49,31,1,0.613
+1966,Boston Celtics,54,26,2,0.675,Los Angeles Lakers,45,35,1,0.563
+1967,Philadelphia 76ers,68,13,1,0.84,San Francisco Warriors,44,37,1,0.543
+1968,Boston Celtics,54,28,2,0.659,Los Angeles Lakers,52,30,2,0.634
+1969,Boston Celtics,48,34,4,0.585,Los Angeles Lakers,55,27,1,0.671
+1970,New York Knicks,60,22,1,0.732,Los Angeles Lakers,46,36,2,0.561
+1971,Milwaukee Bucks,66,16,1,0.805,Baltimore Bullets,42,40,1,0.512
+1972,Los Angeles Lakers,69,13,1,0.841,New York Knicks,48,34,2,0.585
+1973,New York Knicks,57,25,2,0.695,Los Angeles Lakers,60,22,2,0.732
+1974,Boston Celtics,56,26,1,0.683,Milwaukee Bucks,59,23,1,0.72
+1975,Golden State Warriors,48,34,1,0.585,Washington Bullets,60,22,2,0.732
+1976,Boston Celtics,54,28,1,0.659,Phoenix Suns,42,40,3,0.512
+1977,Portland Trail Blazers,49,33,3,0.598,Philadelphia 76ers,50,32,1,0.61
+1978,Washington Bullets,44,38,3,0.537,Seattle SuperSonics,47,35,4,0.573
+1979,Seattle SuperSonics,52,30,1,0.634,Washington Bullets,54,28,1,0.659
+1980,Los Angeles Lakers,60,22,1,0.732,Philadelphia 76ers,59,23,3,0.72
+1981,Boston Celtics,62,20,1,0.756,Houston Rockets,40,42,6,0.488
+1982,Los Angeles Lakers,57,25,1,0.695,Philadelphia 76ers,58,24,3,0.707
+1983,Philadelphia 76ers,65,17,1,0.793,Los Angeles Lakers,58,24,1,0.707
+1984,Boston Celtics,62,20,1,0.756,Los Angeles Lakers,54,28,1,0.659
+1985,Los Angeles Lakers,62,20,1,0.756,Boston Celtics,63,19,1,0.768
+1986,Boston Celtics,67,15,1,0.817,Houston Rockets,51,31,2,0.622
+1987,Los Angeles Lakers,65,17,1,0.793,Boston Celtics,59,23,1,0.72
+1988,Los Angeles Lakers,62,20,1,0.756,Detroit Pistons,54,28,2,0.659
+1989,Detroit Pistons,63,19,1,0.768,Los Angeles Lakers,57,25,1,0.695
+1990,Detroit Pistons,59,23,1,0.72,Portland Trail Blazers,59,23,3,0.72
+1991,Chicago Bulls,61,21,1,0.744,Los Angeles Lakers,58,24,3,0.707
+1992,Chicago Bulls,67,15,2,0.817,Portland Trail Blazers,57,25,1,0.695
+1993,Chicago Bulls,57,25,2,0.695,Phoenix Suns,62,20,1,0.756
+1994,Houston Rockets,58,24,6,0.707,New York Knicks,57,25,2,0.695
+1995,Houston Rockets,47,35,1,0.573,Orlando Magic,57,25,1,0.695
+1996,Chicago Bulls,72,10,1,0.878,Seattle SuperSonics,64,18,1,0.78
+1997,Chicago Bulls,69,13,1,0.841,Utah Jazz,64,18,1,0.78
+1998,Chicago Bulls,62,20,1,0.756,Utah Jazz,62,20,1,0.756
+1999,San Antonio Spurs,37,13,1,0.74,New York Knicks,27,23,8,0.54
+2000,Los Angeles Lakers,67,15,1,0.817,Indiana Pacers,56,26,1,0.683
+2001,Los Angeles Lakers,56,26,2,0.683,Philadelphia 76ers,56,26,1,0.683
+2002,Los Angeles Lakers,58,24,3,0.707,New Jersey Nets,52,30,1,0.634
+2003,San Antonio Spurs,60,22,1,0.732,New Jersey Nets,49,33,2,0.598
+2004,Detroit Pistons,54,28,3,0.659,Los Angeles Lakers,56,26,2,0.683
+2005,San Antonio Spurs,59,23,2,0.72,Detroit Pistons,54,28,2,0.659
+2006,Miami Heat,52,30,2,0.634,Dallas Mavericks,60,22,4,0.732
+2007,San Antonio Spurs,58,24,3,0.707,Cleveland Cavaliers,50,32,2,0.61
+2008,Boston Celtics,66,16,1,0.805,Los Angeles Lakers,57,25,1,0.695
+2009,Los Angeles Lakers,65,17,1,0.793,Orlando Magic,59,23,3,0.72
+2010,Los Angeles Lakers,57,25,1,0.695,Boston Celtics,50,32,4,0.61
+2011,Dallas Mavericks,57,25,3,0.695,Miami Heat,58,24,2,0.707
+2012,Miami Heat,46,20,2,0.697,Oklahoma City Thunder,48,18,2,0.727
+2013,Miami Heat,66,16,1,0.805,San Antonio Spurs,58,24,2,0.707
+2014,San Antonio Spurs,62,20,1,0.756,Miami Heat,54,28,2,0.659
+2015,Golden State Warriors,67,15,1,0.817,Cleveland Cavaliers,53,29,2,0.646
+2016,Cleveland Cavaliers,57,25,1,0.695,Golden State Warriors,73,9,1,0.89
+2017,Golden State Warriors,67,15,1,0.817,Cleveland Cavaliers,51,31,2,0.622
