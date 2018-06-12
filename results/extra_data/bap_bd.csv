@@ -1,0 +1,2001 @@
+,playerID,award,year,lgID_x,note,pos,draftYear,draftRound,draftSelection,draftOverall,tmID,firstName,lastName,suffixName,draftFrom,lgID_y
+0,pollaji01,All-NBA First Team,1948,NBA,0,0,1947,0,0,0,CHS,Jim,Pollard,0,Stanford,NBA
+1,pollaji01,All-NBA First Team,1948,NBA,0,0,1947,0,0,0,PHI,Jim,Pollard,0,Stanford,NBA
+2,pollaji01,All-NBA First Team,1948,NBA,0,0,1947,0,0,0,STB,Jim,Pollard,0,Stanford,NBA
+3,pollaji01,All-NBA First Team,1949,NBA,0,0,1947,0,0,0,CHS,Jim,Pollard,0,Stanford,NBA
+4,pollaji01,All-NBA First Team,1949,NBA,0,0,1947,0,0,0,PHI,Jim,Pollard,0,Stanford,NBA
+5,pollaji01,All-NBA First Team,1949,NBA,0,0,1947,0,0,0,STB,Jim,Pollard,0,Stanford,NBA
+6,pollaji01,All-NBA Second Team,1951,NBA,0,0,1947,0,0,0,CHS,Jim,Pollard,0,Stanford,NBA
+7,pollaji01,All-NBA Second Team,1951,NBA,0,0,1947,0,0,0,PHI,Jim,Pollard,0,Stanford,NBA
+8,pollaji01,All-NBA Second Team,1951,NBA,0,0,1947,0,0,0,STB,Jim,Pollard,0,Stanford,NBA
+9,pollaji01,All-NBA Second Team,1953,NBA,0,0,1947,0,0,0,CHS,Jim,Pollard,0,Stanford,NBA
+10,pollaji01,All-NBA Second Team,1953,NBA,0,0,1947,0,0,0,PHI,Jim,Pollard,0,Stanford,NBA
+11,pollaji01,All-NBA Second Team,1953,NBA,0,0,1947,0,0,0,STB,Jim,Pollard,0,Stanford,NBA
+12,grozaal01,All-NBA First Team,1949,NBA,0,0,1949,1,2,2,INO,Alex,Groza,0,Kentucky,NBA
+13,grozaal01,All-NBA First Team,1950,NBA,0,0,1949,1,2,2,INO,Alex,Groza,0,Kentucky,NBA
+14,beardra01,All-NBA Second Team,1949,NBA,0,0,1949,2,0,0,CHS,Ralph,Beard,0,Kentucky,NBA
+15,beardra01,All-NBA First Team,1950,NBA,0,0,1949,2,0,0,CHS,Ralph,Beard,0,Kentucky,NBA
+16,schaufr01,All-NBA Second Team,1949,NBA,0,0,1949,3,0,0,FTW,Fred,Schaus,0,West Virginia,NBA
+17,schaydo01,All-NBA Second Team,1949,NBA,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+18,schaydo01,All-NBA Second Team,1950,NBA,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+19,schaydo01,All-NBA First Team,1951,NBA,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+20,schaydo01,All-NBA First Team,1952,NBA,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+21,schaydo01,All-NBA First Team,1953,NBA,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+22,schaydo01,All-NBA First Team,1954,NBA,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+23,schaydo01,All-NBA Second Team,1955,NBA,0,F,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+24,schaydo01,All-NBA First Team,1956,NBA,0,F,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+25,schaydo01,All-NBA First Team,1957,NBA,0,F,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+26,schaydo01,All-NBA Second Team,1958,NBA,0,C,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+27,schaydo01,All-NBA Second Team,1959,NBA,0,F,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+28,schaydo01,All-NBA Second Team,1960,NBA,0,F,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+29,schaydo01,Rookie of the Year,1948,NBL,0,0,1948,1,4,4,NYK,Adolph,Schayes,0,New York University,NBA
+30,macaued01,All-NBA First Team,1950,NBA,0,0,1949,0,0,0,STB,Ed,Macauley,0,St. Louis,NBA
+31,macaued01,All-NBA First Team,1951,NBA,0,0,1949,0,0,0,STB,Ed,Macauley,0,St. Louis,NBA
+32,macaued01,All-NBA First Team,1952,NBA,0,0,1949,0,0,0,STB,Ed,Macauley,0,St. Louis,NBA
+33,macaued01,All-NBA Second Team,1953,NBA,0,0,1949,0,0,0,STB,Ed,Macauley,0,St. Louis,NBA
+34,mcguidi01,All-NBA Second Team,1950,NBA,0,0,1949,1,7,7,NYK,Dick,McGuire,0,St. John's,NBA
+35,mikkeve01,All-NBA Second Team,1950,NBA,0,0,1949,0,0,0,MIN,Vern,Mikkelsen,0,Hamline,NBA
+36,mikkeve01,All-NBA Second Team,1951,NBA,0,0,1949,0,0,0,MIN,Vern,Mikkelsen,0,Hamline,NBA
+37,mikkeve01,All-NBA Second Team,1952,NBA,0,0,1949,0,0,0,MIN,Vern,Mikkelsen,0,Hamline,NBA
+38,mikkeve01,All-NBA Second Team,1954,NBA,0,0,1949,0,0,0,MIN,Vern,Mikkelsen,0,Hamline,NBA
+39,arizipa01,All-NBA First Team,1951,NBA,0,0,1950,0,0,0,PHI,Paul,Arizin,0,Villanova,NBA
+40,arizipa01,All-NBA First Team,1955,NBA,0,F,1950,0,0,0,PHI,Paul,Arizin,0,Villanova,NBA
+41,arizipa01,All-NBA First Team,1956,NBA,0,F,1950,0,0,0,PHI,Paul,Arizin,0,Villanova,NBA
+42,arizipa01,All-NBA Second Team,1958,NBA,0,F,1950,0,0,0,PHI,Paul,Arizin,0,Villanova,NBA
+43,cousybo01,All-NBA First Team,1951,NBA,0,0,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+44,cousybo01,All-NBA First Team,1952,NBA,0,0,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+45,cousybo01,All-NBA First Team,1953,NBA,0,0,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+46,cousybo01,All-NBA First Team,1954,NBA,0,0,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+47,cousybo01,All-NBA First Team,1955,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+48,cousybo01,All-NBA First Team,1956,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+49,cousybo01,Most Valuable Player,1956,NBA,0,0,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+50,cousybo01,All-NBA First Team,1957,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+51,cousybo01,All-NBA First Team,1958,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+52,cousybo01,All-NBA First Team,1959,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+53,cousybo01,All-NBA First Team,1960,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+54,cousybo01,All-NBA Second Team,1961,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+55,cousybo01,All-NBA Second Team,1962,NBA,0,G,1950,1,3,3,TRI,Bob,Cousy,0,Holy Cross,NBA
+56,foustla01,All-NBA Second Team,1951,NBA,0,0,1950,1,5,5,CHS,Larry,Foust,0,LaSalle,NBA
+57,foustla01,All-NBA First Team,1954,NBA,0,0,1950,1,5,5,CHS,Larry,Foust,0,LaSalle,NBA
+58,phillan01,All-NBA Second Team,1951,NBA,0,0,1947,0,0,0,CHS,Andy,Phillip,0,Illinois,NBA
+59,phillan01,All-NBA Second Team,1952,NBA,0,0,1947,0,0,0,CHS,Andy,Phillip,0,Illinois,NBA
+60,wanzebo01,All-NBA Second Team,1951,NBA,0,0,1948,1,10,10,ROC,Robert,Wanzer,0,Seton Hall,NBA
+61,wanzebo01,All-NBA Second Team,1952,NBA,0,0,1948,1,10,10,ROC,Robert,Wanzer,0,Seton Hall,NBA
+62,wanzebo01,All-NBA Second Team,1953,NBA,0,0,1948,1,10,10,ROC,Robert,Wanzer,0,Seton Hall,NBA
+63,sharmbi01,All-NBA Second Team,1952,NBA,0,0,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+64,sharmbi01,All-NBA Second Team,1954,NBA,0,0,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+65,sharmbi01,All-NBA First Team,1955,NBA,0,G,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+66,sharmbi01,All-NBA First Team,1956,NBA,0,G,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+67,sharmbi01,All-NBA First Team,1957,NBA,0,G,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+68,sharmbi01,All-NBA First Team,1958,NBA,0,G,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+69,sharmbi01,All-NBA Second Team,1959,NBA,0,G,1950,2,0,0,WSC,Bill,Sharman,0,Southern California,NBA
+70,meinedo01,Rookie of the Year,1952,NBA,0,0,1952,0,0,0,FTW,Don,Meineke,0,Dayton,NBA
+71,gallaha01,All-NBA First Team,1953,NBA,0,0,1947,0,0,0,BLB,Harry,Gallatin,0,NE Missouri State Teachers College,NBA
+72,gallaha01,All-NBA First Team,1953,NBA,0,0,1948,0,0,0,NYK,Harry,Gallatin,0,NE Missouri State,NBA
+73,gallaha01,All-NBA Second Team,1954,NBA,0,0,1947,0,0,0,BLB,Harry,Gallatin,0,NE Missouri State Teachers College,NBA
+74,gallaha01,All-NBA Second Team,1954,NBA,0,0,1948,0,0,0,NYK,Harry,Gallatin,0,NE Missouri State,NBA
+75,felixra01,Rookie of the Year,1953,NBA,0,0,1953,1,1,1,BLB,Ray,Felix,0,Long Island,NBA
+76,pettibo01,All-NBA First Team,1954,NBA,0,0,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+77,pettibo01,Rookie of the Year,1954,NBA,0,0,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+78,pettibo01,All-NBA First Team,1955,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+79,pettibo01,Most Valuable Player,1955,NBA,0,0,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+80,pettibo01,All-NBA First Team,1956,NBA,0,C,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+81,pettibo01,All-NBA First Team,1957,NBA,0,C,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+82,pettibo01,All-NBA First Team,1958,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+83,pettibo01,Most Valuable Player,1958,NBA,0,0,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+84,pettibo01,All-NBA First Team,1959,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+85,pettibo01,All-NBA First Team,1960,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+86,pettibo01,All-NBA First Team,1961,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+87,pettibo01,All-NBA First Team,1962,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+88,pettibo01,All-NBA First Team,1963,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+89,pettibo01,All-NBA Second Team,1964,NBA,0,F,1954,1,2,2,MLH,Bob,Pettit,0,Louisiana State,NBA
+90,georgja01,All-NBA Second Team,1955,NBA,0,G,1953,0,0,0,PHI,Jack,George,0,LaSalle,NBA
+91,lovelcl01,All-NBA Second Team,1955,NBA,0,C,1952,1,9,9,MNL,Clyde,Lovellette,0,Kansas,NBA
+92,stokema01,All-NBA Second Team,1955,NBA,0,F,1955,1,2,2,ROC,Maurice,Stokes,0,St. Francis (PA),NBA
+93,stokema01,Rookie of the Year,1955,NBA,0,0,1955,1,2,2,ROC,Maurice,Stokes,0,St. Francis (PA),NBA
+94,stokema01,All-NBA Second Team,1956,NBA,0,F,1955,1,2,2,ROC,Maurice,Stokes,0,St. Francis (PA),NBA
+95,stokema01,All-NBA Second Team,1957,NBA,0,F,1955,1,2,2,ROC,Maurice,Stokes,0,St. Francis (PA),NBA
+96,garmadi01,All-NBA Second Team,1956,NBA,0,G,1954,9,8,80,MNL,Dick,Garmaker,0,Minnesota,NBA
+97,garmadi01,All-NBA Second Team,1956,NBA,0,G,1955,0,0,0,MNL,Dick,Garmaker,0,Minnesota,NBA
+98,yardlge01,All-NBA Second Team,1956,NBA,0,F,1950,1,7,7,FTW,George,Yardley,0,Stanford,NBA
+99,yardlge01,All-NBA First Team,1957,NBA,0,F,1950,1,7,7,FTW,George,Yardley,0,Stanford,NBA
+100,heinsto01,Rookie of the Year,1956,NBA,0,0,1956,0,0,0,BOS,Tom,Heinsohn,0,Holy Cross,NBA
+101,heinsto01,All-NBA Second Team,1960,NBA,0,F,1956,0,0,0,BOS,Tom,Heinsohn,0,Holy Cross,NBA
+102,heinsto01,All-NBA Second Team,1961,NBA,0,F,1956,0,0,0,BOS,Tom,Heinsohn,0,Holy Cross,NBA
+103,heinsto01,All-NBA Second Team,1962,NBA,0,F,1956,0,0,0,BOS,Tom,Heinsohn,0,Holy Cross,NBA
+104,heinsto01,All-NBA Second Team,1963,NBA,0,F,1956,0,0,0,BOS,Tom,Heinsohn,0,Holy Cross,NBA
+105,golato01,All-NBA Second Team,1957,NBA,0,G,1955,0,0,0,PHW,Tom,Gola,0,LaSalle,NBA
+106,hagancl01,All-NBA Second Team,1957,NBA,0,F,1953,3,0,0,BOS,Cliff,Hagan,0,Kentucky,NBA
+107,hagancl01,All-NBA Second Team,1958,NBA,0,F,1953,3,0,0,BOS,Cliff,Hagan,0,Kentucky,NBA
+108,russebi01,All-NBA Second Team,1957,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+109,russebi01,Most Valuable Player,1957,NBA,0,0,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+110,russebi01,All-NBA First Team,1958,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+111,russebi01,All-NBA Second Team,1959,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+112,russebi01,All-NBA Second Team,1960,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+113,russebi01,Most Valuable Player,1960,NBA,0,0,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+114,russebi01,All-NBA Second Team,1961,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+115,russebi01,Most Valuable Player,1961,NBA,0,0,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+116,russebi01,All-NBA First Team,1962,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+117,russebi01,Most Valuable Player,1962,NBA,0,0,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+118,russebi01,All-NBA Second Team,1963,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+119,russebi01,All-NBA First Team,1964,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+120,russebi01,Most Valuable Player,1964,NBA,0,0,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+121,russebi01,All-NBA Second Team,1965,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+122,russebi01,All-NBA Second Team,1966,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+123,russebi01,All-NBA Second Team,1967,NBA,0,C,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+124,russebi01,All-Defensive First Team,1968,NBA,0,0,1956,1,2,2,STL,Bill,Russell,0,San Francisco,NBA
+125,sauldwo01,Rookie of the Year,1957,NBA,0,0,1957,8,5,60,PHW,Woody,Sauldsberry,0,Texas Southern,NBA
+126,bayloel01,All-NBA First Team,1958,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+127,bayloel01,All-NBA First Team,1958,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+128,bayloel01,Rookie of the Year,1958,NBA,0,0,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+129,bayloel01,Rookie of the Year,1958,NBA,0,0,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+130,bayloel01,All-NBA First Team,1959,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+131,bayloel01,All-NBA First Team,1959,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+132,bayloel01,All-NBA First Team,1960,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+133,bayloel01,All-NBA First Team,1960,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+134,bayloel01,All-NBA First Team,1961,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+135,bayloel01,All-NBA First Team,1961,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+136,bayloel01,All-NBA First Team,1962,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+137,bayloel01,All-NBA First Team,1962,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+138,bayloel01,All-NBA First Team,1963,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+139,bayloel01,All-NBA First Team,1963,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+140,bayloel01,All-NBA First Team,1964,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+141,bayloel01,All-NBA First Team,1964,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+142,bayloel01,All-NBA First Team,1966,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+143,bayloel01,All-NBA First Team,1966,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+144,bayloel01,All-NBA First Team,1967,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+145,bayloel01,All-NBA First Team,1967,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+146,bayloel01,All-NBA First Team,1968,NBA,0,F,1956,0,0,0,MNL,Elgin,Baylor,0,Seattle,NBA
+147,bayloel01,All-NBA First Team,1968,NBA,0,F,1958,1,1,1,MNL,Elgin,Baylor,0,Seattle,NBA
+148,chambwi01,All-NBA First Team,1959,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+149,chambwi01,Most Valuable Player,1959,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+150,chambwi01,Rookie of the Year,1959,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+151,chambwi01,All-NBA First Team,1960,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+152,chambwi01,All-NBA First Team,1961,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+153,chambwi01,All-NBA Second Team,1962,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+154,chambwi01,All-NBA First Team,1963,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+155,chambwi01,All-NBA Second Team,1964,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+156,chambwi01,All-NBA First Team,1965,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+157,chambwi01,Most Valuable Player,1965,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+158,chambwi01,All-NBA First Team,1966,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+159,chambwi01,Most Valuable Player,1966,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+160,chambwi01,All-NBA First Team,1967,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+161,chambwi01,Most Valuable Player,1967,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+162,chambwi01,All-Defensive First Team,1971,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+163,chambwi01,All-NBA Second Team,1971,NBA,0,C,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+164,chambwi01,Finals MVP,1971,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+165,chambwi01,All-Defensive First Team,1972,NBA,0,0,1959,0,0,0,PHW,Wilt,Chamberlain,0,Kansas,NBA
+166,shuege01,All-NBA First Team,1959,NBA,0,G,1954,1,3,3,PHW,Gene,Shue,0,Maryland,NBA
+167,shuege01,All-NBA Second Team,1960,NBA,0,G,1954,1,3,3,PHW,Gene,Shue,0,Maryland,NBA
+168,twymaja01,All-NBA Second Team,1959,NBA,0,F,1955,2,2,8,ROC,Jack,Twyman,0,Cincinnati,NBA
+169,twymaja01,All-NBA Second Team,1961,NBA,0,F,1955,2,2,8,ROC,Jack,Twyman,0,Cincinnati,NBA
+170,roberos01,All-NBA First Team,1960,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+171,roberos01,Rookie of the Year,1960,NBA,0,0,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+172,roberos01,All-NBA First Team,1961,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+173,roberos01,All-NBA First Team,1962,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+174,roberos01,All-NBA First Team,1963,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+175,roberos01,Most Valuable Player,1963,NBA,0,0,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+176,roberos01,All-NBA First Team,1964,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+177,roberos01,All-NBA First Team,1965,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+178,roberos01,All-NBA First Team,1966,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+179,roberos01,All-NBA First Team,1967,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+180,roberos01,All-NBA First Team,1968,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+181,roberos01,All-NBA Second Team,1969,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+182,roberos01,All-NBA Second Team,1970,NBA,0,G,1960,1,1,1,CIN,Oscar,Robertson,0,Cincinnati,NBA
+183,costela01,All-NBA Second Team,1960,NBA,0,G,1954,2,3,12,PHW,Larry,Costello,0,Niagara,NBA
+184,westje01,All-NBA First Team,1961,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+185,westje01,All-NBA First Team,1962,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+186,westje01,All-NBA First Team,1963,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+187,westje01,All-NBA First Team,1964,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+188,westje01,All-NBA First Team,1965,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+189,westje01,All-NBA First Team,1966,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+190,westje01,All-NBA Second Team,1967,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+191,westje01,All-Defensive Second Team,1968,NBA,0,0,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+192,westje01,All-NBA Second Team,1968,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+193,westje01,Finals MVP,1968,NBA,0,0,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+194,westje01,All-Defensive First Team,1969,NBA,0,0,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+195,westje01,All-NBA First Team,1969,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+196,westje01,All-Defensive First Team,1970,NBA,0,0,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+197,westje01,All-NBA First Team,1970,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+198,westje01,All-Defensive First Team,1971,NBA,0,0,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+199,westje01,All-NBA First Team,1971,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+200,westje01,All-Defensive First Team,1972,NBA,0,0,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+201,westje01,All-NBA First Team,1972,NBA,0,G,1960,1,2,2,MNL,Jerry,West,0,West Virginia,NBA
+202,bellawa01,Rookie of the Year,1961,NBA,0,0,1961,1,1,1,CHP,Walt,Bellamy,0,Indiana,NBA
+203,greerha01,All-NBA Second Team,1962,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+204,greerha01,All-NBA Second Team,1963,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+205,greerha01,All-NBA Second Team,1964,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+206,greerha01,All-NBA Second Team,1965,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+207,greerha01,All-NBA Second Team,1966,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+208,greerha01,All-NBA Second Team,1967,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+209,greerha01,All-NBA Second Team,1968,NBA,0,G,1958,2,6,13,SYR,Hal,Greer,0,Marshall,NBA
+210,howelba01,All-NBA Second Team,1962,NBA,0,F,1959,1,2,2,DET,Bailey,Howell,0,Mississippi State,NBA
+211,dischte01,Rookie of the Year,1962,NBA,0,0,1962,2,1,8,CHZ,Terry,Dischinger,0,Purdue,NBA
+212,havlijo01,All-NBA Second Team,1963,NBA,0,G,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+213,havlijo01,All-NBA Second Team,1965,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+214,havlijo01,All-NBA Second Team,1967,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+215,havlijo01,All-Defensive Second Team,1968,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+216,havlijo01,All-NBA Second Team,1968,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+217,havlijo01,All-Defensive Second Team,1969,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+218,havlijo01,All-NBA Second Team,1969,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+219,havlijo01,All-Defensive Second Team,1970,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+220,havlijo01,All-NBA First Team,1970,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+221,havlijo01,All-Defensive First Team,1971,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+222,havlijo01,All-NBA First Team,1971,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+223,havlijo01,All-Defensive First Team,1972,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+224,havlijo01,All-NBA First Team,1972,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+225,havlijo01,All-Defensive First Team,1973,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+226,havlijo01,All-NBA First Team,1973,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+227,havlijo01,Finals MVP,1973,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+228,havlijo01,All-Defensive First Team,1974,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+229,havlijo01,All-NBA Second Team,1974,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+230,havlijo01,All-Defensive First Team,1975,NBA,0,0,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+231,havlijo01,All-NBA Second Team,1975,NBA,0,F,1962,1,7,7,BOS,John,Havlicek,0,Ohio State,NBA
+232,lucasje01,All-NBA Second Team,1963,NBA,0,F,1962,0,0,0,CIN,Jerry,Lucas,0,Ohio State,NBA
+233,lucasje01,Rookie of the Year,1963,NBA,0,0,1962,0,0,0,CIN,Jerry,Lucas,0,Ohio State,NBA
+234,lucasje01,All-NBA First Team,1964,NBA,0,F,1962,0,0,0,CIN,Jerry,Lucas,0,Ohio State,NBA
+235,lucasje01,All-NBA First Team,1965,NBA,0,F,1962,0,0,0,CIN,Jerry,Lucas,0,Ohio State,NBA
+236,lucasje01,All-NBA Second Team,1966,NBA,0,F,1962,0,0,0,CIN,Jerry,Lucas,0,Ohio State,NBA
+237,lucasje01,All-NBA First Team,1967,NBA,0,F,1962,0,0,0,CIN,Jerry,Lucas,0,Ohio State,NBA
+238,johnsgu01,All-NBA Second Team,1964,NBA,0,F,1963,2,2,10,BAL,Gus,Johnson,0,Idaho,NBA
+239,johnsgu01,All-NBA Second Team,1965,NBA,0,F,1963,2,2,10,BAL,Gus,Johnson,0,Idaho,NBA
+240,johnsgu01,All-Defensive First Team,1969,NBA,0,0,1963,2,2,10,BAL,Gus,Johnson,0,Idaho,NBA
+241,johnsgu01,All-NBA Second Team,1969,NBA,0,F,1963,2,2,10,BAL,Gus,Johnson,0,Idaho,NBA
+242,johnsgu01,All-Defensive First Team,1970,NBA,0,0,1963,2,2,10,BAL,Gus,Johnson,0,Idaho,NBA
+243,johnsgu01,All-NBA Second Team,1970,NBA,0,F,1963,2,2,10,BAL,Gus,Johnson,0,Idaho,NBA
+244,jonessa01,All-NBA Second Team,1964,NBA,0,G,1956,0,0,0,MNL,Sam,Jones,0,North Carolina College,NBA
+245,jonessa01,All-NBA Second Team,1964,NBA,0,G,1957,1,8,8,BOS,Sam,Jones,0,North Carolina Central,NBA
+246,jonessa01,All-NBA Second Team,1965,NBA,0,G,1956,0,0,0,MNL,Sam,Jones,0,North Carolina College,NBA
+247,jonessa01,All-NBA Second Team,1965,NBA,0,G,1957,1,8,8,BOS,Sam,Jones,0,North Carolina Central,NBA
+248,jonessa01,All-NBA Second Team,1966,NBA,0,G,1956,0,0,0,MNL,Sam,Jones,0,North Carolina College,NBA
+249,jonessa01,All-NBA Second Team,1966,NBA,0,G,1957,1,8,8,BOS,Sam,Jones,0,North Carolina Central,NBA
+250,reedwi01,Rookie of the Year,1964,NBA,0,0,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+251,reedwi01,All-NBA Second Team,1966,NBA,0,F,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+252,reedwi01,All-NBA Second Team,1967,NBA,0,F,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+253,reedwi01,All-NBA Second Team,1968,NBA,0,C,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+254,reedwi01,All-Defensive First Team,1969,NBA,0,0,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+255,reedwi01,All-NBA First Team,1969,NBA,0,C,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+256,reedwi01,Finals MVP,1969,NBA,0,0,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+257,reedwi01,Most Valuable Player,1969,NBA,0,0,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+258,reedwi01,All-NBA Second Team,1970,NBA,0,C,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+259,reedwi01,Finals MVP,1972,NBA,0,0,1964,2,1,8,NYK,Willis,Reed,0,Grambling,NBA
+260,barryri01,All-NBA First Team,1965,NBA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+261,barryri01,Rookie of the Year,1965,NBA,0,0,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+262,barryri01,All-NBA First Team,1966,NBA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+263,barryri01,All-ABA First Team,1968,ABA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+264,barryri01,All-ABA First Team,1969,ABA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+265,barryri01,All-ABA First Team,1970,ABA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+266,barryri01,All-ABA First Team,1971,ABA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+267,barryri01,All-NBA Second Team,1972,NBA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+268,barryri01,All-NBA First Team,1973,NBA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+269,barryri01,All-NBA First Team,1974,NBA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+270,barryri01,Finals MVP,1974,NBA,0,0,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+271,barryri01,All-NBA First Team,1975,NBA,0,F,1965,1,2,2,SFW,Rick,Barry,0,Miami (FL),NBA
+272,bingda01,Rookie of the Year,1966,NBA,0,0,1966,1,2,2,DET,Dave,Bing,0,Syracuse,NBA
+273,bingda01,All-NBA First Team,1967,NBA,0,G,1966,1,2,2,DET,Dave,Bing,0,Syracuse,NBA
+274,bingda01,All-NBA First Team,1970,NBA,0,G,1966,1,2,2,DET,Dave,Bing,0,Syracuse,NBA
+275,bingda01,All-NBA Second Team,1973,NBA,0,G,1966,1,2,2,DET,Dave,Bing,0,Syracuse,NBA
+276,danieme01,All-ABA First Team,1967,ABA,0,C,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+277,danieme01,All-ABA First Team,1967,ABA,0,C,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+278,danieme01,Rookie of the Year,1967,ABA,0,0,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+279,danieme01,Rookie of the Year,1967,ABA,0,0,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+280,danieme01,All-ABA First Team,1968,ABA,0,C,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+281,danieme01,All-ABA First Team,1968,ABA,0,C,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+282,danieme01,Most Valuable Player,1968,ABA,0,0,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+283,danieme01,Most Valuable Player,1968,ABA,0,0,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+284,danieme01,All-ABA First Team,1969,ABA,0,C,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+285,danieme01,All-ABA First Team,1969,ABA,0,C,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+286,danieme01,All-ABA First Team,1970,ABA,0,C,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+287,danieme01,All-ABA First Team,1970,ABA,0,C,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+288,danieme01,Most Valuable Player,1970,ABA,0,0,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+289,danieme01,Most Valuable Player,1970,ABA,0,0,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+290,danieme01,All-ABA Second Team,1972,ABA,0,C,1967,0,0,0,MNM,Mel,Daniels,0,New Mexico,ABA
+291,danieme01,All-ABA Second Team,1972,ABA,0,C,1967,1,9,9,CIN,Mel,Daniels,0,New Mexico,NBA
+292,hawkico01,All-ABA First Team,1967,ABA,0,F,1974,5,0,0,SDA,Connie,Hawkins,0,Los Angeles,ABA
+293,hawkico01,Finals MVP,1967,ABA,0,0,1974,5,0,0,SDA,Connie,Hawkins,0,Los Angeles,ABA
+294,hawkico01,Most Valuable Player,1967,ABA,0,0,1974,5,0,0,SDA,Connie,Hawkins,0,Los Angeles,ABA
+295,hawkico01,All-ABA First Team,1968,ABA,0,F,1974,5,0,0,SDA,Connie,Hawkins,0,Los Angeles,ABA
+296,hawkico01,All-NBA First Team,1969,NBA,0,F,1974,5,0,0,SDA,Connie,Hawkins,0,Los Angeles,ABA
+297,hawkico01,Most Valuable Player,1961,ABL1,0,0,1974,5,0,0,SDA,Connie,Hawkins,0,Los Angeles,ABA
+298,jonesla01,All-ABA First Team,1967,ABA,0,G,1963,5,8,43,LAL,Larry,Jones,0,Toledo,NBA
+299,jonesla01,All-ABA First Team,1967,ABA,0,G,1964,3,4,20,PHI,Larry,Jones,0,Toledo,NBA
+300,jonesla01,All-ABA First Team,1968,ABA,0,G,1963,5,8,43,LAL,Larry,Jones,0,Toledo,NBA
+301,jonesla01,All-ABA First Team,1968,ABA,0,G,1964,3,4,20,PHI,Larry,Jones,0,Toledo,NBA
+302,jonesla01,All-ABA First Team,1969,ABA,0,G,1963,5,8,43,LAL,Larry,Jones,0,Toledo,NBA
+303,jonesla01,All-ABA First Team,1969,ABA,0,G,1964,3,4,20,PHI,Larry,Jones,0,Toledo,NBA
+304,moedo01,All-ABA First Team,1967,ABA,0,F,1960,7,4,52,DET,Doug,Moe,0,North Carolina,NBA
+305,moedo01,All-ABA First Team,1967,ABA,0,F,1961,2,13,22,CHP,Doug,Moe,0,North Carolina,NBA
+306,moedo01,All-ABA Second Team,1968,ABA,0,F,1960,7,4,52,DET,Doug,Moe,0,North Carolina,NBA
+307,moedo01,All-ABA Second Team,1968,ABA,0,F,1961,2,13,22,CHP,Doug,Moe,0,North Carolina,NBA
+308,beasljo01,All-ABA Second Team,1967,ABA,0,C,1966,5,5,45,BAL,John,Beasley,0,Texas A&M,NBA
+309,beasljo01,All-ABA Second Team,1968,ABA,0,F,1966,5,5,45,BAL,John,Beasley,0,Texas A&M,NBA
+310,brownla01,All-ABA Second Team,1967,ABA,0,G,1963,7,2,55,BAL,Larry,Brown,0,North Carolina,NBA
+311,dampilo01,All-ABA Second Team,1967,ABA,0,G,1967,0,0,0,KEN,Louie,Dampier,0,Kentucky,ABA
+312,dampilo01,All-ABA Second Team,1967,ABA,0,G,1967,4,7,38,CIN,Lou,Dampier,0,Kentucky,NBA
+313,dampilo01,All-ABA Second Team,1967,ABA,0,G,1976,99,0,0,SAS,Louis,Dampier,0,Kentucky (ABA),NBA
+314,dampilo01,All-ABA Second Team,1968,ABA,0,G,1967,0,0,0,KEN,Louie,Dampier,0,Kentucky,ABA
+315,dampilo01,All-ABA Second Team,1968,ABA,0,G,1967,4,7,38,CIN,Lou,Dampier,0,Kentucky,NBA
+316,dampilo01,All-ABA Second Team,1968,ABA,0,G,1976,99,0,0,SAS,Louis,Dampier,0,Kentucky (ABA),NBA
+317,dampilo01,All-ABA Second Team,1969,ABA,0,G,1967,0,0,0,KEN,Louie,Dampier,0,Kentucky,ABA
+318,dampilo01,All-ABA Second Team,1969,ABA,0,G,1967,4,7,38,CIN,Lou,Dampier,0,Kentucky,NBA
+319,dampilo01,All-ABA Second Team,1969,ABA,0,G,1976,99,0,0,SAS,Louis,Dampier,0,Kentucky (ABA),NBA
+320,dampilo01,All-ABA Second Team,1973,ABA,0,G,1967,0,0,0,KEN,Louie,Dampier,0,Kentucky,ABA
+321,dampilo01,All-ABA Second Team,1973,ABA,0,G,1967,4,7,38,CIN,Lou,Dampier,0,Kentucky,NBA
+322,dampilo01,All-ABA Second Team,1973,ABA,0,G,1976,99,0,0,SAS,Louis,Dampier,0,Kentucky (ABA),NBA
+323,powelci01,All-ABA Second Team,1967,ABA,0,F,1965,8,5,66,STL,Cincy,Powell,0,Portland,NBA
+324,monroea01,Rookie of the Year,1967,NBA,0,0,1967,0,0,0,PTP,Earl,Monroe,0,Winston-Salem,ABA
+325,monroea01,Rookie of the Year,1967,NBA,0,0,1967,1,2,2,BAL,Earl,Monroe,0,Winston-Salem,NBA
+326,monroea01,All-NBA First Team,1968,NBA,0,G,1967,0,0,0,PTP,Earl,Monroe,0,Winston-Salem,ABA
+327,monroea01,All-NBA First Team,1968,NBA,0,G,1967,1,2,2,BAL,Earl,Monroe,0,Winston-Salem,NBA
+328,jonesji01,All-ABA First Team,1968,ABA,0,G,1967,0,0,0,NOB,James,Jones,0,Grambling,ABA
+329,jonesji01,All-ABA First Team,1968,ABA,0,G,1967,2,1,13,BAL,James,Jones,0,Grambling,NBA
+330,jonesji01,All-ABA First Team,1972,ABA,0,G,1967,0,0,0,NOB,James,Jones,0,Grambling,ABA
+331,jonesji01,All-ABA First Team,1972,ABA,0,G,1967,2,1,13,BAL,James,Jones,0,Grambling,NBA
+332,jonesji01,All-ABA First Team,1973,ABA,0,G,1967,0,0,0,NOB,James,Jones,0,Grambling,ABA
+333,jonesji01,All-ABA First Team,1973,ABA,0,G,1967,2,1,13,BAL,James,Jones,0,Grambling,NBA
+334,freemdo01,All-ABA Second Team,1968,ABA,0,G,1966,3,9,29,PHI,Don,Freeman,0,Illinois,NBA
+335,freemdo01,All-ABA Second Team,1969,ABA,0,G,1966,3,9,29,PHI,Don,Freeman,0,Illinois,NBA
+336,freemdo01,All-ABA Second Team,1970,ABA,0,G,1966,3,9,29,PHI,Don,Freeman,0,Illinois,NBA
+337,freemdo01,All-ABA First Team,1971,ABA,0,G,1966,3,9,29,PHI,Don,Freeman,0,Illinois,NBA
+338,robbire01,All-ABA Second Team,1968,ABA,0,C,1966,6,9,59,PHI,Red,Robbins,0,Tennessee,NBA
+339,robbire01,All-ABA Second Team,1969,ABA,0,C,1966,6,9,59,PHI,Red,Robbins,0,Tennessee,NBA
+340,debusda01,All-Defensive First Team,1968,NBA,0,0,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+341,debusda01,All-Defensive First Team,1968,NBA,0,0,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+342,debusda01,All-NBA Second Team,1968,NBA,0,F,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+343,debusda01,All-NBA Second Team,1968,NBA,0,F,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+344,debusda01,All-Defensive First Team,1969,NBA,0,0,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+345,debusda01,All-Defensive First Team,1969,NBA,0,0,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+346,debusda01,All-Defensive First Team,1970,NBA,0,0,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+347,debusda01,All-Defensive First Team,1970,NBA,0,0,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+348,debusda01,All-Defensive First Team,1971,NBA,0,0,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+349,debusda01,All-Defensive First Team,1971,NBA,0,0,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+350,debusda01,All-Defensive First Team,1972,NBA,0,0,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+351,debusda01,All-Defensive First Team,1972,NBA,0,0,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+352,debusda01,All-Defensive First Team,1973,NBA,0,0,1974,5,0,0,MMT,Dave,DeBusschere,0,New York,ABA
+353,debusda01,All-Defensive First Team,1973,NBA,0,0,1962,0,0,0,DET,Dave,DeBusschere,0,Detroit,NBA
+354,fraziwa01,All-Defensive First Team,1968,NBA,0,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+355,fraziwa01,All-Defensive First Team,1968,NBA,0,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+356,fraziwa01,All-Defensive First Team,1969,NBA,0,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+357,fraziwa01,All-Defensive First Team,1969,NBA,0,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+358,fraziwa01,All-NBA First Team,1969,NBA,0,G,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+359,fraziwa01,All-NBA First Team,1969,NBA,0,G,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+360,fraziwa01,All-Defensive First Team,1970,NBA,0,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+361,fraziwa01,All-Defensive First Team,1970,NBA,0,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+362,fraziwa01,All-NBA Second Team,1970,NBA,0,G,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+363,fraziwa01,All-NBA Second Team,1970,NBA,0,G,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+364,fraziwa01,All-Defensive First Team,1971,NBA,tie,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+365,fraziwa01,All-Defensive First Team,1971,NBA,tie,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+366,fraziwa01,All-NBA First Team,1971,NBA,0,G,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+367,fraziwa01,All-NBA First Team,1971,NBA,0,G,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+368,fraziwa01,All-Defensive First Team,1972,NBA,0,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+369,fraziwa01,All-Defensive First Team,1972,NBA,0,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+370,fraziwa01,All-NBA Second Team,1972,NBA,0,G,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+371,fraziwa01,All-NBA Second Team,1972,NBA,0,G,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+372,fraziwa01,All-Defensive First Team,1973,NBA,tie,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+373,fraziwa01,All-Defensive First Team,1973,NBA,tie,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+374,fraziwa01,All-NBA First Team,1973,NBA,0,G,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+375,fraziwa01,All-NBA First Team,1973,NBA,0,G,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+376,fraziwa01,All-Defensive First Team,1974,NBA,0,0,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+377,fraziwa01,All-Defensive First Team,1974,NBA,0,0,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+378,fraziwa01,All-NBA First Team,1974,NBA,0,G,1967,0,0,0,DNR,Walt,Frazier,0,Southern Illinois,ABA
+379,fraziwa01,All-NBA First Team,1974,NBA,0,G,1967,1,5,5,NYK,Walt,Frazier,0,Southern Illinois,NBA
+380,sloanje01,All-Defensive First Team,1968,NBA,0,0,1974,3,0,0,NYA,Jerry,Sloan,0,Chicago,ABA
+381,sloanje01,All-Defensive First Team,1968,NBA,0,0,1964,3,3,19,BAL,Jerry,Sloan,0,Evansville,NBA
+382,sloanje01,All-Defensive First Team,1968,NBA,0,0,1965,1,4,4,BAL,Jerry,Sloan,0,Evansville,NBA
+383,sloanje01,All-Defensive Second Team,1969,NBA,0,0,1974,3,0,0,NYA,Jerry,Sloan,0,Chicago,ABA
+384,sloanje01,All-Defensive Second Team,1969,NBA,0,0,1964,3,3,19,BAL,Jerry,Sloan,0,Evansville,NBA
+385,sloanje01,All-Defensive Second Team,1969,NBA,0,0,1965,1,4,4,BAL,Jerry,Sloan,0,Evansville,NBA
+386,sloanje01,All-Defensive Second Team,1970,NBA,0,0,1974,3,0,0,NYA,Jerry,Sloan,0,Chicago,ABA
+387,sloanje01,All-Defensive Second Team,1970,NBA,0,0,1964,3,3,19,BAL,Jerry,Sloan,0,Evansville,NBA
+388,sloanje01,All-Defensive Second Team,1970,NBA,0,0,1965,1,4,4,BAL,Jerry,Sloan,0,Evansville,NBA
+389,sloanje01,All-Defensive First Team,1971,NBA,tie,0,1974,3,0,0,NYA,Jerry,Sloan,0,Chicago,ABA
+390,sloanje01,All-Defensive First Team,1971,NBA,tie,0,1964,3,3,19,BAL,Jerry,Sloan,0,Evansville,NBA
+391,sloanje01,All-Defensive First Team,1971,NBA,tie,0,1965,1,4,4,BAL,Jerry,Sloan,0,Evansville,NBA
+392,sloanje01,All-Defensive First Team,1973,NBA,tie,0,1974,3,0,0,NYA,Jerry,Sloan,0,Chicago,ABA
+393,sloanje01,All-Defensive First Team,1973,NBA,tie,0,1964,3,3,19,BAL,Jerry,Sloan,0,Evansville,NBA
+394,sloanje01,All-Defensive First Team,1973,NBA,tie,0,1965,1,4,4,BAL,Jerry,Sloan,0,Evansville,NBA
+395,sloanje01,All-Defensive First Team,1974,NBA,0,0,1974,3,0,0,NYA,Jerry,Sloan,0,Chicago,ABA
+396,sloanje01,All-Defensive First Team,1974,NBA,0,0,1964,3,3,19,BAL,Jerry,Sloan,0,Evansville,NBA
+397,sloanje01,All-Defensive First Team,1974,NBA,0,0,1965,1,4,4,BAL,Jerry,Sloan,0,Evansville,NBA
+398,thurmna01,All-Defensive First Team,1968,NBA,0,0,1974,1,0,0,DNA,Nate,Thurmond,0,Golden State,ABA
+399,thurmna01,All-Defensive First Team,1968,NBA,0,0,1963,1,3,3,SFW,Nate,Thurmond,0,Bowling Green,NBA
+400,thurmna01,All-Defensive First Team,1970,NBA,0,0,1974,1,0,0,DNA,Nate,Thurmond,0,Golden State,ABA
+401,thurmna01,All-Defensive First Team,1970,NBA,0,0,1963,1,3,3,SFW,Nate,Thurmond,0,Bowling Green,NBA
+402,thurmna01,All-Defensive Second Team,1971,NBA,0,0,1974,1,0,0,DNA,Nate,Thurmond,0,Golden State,ABA
+403,thurmna01,All-Defensive Second Team,1971,NBA,0,0,1963,1,3,3,SFW,Nate,Thurmond,0,Bowling Green,NBA
+404,thurmna01,All-Defensive Second Team,1972,NBA,0,0,1974,1,0,0,DNA,Nate,Thurmond,0,Golden State,ABA
+405,thurmna01,All-Defensive Second Team,1972,NBA,0,0,1963,1,3,3,SFW,Nate,Thurmond,0,Bowling Green,NBA
+406,thurmna01,All-Defensive Second Team,1973,NBA,0,0,1974,1,0,0,DNA,Nate,Thurmond,0,Golden State,ABA
+407,thurmna01,All-Defensive Second Team,1973,NBA,0,0,1963,1,3,3,SFW,Nate,Thurmond,0,Bowling Green,NBA
+408,bridgbi01,All-Defensive Second Team,1968,NBA,0,0,1961,3,9,32,CHP,Bill,Bridges,0,Kansas,NBA
+409,bridgbi01,All-Defensive Second Team,1969,NBA,0,0,1961,3,9,32,CHP,Bill,Bridges,0,Kansas,NBA
+410,larusru01,All-Defensive Second Team,1968,NBA,0,0,1959,2,4,10,MNL,Rudy,LaRusso,0,Dartmouth,NBA
+411,sandeto01,All-Defensive Second Team,1968,NBA,0,0,1960,1,8,8,BOS,Tom,Sanders,0,New York University,NBA
+412,cunnibi01,All-NBA First Team,1968,NBA,0,F,1965,1,5,5,PHI,Bill,Cunningham,0,North Carolina,NBA
+413,cunnibi01,All-NBA First Team,1969,NBA,0,F,1965,1,5,5,PHI,Bill,Cunningham,0,North Carolina,NBA
+414,cunnibi01,All-NBA First Team,1970,NBA,0,F,1965,1,5,5,PHI,Bill,Cunningham,0,North Carolina,NBA
+415,cunnibi01,All-NBA Second Team,1971,NBA,0,F,1965,1,5,5,PHI,Bill,Cunningham,0,North Carolina,NBA
+416,cunnibi01,All-ABA First Team,1972,ABA,0,F,1965,1,5,5,PHI,Bill,Cunningham,0,North Carolina,NBA
+417,cunnibi01,Most Valuable Player,1972,ABA,0,0,1965,1,5,5,PHI,Bill,Cunningham,0,North Carolina,NBA
+418,unselwe01,All-NBA First Team,1968,NBA,0,C,1968,0,0,0,KEN,Westley,Unseld,0,Louisville,ABA
+419,unselwe01,All-NBA First Team,1968,NBA,0,C,1968,1,2,2,BAL,Wes,Unseld,0,Louisville,NBA
+420,unselwe01,Most Valuable Player,1968,NBA,0,0,1968,0,0,0,KEN,Westley,Unseld,0,Louisville,ABA
+421,unselwe01,Most Valuable Player,1968,NBA,0,0,1968,1,2,2,BAL,Wes,Unseld,0,Louisville,NBA
+422,unselwe01,Rookie of the Year,1968,NBA,0,0,1968,0,0,0,KEN,Westley,Unseld,0,Louisville,ABA
+423,unselwe01,Rookie of the Year,1968,NBA,0,0,1968,1,2,2,BAL,Wes,Unseld,0,Louisville,NBA
+424,unselwe01,Finals MVP,1977,NBA,0,0,1968,0,0,0,KEN,Westley,Unseld,0,Louisville,ABA
+425,unselwe01,Finals MVP,1977,NBA,0,0,1968,1,2,2,BAL,Wes,Unseld,0,Louisville,NBA
+426,jabalwa01,Finals MVP,1968,ABA,0,0,1972,1,0,0,DNR,Warren,Jabali,0,Floridians,ABA
+427,jabalwa01,Rookie of the Year,1968,ABA,0,0,1972,1,0,0,DNR,Warren,Jabali,0,Floridians,ABA
+428,jabalwa01,All-ABA First Team,1972,ABA,0,G,1972,1,0,0,DNR,Warren,Jabali,0,Floridians,ABA
+429,haywosp01,All-ABA First Team,1969,ABA,0,F,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+430,haywosp01,All-ABA First Team,1969,ABA,0,F,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+431,haywosp01,Most Valuable Player,1969,ABA,0,0,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+432,haywosp01,Most Valuable Player,1969,ABA,0,0,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+433,haywosp01,Rookie of the Year,1969,ABA,0,0,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+434,haywosp01,Rookie of the Year,1969,ABA,0,0,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+435,haywosp01,All-NBA First Team,1971,NBA,0,F,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+436,haywosp01,All-NBA First Team,1971,NBA,0,F,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+437,haywosp01,All-NBA First Team,1972,NBA,0,F,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+438,haywosp01,All-NBA First Team,1972,NBA,0,F,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+439,haywosp01,All-NBA Second Team,1973,NBA,0,F,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+440,haywosp01,All-NBA Second Team,1973,NBA,0,F,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+441,haywosp01,All-NBA Second Team,1974,NBA,0,F,1970,0,0,0,DNR,Spencer,Haywood,0,Detroit,ABA
+442,haywosp01,All-NBA Second Team,1974,NBA,0,F,1971,2,13,30,BUF,Spencer,Haywood,0,Detroit,NBA
+443,vergabo01,All-ABA First Team,1969,ABA,0,G,1967,3,6,25,STL,Bob,Verga,0,Duke,NBA
+444,netolbo01,All-ABA Second Team,1969,ABA,0,F,1967,0,0,0,INA,Bob,Netolicky,0,Drake,ABA
+445,abdulka01,All-Defensive Second Team,1969,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+446,abdulka01,All-Defensive Second Team,1969,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+447,abdulka01,All-NBA Second Team,1969,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+448,abdulka01,All-NBA Second Team,1969,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+449,abdulka01,Rookie of the Year,1969,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+450,abdulka01,Rookie of the Year,1969,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+451,abdulka01,All-Defensive Second Team,1970,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+452,abdulka01,All-Defensive Second Team,1970,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+453,abdulka01,All-NBA First Team,1970,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+454,abdulka01,All-NBA First Team,1970,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+455,abdulka01,Finals MVP,1970,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+456,abdulka01,Finals MVP,1970,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+457,abdulka01,Most Valuable Player,1970,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+458,abdulka01,Most Valuable Player,1970,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+459,abdulka01,All-NBA First Team,1971,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+460,abdulka01,All-NBA First Team,1971,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+461,abdulka01,Most Valuable Player,1971,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+462,abdulka01,Most Valuable Player,1971,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+463,abdulka01,All-NBA First Team,1972,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+464,abdulka01,All-NBA First Team,1972,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+465,abdulka01,All-Defensive First Team,1973,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+466,abdulka01,All-Defensive First Team,1973,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+467,abdulka01,All-NBA First Team,1973,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+468,abdulka01,All-NBA First Team,1973,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+469,abdulka01,Most Valuable Player,1973,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+470,abdulka01,Most Valuable Player,1973,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+471,abdulka01,All-Defensive First Team,1974,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+472,abdulka01,All-Defensive First Team,1974,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+473,abdulka01,All-Defensive Second Team,1975,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+474,abdulka01,All-Defensive Second Team,1975,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+475,abdulka01,All-NBA First Team,1975,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+476,abdulka01,All-NBA First Team,1975,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+477,abdulka01,Most Valuable Player,1975,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+478,abdulka01,Most Valuable Player,1975,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+479,abdulka01,All-Defensive Second Team,1976,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+480,abdulka01,All-Defensive Second Team,1976,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+481,abdulka01,All-NBA First Team,1976,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+482,abdulka01,All-NBA First Team,1976,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+483,abdulka01,Most Valuable Player,1976,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+484,abdulka01,Most Valuable Player,1976,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+485,abdulka01,All-Defensive Second Team,1977,NBA,tie,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+486,abdulka01,All-Defensive Second Team,1977,NBA,tie,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+487,abdulka01,All-NBA Second Team,1977,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+488,abdulka01,All-NBA Second Team,1977,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+489,abdulka01,All-Defensive First Team,1978,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+490,abdulka01,All-Defensive First Team,1978,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+491,abdulka01,All-NBA Second Team,1978,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+492,abdulka01,All-NBA Second Team,1978,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+493,abdulka01,All-Defensive First Team,1979,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+494,abdulka01,All-Defensive First Team,1979,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+495,abdulka01,All-NBA First Team,1979,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+496,abdulka01,All-NBA First Team,1979,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+497,abdulka01,Most Valuable Player,1979,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+498,abdulka01,Most Valuable Player,1979,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+499,abdulka01,All-Defensive First Team,1980,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+500,abdulka01,All-Defensive First Team,1980,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+501,abdulka01,All-NBA First Team,1980,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+502,abdulka01,All-NBA First Team,1980,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+503,abdulka01,All-NBA Second Team,1982,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+504,abdulka01,All-NBA Second Team,1982,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+505,abdulka01,All-Defensive Second Team,1983,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+506,abdulka01,All-Defensive Second Team,1983,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+507,abdulka01,All-NBA First Team,1983,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+508,abdulka01,All-NBA First Team,1983,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+509,abdulka01,All-NBA Second Team,1984,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+510,abdulka01,All-NBA Second Team,1984,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+511,abdulka01,Finals MVP,1984,NBA,0,0,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+512,abdulka01,Finals MVP,1984,NBA,0,0,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+513,abdulka01,All-NBA First Team,1985,NBA,0,C,1969,0,0,0,NYA,Lew,Alcindor,0,UCLA,ABA
+514,abdulka01,All-NBA First Team,1985,NBA,0,C,1969,1,1,1,MIL,Lew,Alcindor,0,UCLA,NBA
+515,caldwjo01,All-Defensive Second Team,1969,NBA,0,0,1964,1,2,2,DET,Joe,Caldwell,0,Arizona State,NBA
+516,caldwjo01,All-ABA Second Team,1970,ABA,0,F,1964,1,2,2,DET,Joe,Caldwell,0,Arizona State,NBA
+517,caldwjo01,All-Defensive Team,1972,ABA,0,0,1964,1,2,2,DET,Joe,Caldwell,0,Arizona State,NBA
+518,hudsolo01,All-NBA Second Team,1969,NBA,0,G,1966,1,4,4,STL,Lou,Hudson,0,Minnesota,NBA
+519,calvima01,All-ABA First Team,1970,ABA,0,G,1969,0,0,0,LAS,Mack,Calvin,0,Southern California,ABA
+520,calvima01,All-ABA First Team,1970,ABA,0,G,1972,1,0,0,CAR,Mack,Calvin,0,Floridians,ABA
+521,calvima01,All-ABA First Team,1970,ABA,0,G,1969,14,8,187,LAL,Mack,Calvin,0,USC,NBA
+522,calvima01,All-ABA Second Team,1972,ABA,0,G,1969,0,0,0,LAS,Mack,Calvin,0,Southern California,ABA
+523,calvima01,All-ABA Second Team,1972,ABA,0,G,1972,1,0,0,CAR,Mack,Calvin,0,Floridians,ABA
+524,calvima01,All-ABA Second Team,1972,ABA,0,G,1969,14,8,187,LAL,Mack,Calvin,0,USC,NBA
+525,calvima01,All-ABA First Team,1973,ABA,0,G,1969,0,0,0,LAS,Mack,Calvin,0,Southern California,ABA
+526,calvima01,All-ABA First Team,1973,ABA,0,G,1972,1,0,0,CAR,Mack,Calvin,0,Floridians,ABA
+527,calvima01,All-ABA First Team,1973,ABA,0,G,1969,14,8,187,LAL,Mack,Calvin,0,USC,NBA
+528,calvima01,All-ABA First Team,1974,ABA,0,G,1969,0,0,0,LAS,Mack,Calvin,0,Southern California,ABA
+529,calvima01,All-ABA First Team,1974,ABA,0,G,1972,1,0,0,CAR,Mack,Calvin,0,Floridians,ABA
+530,calvima01,All-ABA First Team,1974,ABA,0,G,1969,14,8,187,LAL,Mack,Calvin,0,USC,NBA
+531,scottch01,All-ABA First Team,1970,ABA,0,G,1970,0,0,0,VIR,Charlie,Scott,0,North Carolina,ABA
+532,scottch01,All-ABA First Team,1970,ABA,0,G,1970,7,4,106,BOS,Charlie,Scott,0,North Carolina,NBA
+533,scottch01,Rookie of the Year,1970,ABA,tie,0,1970,0,0,0,VIR,Charlie,Scott,0,North Carolina,ABA
+534,scottch01,Rookie of the Year,1970,ABA,tie,0,1970,7,4,106,BOS,Charlie,Scott,0,North Carolina,NBA
+535,scottch01,All-ABA Second Team,1971,ABA,0,G,1970,0,0,0,VIR,Charlie,Scott,0,North Carolina,ABA
+536,scottch01,All-ABA Second Team,1971,ABA,0,G,1970,7,4,106,BOS,Charlie,Scott,0,North Carolina,NBA
+537,beatyze01,All-ABA Second Team,1970,ABA,tie,C,1962,1,3,3,STL,Zelmo,Beaty,0,Prairie View,NBA
+538,beatyze01,Finals MVP,1970,ABA,0,0,1962,1,3,3,STL,Zelmo,Beaty,0,Prairie View,NBA
+539,beatyze01,All-ABA Second Team,1971,ABA,0,C,1962,1,3,3,STL,Zelmo,Beaty,0,Prairie View,NBA
+540,briskjo01,All-ABA Second Team,1970,ABA,0,F,1972,1,0,0,DLC,John,Brisker,0,Pittsburgh,ABA
+541,cannola01,All-ABA Second Team,1970,ABA,0,G,1969,0,0,0,MMF,Larry,Cannon,0,LaSalle,ABA
+542,cannola01,All-ABA Second Team,1970,ABA,0,G,1969,1,5,5,CHI,Larry,Cannon,0,LaSalle,NBA
+543,isselda01,All-ABA Second Team,1970,ABA,tie,C,1970,0,0,0,KEN,Dan,Issel,0,Kentucky,ABA
+544,isselda01,All-ABA Second Team,1970,ABA,tie,C,1970,8,3,122,DET,Dan,Issel,0,Kentucky,NBA
+545,isselda01,Rookie of the Year,1970,ABA,tie,0,1970,0,0,0,KEN,Dan,Issel,0,Kentucky,ABA
+546,isselda01,Rookie of the Year,1970,ABA,tie,0,1970,8,3,122,DET,Dan,Issel,0,Kentucky,NBA
+547,isselda01,All-ABA First Team,1971,ABA,0,F,1970,0,0,0,KEN,Dan,Issel,0,Kentucky,ABA
+548,isselda01,All-ABA First Team,1971,ABA,0,F,1970,8,3,122,DET,Dan,Issel,0,Kentucky,NBA
+549,isselda01,All-ABA Second Team,1972,ABA,0,F,1970,0,0,0,KEN,Dan,Issel,0,Kentucky,ABA
+550,isselda01,All-ABA Second Team,1972,ABA,0,F,1970,8,3,122,DET,Dan,Issel,0,Kentucky,NBA
+551,isselda01,All-ABA Second Team,1973,ABA,0,F,1970,0,0,0,KEN,Dan,Issel,0,Kentucky,ABA
+552,isselda01,All-ABA Second Team,1973,ABA,0,F,1970,8,3,122,DET,Dan,Issel,0,Kentucky,NBA
+553,isselda01,All-ABA Second Team,1975,ABA,0,C,1970,0,0,0,KEN,Dan,Issel,0,Kentucky,ABA
+554,isselda01,All-ABA Second Team,1975,ABA,0,C,1970,8,3,122,DET,Dan,Issel,0,Kentucky,NBA
+555,silaspa01,All-Defensive Second Team,1970,NBA,0,0,1974,4,0,0,MMT,Paul,Silas,0,Boston,ABA
+556,silaspa01,All-Defensive Second Team,1970,NBA,0,0,1964,2,3,10,STL,Paul,Silas,0,Creighton,NBA
+557,silaspa01,All-Defensive Second Team,1971,NBA,0,0,1974,4,0,0,MMT,Paul,Silas,0,Boston,ABA
+558,silaspa01,All-Defensive Second Team,1971,NBA,0,0,1964,2,3,10,STL,Paul,Silas,0,Creighton,NBA
+559,silaspa01,All-Defensive Second Team,1972,NBA,0,0,1974,4,0,0,MMT,Paul,Silas,0,Boston,ABA
+560,silaspa01,All-Defensive Second Team,1972,NBA,0,0,1964,2,3,10,STL,Paul,Silas,0,Creighton,NBA
+561,silaspa01,All-Defensive First Team,1974,NBA,0,0,1974,4,0,0,MMT,Paul,Silas,0,Boston,ABA
+562,silaspa01,All-Defensive First Team,1974,NBA,0,0,1964,2,3,10,STL,Paul,Silas,0,Creighton,NBA
+563,silaspa01,All-Defensive First Team,1975,NBA,0,0,1974,4,0,0,MMT,Paul,Silas,0,Boston,ABA
+564,silaspa01,All-Defensive First Team,1975,NBA,0,0,1964,2,3,10,STL,Paul,Silas,0,Creighton,NBA
+565,vanlino01,All-Defensive Second Team,1970,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+566,vanlino01,All-Defensive Second Team,1970,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+567,vanlino01,All-Defensive Second Team,1971,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+568,vanlino01,All-Defensive Second Team,1971,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+569,vanlino01,All-Defensive Second Team,1972,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+570,vanlino01,All-Defensive Second Team,1972,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+571,vanlino01,All-Defensive First Team,1973,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+572,vanlino01,All-Defensive First Team,1973,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+573,vanlino01,All-NBA Second Team,1973,NBA,0,G,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+574,vanlino01,All-NBA Second Team,1973,NBA,0,G,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+575,vanlino01,All-Defensive Second Team,1974,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+576,vanlino01,All-Defensive Second Team,1974,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+577,vanlino01,All-Defensive First Team,1975,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+578,vanlino01,All-Defensive First Team,1975,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+579,vanlino01,All-Defensive First Team,1976,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+580,vanlino01,All-Defensive First Team,1976,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+581,vanlino01,All-Defensive Second Team,1977,NBA,0,0,1974,2,0,0,MMT,Norm,Van Lier,0,Chicago,ABA
+582,vanlino01,All-Defensive Second Team,1977,NBA,0,0,1969,3,5,34,CHI,Norm,Van Lier,0,St. Francis (PA),NBA
+583,lovebo01,All-NBA Second Team,1970,NBA,0,F,1965,4,7,33,CIN,Bob,Love,0,Southern,NBA
+584,lovebo01,All-Defensive Second Team,1971,NBA,0,0,1965,4,7,33,CIN,Bob,Love,0,Southern,NBA
+585,lovebo01,All-NBA Second Team,1971,NBA,0,F,1965,4,7,33,CIN,Bob,Love,0,Southern,NBA
+586,lovebo01,All-Defensive Second Team,1973,NBA,0,0,1965,4,7,33,CIN,Bob,Love,0,Southern,NBA
+587,lovebo01,All-Defensive Second Team,1974,NBA,0,0,1965,4,7,33,CIN,Bob,Love,0,Southern,NBA
+588,cowenda01,Rookie of the Year,1970,NBA,tie,0,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+589,cowenda01,Rookie of the Year,1970,NBA,tie,0,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+590,cowenda01,Rookie of the Year,1970,NBA,tie,0,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+591,cowenda01,All-NBA Second Team,1972,NBA,0,C,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+592,cowenda01,All-NBA Second Team,1972,NBA,0,C,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+593,cowenda01,All-NBA Second Team,1972,NBA,0,C,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+594,cowenda01,Most Valuable Player,1972,NBA,0,0,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+595,cowenda01,Most Valuable Player,1972,NBA,0,0,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+596,cowenda01,Most Valuable Player,1972,NBA,0,0,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+597,cowenda01,All-Defensive Second Team,1974,NBA,0,0,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+598,cowenda01,All-Defensive Second Team,1974,NBA,0,0,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+599,cowenda01,All-Defensive Second Team,1974,NBA,0,0,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+600,cowenda01,All-NBA Second Team,1974,NBA,0,C,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+601,cowenda01,All-NBA Second Team,1974,NBA,0,C,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+602,cowenda01,All-NBA Second Team,1974,NBA,0,C,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+603,cowenda01,All-Defensive First Team,1975,NBA,0,0,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+604,cowenda01,All-Defensive First Team,1975,NBA,0,0,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+605,cowenda01,All-Defensive First Team,1975,NBA,0,0,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+606,cowenda01,All-NBA Second Team,1975,NBA,0,C,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+607,cowenda01,All-NBA Second Team,1975,NBA,0,C,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+608,cowenda01,All-NBA Second Team,1975,NBA,0,C,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+609,cowenda01,All-Defensive Second Team,1979,NBA,0,0,1970,0,0,0,UTS,Dave,Cowens,0,Florida State,ABA
+610,cowenda01,All-Defensive Second Team,1979,NBA,0,0,1974,2,0,0,NYA,Dave,Cowens,0,Boston,ABA
+611,cowenda01,All-Defensive Second Team,1979,NBA,0,0,1970,1,4,4,BOS,Dave,Cowens,0,Florida State,NBA
+612,petrige01,Rookie of the Year,1970,NBA,tie,0,1970,0,0,0,NYJ,Geoff,Petrie,0,Princeton,ABA
+613,petrige01,Rookie of the Year,1970,NBA,tie,0,1974,2,0,0,UTS,Geoff,Petrie,0,Portland,ABA
+614,petrige01,Rookie of the Year,1970,NBA,tie,0,1970,1,8,8,POR,Geoff,Petrie,0,Princeton,NBA
+615,gilmoar01,All-ABA First Team,1971,ABA,0,C,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+616,gilmoar01,All-ABA First Team,1971,ABA,0,C,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+617,gilmoar01,All-ABA First Team,1971,ABA,0,C,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+618,gilmoar01,Most Valuable Player,1971,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+619,gilmoar01,Most Valuable Player,1971,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+620,gilmoar01,Most Valuable Player,1971,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+621,gilmoar01,Rookie of the Year,1971,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+622,gilmoar01,Rookie of the Year,1971,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+623,gilmoar01,Rookie of the Year,1971,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+624,gilmoar01,All-ABA First Team,1972,ABA,0,C,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+625,gilmoar01,All-ABA First Team,1972,ABA,0,C,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+626,gilmoar01,All-ABA First Team,1972,ABA,0,C,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+627,gilmoar01,All-Defensive Team,1972,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+628,gilmoar01,All-Defensive Team,1972,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+629,gilmoar01,All-Defensive Team,1972,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+630,gilmoar01,All-ABA First Team,1973,ABA,0,C,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+631,gilmoar01,All-ABA First Team,1973,ABA,0,C,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+632,gilmoar01,All-ABA First Team,1973,ABA,0,C,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+633,gilmoar01,All-Defensive Team,1973,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+634,gilmoar01,All-Defensive Team,1973,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+635,gilmoar01,All-Defensive Team,1973,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+636,gilmoar01,All-ABA First Team,1974,ABA,0,C,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+637,gilmoar01,All-ABA First Team,1974,ABA,0,C,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+638,gilmoar01,All-ABA First Team,1974,ABA,0,C,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+639,gilmoar01,All-Defensive Team,1974,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+640,gilmoar01,All-Defensive Team,1974,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+641,gilmoar01,All-Defensive Team,1974,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+642,gilmoar01,Finals MVP,1974,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+643,gilmoar01,Finals MVP,1974,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+644,gilmoar01,Finals MVP,1974,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+645,gilmoar01,All-ABA First Team,1975,ABA,0,C,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+646,gilmoar01,All-ABA First Team,1975,ABA,0,C,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+647,gilmoar01,All-ABA First Team,1975,ABA,0,C,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+648,gilmoar01,All-Defensive Team,1975,ABA,0,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+649,gilmoar01,All-Defensive Team,1975,ABA,0,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+650,gilmoar01,All-Defensive Team,1975,ABA,0,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+651,gilmoar01,All-Defensive Second Team,1977,NBA,tie,0,1971,0,0,0,KEN,Artis,Gilmore,0,Jacksonville,ABA
+652,gilmoar01,All-Defensive Second Team,1977,NBA,tie,0,1971,7,15,117,CHI,Artis,Gilmore,0,Jacksonville,NBA
+653,gilmoar01,All-Defensive Second Team,1977,NBA,tie,0,1976,99,0,0,CHI,Artis,Gilmore,0,Kentucky (ABA),NBA
+654,melchbi01,All-ABA First Team,1971,ABA,0,G,1966,2,9,19,PHI,Bill,Melchionni,0,Villanova,NBA
+655,ervinju01,All-ABA Second Team,1971,ABA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+656,ervinju01,All-ABA First Team,1972,ABA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+657,ervinju01,All-ABA First Team,1973,ABA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+658,ervinju01,Finals MVP,1973,ABA,0,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+659,ervinju01,Most Valuable Player,1973,ABA,0,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+660,ervinju01,All-ABA First Team,1974,ABA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+661,ervinju01,Most Valuable Player,1974,ABA,tie,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+662,ervinju01,All-ABA First Team,1975,ABA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+663,ervinju01,All-Defensive Team,1975,ABA,0,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+664,ervinju01,Finals MVP,1975,ABA,0,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+665,ervinju01,Most Valuable Player,1975,ABA,0,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+666,ervinju01,All-NBA Second Team,1976,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+667,ervinju01,All-NBA First Team,1977,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+668,ervinju01,All-NBA First Team,1979,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+669,ervinju01,All-NBA First Team,1980,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+670,ervinju01,Most Valuable Player,1980,NBA,0,0,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+671,ervinju01,All-NBA First Team,1981,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+672,ervinju01,All-NBA First Team,1982,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+673,ervinju01,All-NBA Second Team,1983,NBA,0,F,1972,1,12,12,MIL,Julius,Erving,0,Massachusetts,NBA
+674,simpsra01,All-ABA Second Team,1971,ABA,0,G,1971,0,0,0,DNR,Ralph,Simpson,0,Michigan State,ABA
+675,simpsra01,All-ABA Second Team,1971,ABA,0,G,1972,1,11,11,CHI,Ralph,Simpson,0,Michigan State,NBA
+676,simpsra01,All-ABA Second Team,1972,ABA,0,G,1971,0,0,0,DNR,Ralph,Simpson,0,Michigan State,ABA
+677,simpsra01,All-ABA Second Team,1972,ABA,0,G,1972,1,11,11,CHI,Ralph,Simpson,0,Michigan State,NBA
+678,simpsra01,All-ABA First Team,1975,ABA,0,G,1971,0,0,0,DNR,Ralph,Simpson,0,Michigan State,ABA
+679,simpsra01,All-ABA First Team,1975,ABA,0,G,1972,1,11,11,CHI,Ralph,Simpson,0,Michigan State,NBA
+680,wisewi01,All-ABA Second Team,1971,ABA,0,F,1969,5,7,64,SFW,Willie,Wise,0,Drake,NBA
+681,wisewi01,All-Defensive Team,1972,ABA,0,0,1969,5,7,64,SFW,Willie,Wise,0,Drake,NBA
+682,wisewi01,All-ABA Second Team,1973,ABA,0,F,1969,5,7,64,SFW,Willie,Wise,0,Drake,NBA
+683,wisewi01,All-Defensive Team,1973,ABA,0,0,1969,5,7,64,SFW,Willie,Wise,0,Drake,NBA
+684,chanedo01,All-Defensive Second Team,1971,NBA,0,0,1968,0,0,0,HSM,Don,Chaney,0,Houston,ABA
+685,chanedo01,All-Defensive Second Team,1971,NBA,0,0,1968,1,12,12,BOS,Don,Chaney,0,Houston,NBA
+686,chanedo01,All-Defensive Second Team,1972,NBA,0,0,1968,0,0,0,HSM,Don,Chaney,0,Houston,ABA
+687,chanedo01,All-Defensive Second Team,1972,NBA,0,0,1968,1,12,12,BOS,Don,Chaney,0,Houston,NBA
+688,chanedo01,All-Defensive Second Team,1973,NBA,0,0,1968,0,0,0,HSM,Don,Chaney,0,Houston,ABA
+689,chanedo01,All-Defensive Second Team,1973,NBA,0,0,1968,1,12,12,BOS,Don,Chaney,0,Houston,NBA
+690,chanedo01,All-Defensive Second Team,1974,NBA,0,0,1968,0,0,0,HSM,Don,Chaney,0,Houston,ABA
+691,chanedo01,All-Defensive Second Team,1974,NBA,0,0,1968,1,12,12,BOS,Don,Chaney,0,Houston,NBA
+692,chanedo01,All-Defensive Second Team,1976,NBA,0,0,1968,0,0,0,HSM,Don,Chaney,0,Houston,ABA
+693,chanedo01,All-Defensive Second Team,1976,NBA,0,0,1968,1,12,12,BOS,Don,Chaney,0,Houston,NBA
+694,archina01,All-NBA Second Team,1971,NBA,0,G,1970,0,0,0,TEX,Nate,Archibald,0,Texas-El Paso,ABA
+695,archina01,All-NBA Second Team,1971,NBA,0,G,1970,2,2,19,CIN,Nate,Archibald,0,Texas-El Paso,NBA
+696,archina01,All-NBA First Team,1972,NBA,0,G,1970,0,0,0,TEX,Nate,Archibald,0,Texas-El Paso,ABA
+697,archina01,All-NBA First Team,1972,NBA,0,G,1970,2,2,19,CIN,Nate,Archibald,0,Texas-El Paso,NBA
+698,archina01,All-NBA First Team,1974,NBA,0,G,1970,0,0,0,TEX,Nate,Archibald,0,Texas-El Paso,ABA
+699,archina01,All-NBA First Team,1974,NBA,0,G,1970,2,2,19,CIN,Nate,Archibald,0,Texas-El Paso,NBA
+700,archina01,All-NBA First Team,1975,NBA,0,G,1970,0,0,0,TEX,Nate,Archibald,0,Texas-El Paso,ABA
+701,archina01,All-NBA First Team,1975,NBA,0,G,1970,2,2,19,CIN,Nate,Archibald,0,Texas-El Paso,NBA
+702,archina01,All-NBA Second Team,1980,NBA,0,G,1970,0,0,0,TEX,Nate,Archibald,0,Texas-El Paso,ABA
+703,archina01,All-NBA Second Team,1980,NBA,0,G,1970,2,2,19,CIN,Nate,Archibald,0,Texas-El Paso,NBA
+704,clarkar01,All-NBA Second Team,1971,NBA,0,G,1966,4,7,37,LAL,Archie,Clark,0,Minnesota,NBA
+705,lewisfr02,Finals MVP,1971,ABA,0,0,1966,10,4,88,CIN,Freddie,Lewis,0,Arizona State,NBA
+706,wickssi01,Rookie of the Year,1971,NBA,0,0,1971,0,0,0,DLC,Sidney,Wicks,0,UCLA,ABA
+707,wickssi01,Rookie of the Year,1971,NBA,0,0,1974,2,0,0,SDA,Sidney,Wicks,0,Portland,ABA
+708,wickssi01,Rookie of the Year,1971,NBA,0,0,1971,1,2,2,POR,Sidney,Wicks,0,UCLA,NBA
+709,mcginge01,All-ABA Second Team,1972,ABA,0,F,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+710,mcginge01,Finals MVP,1972,ABA,0,0,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+711,mcginge01,All-ABA First Team,1973,ABA,0,F,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+712,mcginge01,All-ABA First Team,1974,ABA,0,F,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+713,mcginge01,Most Valuable Player,1974,ABA,tie,0,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+714,mcginge01,All-NBA First Team,1975,NBA,0,F,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+715,mcginge01,All-NBA Second Team,1976,NBA,0,F,1973,2,4,22,PHI,George,McGinnis,0,Indiana,NBA
+716,riordmi01,All-Defensive Second Team,1972,NBA,0,0,1967,0,0,0,PTP,Mike,Riordan,0,Providence,ABA
+717,riordmi01,All-Defensive Second Team,1972,NBA,0,0,1967,12,5,128,NYK,Mike,Riordan,0,Providence,NBA
+718,galemi01,All-Defensive Team,1972,ABA,0,0,1971,0,0,0,KEN,Mike,Gale,0,Elizabeth City (NC),ABA
+719,galemi01,All-Defensive Team,1972,ABA,0,0,1971,3,12,47,CHI,Mike,Gale,0,Elizabeth City,NBA
+720,galemi01,All-Defensive Team,1973,ABA,0,0,1971,0,0,0,KEN,Mike,Gale,0,Elizabeth City (NC),ABA
+721,galemi01,All-Defensive Team,1973,ABA,0,0,1971,3,12,47,CHI,Mike,Gale,0,Elizabeth City,NBA
+722,keyeju01,All-Defensive Team,1972,ABA,0,0,1968,0,0,0,DNR,Julius,Keye,0,Alcorn A&M,ABA
+723,keyeju01,All-Defensive Team,1972,ABA,0,0,1968,8,10,102,BOS,Julius,Keye,0,Southern Colorado,NBA
+724,keyeju01,All-Defensive Team,1972,ABA,0,0,1969,3,9,38,BOS,Julius,Keye,0,Alcorn A&M,NBA
+725,keyeju01,All-Defensive Team,1973,ABA,0,0,1968,0,0,0,DNR,Julius,Keye,0,Alcorn A&M,ABA
+726,keyeju01,All-Defensive Team,1973,ABA,0,0,1968,8,10,102,BOS,Julius,Keye,0,Southern Colorado,NBA
+727,keyeju01,All-Defensive Team,1973,ABA,0,0,1969,3,9,38,BOS,Julius,Keye,0,Alcorn A&M,NBA
+728,hayesel01,All-NBA Second Team,1972,NBA,0,F,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+729,hayesel01,All-NBA Second Team,1972,NBA,0,F,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+730,hayesel01,All-Defensive Second Team,1973,NBA,0,0,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+731,hayesel01,All-Defensive Second Team,1973,NBA,0,0,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+732,hayesel01,All-NBA Second Team,1973,NBA,0,F,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+733,hayesel01,All-NBA Second Team,1973,NBA,0,F,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+734,hayesel01,All-Defensive Second Team,1974,NBA,0,0,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+735,hayesel01,All-Defensive Second Team,1974,NBA,0,0,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+736,hayesel01,All-NBA First Team,1974,NBA,0,F,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+737,hayesel01,All-NBA First Team,1974,NBA,0,F,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+738,hayesel01,All-NBA Second Team,1975,NBA,0,F,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+739,hayesel01,All-NBA Second Team,1975,NBA,0,F,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+740,hayesel01,All-NBA First Team,1976,NBA,0,F,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+741,hayesel01,All-NBA First Team,1976,NBA,0,F,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+742,hayesel01,All-NBA First Team,1978,NBA,0,F,1968,0,0,0,HSM,Elvin,Hayes,0,Houston,ABA
+743,hayesel01,All-NBA First Team,1978,NBA,0,F,1968,1,1,1,SDR,Elvin,Hayes,0,Houston,NBA
+744,maravpe01,All-NBA Second Team,1972,NBA,0,G,1970,0,0,0,CAR,Pete,Maravich,0,Louisiana State,ABA
+745,maravpe01,All-NBA Second Team,1972,NBA,0,G,1974,1,0,0,CAR,Pete,Maravich,0,Atlanta,ABA
+746,maravpe01,All-NBA Second Team,1972,NBA,0,G,1970,1,3,3,ATL,Pete,Maravich,0,Louisiana State,NBA
+747,maravpe01,All-NBA First Team,1975,NBA,0,G,1970,0,0,0,CAR,Pete,Maravich,0,Louisiana State,ABA
+748,maravpe01,All-NBA First Team,1975,NBA,0,G,1974,1,0,0,CAR,Pete,Maravich,0,Atlanta,ABA
+749,maravpe01,All-NBA First Team,1975,NBA,0,G,1970,1,3,3,ATL,Pete,Maravich,0,Louisiana State,NBA
+750,maravpe01,All-NBA First Team,1976,NBA,0,G,1970,0,0,0,CAR,Pete,Maravich,0,Louisiana State,ABA
+751,maravpe01,All-NBA First Team,1976,NBA,0,G,1974,1,0,0,CAR,Pete,Maravich,0,Atlanta,ABA
+752,maravpe01,All-NBA First Team,1976,NBA,0,G,1970,1,3,3,ATL,Pete,Maravich,0,Louisiana State,NBA
+753,maravpe01,All-NBA Second Team,1977,NBA,0,G,1970,0,0,0,CAR,Pete,Maravich,0,Louisiana State,ABA
+754,maravpe01,All-NBA Second Team,1977,NBA,0,G,1974,1,0,0,CAR,Pete,Maravich,0,Atlanta,ABA
+755,maravpe01,All-NBA Second Team,1977,NBA,0,G,1970,1,3,3,ATL,Pete,Maravich,0,Louisiana State,NBA
+756,mcadobo01,Rookie of the Year,1972,NBA,0,0,1974,5,0,0,UTS,Bob,McAdoo,0,Buffalo,ABA
+757,mcadobo01,Rookie of the Year,1972,NBA,0,0,1972,1,2,2,BUF,Bob,McAdoo,0,North Carolina,NBA
+758,mcadobo01,All-NBA Second Team,1973,NBA,0,C,1974,5,0,0,UTS,Bob,McAdoo,0,Buffalo,ABA
+759,mcadobo01,All-NBA Second Team,1973,NBA,0,C,1972,1,2,2,BUF,Bob,McAdoo,0,North Carolina,NBA
+760,mcadobo01,All-NBA First Team,1974,NBA,0,C,1974,5,0,0,UTS,Bob,McAdoo,0,Buffalo,ABA
+761,mcadobo01,All-NBA First Team,1974,NBA,0,C,1972,1,2,2,BUF,Bob,McAdoo,0,North Carolina,NBA
+762,mcadobo01,Most Valuable Player,1974,NBA,0,0,1974,5,0,0,UTS,Bob,McAdoo,0,Buffalo,ABA
+763,mcadobo01,Most Valuable Player,1974,NBA,0,0,1972,1,2,2,BUF,Bob,McAdoo,0,North Carolina,NBA
+764,taylobr01,Rookie of the Year,1972,ABA,0,0,1972,0,0,0,NYA,Brian,Taylor,0,Princeton,ABA
+765,taylobr01,Rookie of the Year,1972,ABA,0,0,1972,2,10,23,SEA,Brian,Taylor,0,Princeton,NBA
+766,taylobr01,All-ABA Second Team,1974,ABA,0,G,1972,0,0,0,NYA,Brian,Taylor,0,Princeton,ABA
+767,taylobr01,All-ABA Second Team,1974,ABA,0,G,1972,2,10,23,SEA,Brian,Taylor,0,Princeton,NBA
+768,taylobr01,All-Defensive Team,1974,ABA,0,0,1972,0,0,0,NYA,Brian,Taylor,0,Princeton,ABA
+769,taylobr01,All-Defensive Team,1974,ABA,0,0,1972,2,10,23,SEA,Brian,Taylor,0,Princeton,NBA
+770,taylobr01,All-Defensive Team,1975,ABA,0,0,1972,0,0,0,NYA,Brian,Taylor,0,Princeton,ABA
+771,taylobr01,All-Defensive Team,1975,ABA,0,0,1972,2,10,23,SEA,Brian,Taylor,0,Princeton,NBA
+772,taylobr01,All-Defensive Second Team,1976,NBA,0,0,1972,0,0,0,NYA,Brian,Taylor,0,Princeton,ABA
+773,taylobr01,All-Defensive Second Team,1976,NBA,0,0,1972,2,10,23,SEA,Brian,Taylor,0,Princeton,NBA
+774,boonero01,All-ABA Second Team,1973,ABA,0,G,1968,0,0,0,DLC,Ron,Boone,0,Idaho State,ABA
+775,boonero01,All-ABA Second Team,1973,ABA,0,G,1968,11,13,147,PHO,Ron,Boone,0,Marquette,NBA
+776,boonero01,All-ABA Second Team,1973,ABA,0,G,1976,99,0,0,KCK,Ron,Boone,0,St. Louis (ABA),NBA
+777,boonero01,All-ABA First Team,1974,ABA,0,G,1968,0,0,0,DLC,Ron,Boone,0,Idaho State,ABA
+778,boonero01,All-ABA First Team,1974,ABA,0,G,1968,11,13,147,PHO,Ron,Boone,0,Marquette,NBA
+779,boonero01,All-ABA First Team,1974,ABA,0,G,1976,99,0,0,KCK,Ron,Boone,0,St. Louis (ABA),NBA
+780,natersw01,All-ABA Second Team,1973,ABA,0,C,1972,0,0,0,FLO,Swen,Nater,0,UCLA (redshirt),ABA
+781,natersw01,All-ABA Second Team,1973,ABA,0,C,1972,1,0,0,VIR,Swen,Nater,0,(UCLA redshirt) Floridians,ABA
+782,natersw01,All-ABA Second Team,1973,ABA,0,C,1973,1,16,16,MIL,Swen,Nater,0,UCLA,NBA
+783,natersw01,Rookie of the Year,1973,ABA,0,0,1972,0,0,0,FLO,Swen,Nater,0,UCLA (redshirt),ABA
+784,natersw01,Rookie of the Year,1973,ABA,0,0,1972,1,0,0,VIR,Swen,Nater,0,(UCLA redshirt) Floridians,ABA
+785,natersw01,Rookie of the Year,1973,ABA,0,0,1973,1,16,16,MIL,Swen,Nater,0,UCLA,NBA
+786,natersw01,All-ABA Second Team,1974,ABA,0,C,1972,0,0,0,FLO,Swen,Nater,0,UCLA (redshirt),ABA
+787,natersw01,All-ABA Second Team,1974,ABA,0,C,1972,1,0,0,VIR,Swen,Nater,0,(UCLA redshirt) Floridians,ABA
+788,natersw01,All-ABA Second Team,1974,ABA,0,C,1973,1,16,16,MIL,Swen,Nater,0,UCLA,NBA
+789,priceji01,All-Defensive Second Team,1973,NBA,tie,0,1972,0,0,0,MMP,Jim,Price,0,Louisville,ABA
+790,priceji01,All-Defensive Second Team,1973,NBA,tie,0,1974,1,0,0,KEN,Jim,Price,0,Los Angeles,ABA
+791,priceji01,All-Defensive Second Team,1973,NBA,tie,0,1972,2,3,16,LAL,Jim,Price,0,Louisville,NBA
+792,vanardi01,All-Defensive Second Team,1973,NBA,tie,0,1965,2,2,10,NYK,Dick,Van Arsdale,0,Indiana,NBA
+793,mcclate01,All-Defensive Team,1973,ABA,0,0,1971,0,0,0,CAR,Ted,McClain,0,Tennessee State,ABA
+794,mcclate01,All-Defensive Team,1973,ABA,0,0,1971,2,5,22,ATL,Ted,McClain,0,Tennessee State,NBA
+795,goodrga01,All-NBA First Team,1973,NBA,0,G,1974,4,0,0,SDA,Gale,Goodrich,0,Los Angeles,ABA
+796,goodrga01,All-NBA First Team,1973,NBA,0,G,1965,0,0,0,LAL,Gail,Goodrich,0,UCLA,NBA
+797,digreer01,Rookie of the Year,1973,NBA,0,0,1973,1,3,3,BUF,Ernie,DiGregorio,0,Providence,NBA
+798,barnema01,All-ABA Second Team,1974,ABA,0,F,1973,1,0,0,DNR,Marvin,Barnes,0,Providence,ABA
+799,barnema01,All-ABA Second Team,1974,ABA,0,F,1974,1,2,2,PHI,Marvin,Barnes,0,Providence,NBA
+800,barnema01,All-ABA Second Team,1974,ABA,0,F,1976,99,0,0,DET,Marvin,Barnes,0,St. Louis (ABA),NBA
+801,barnema01,Rookie of the Year,1974,ABA,0,0,1973,1,0,0,DNR,Marvin,Barnes,0,Providence,ABA
+802,barnema01,Rookie of the Year,1974,ABA,0,0,1974,1,2,2,PHI,Marvin,Barnes,0,Providence,NBA
+803,barnema01,Rookie of the Year,1974,ABA,0,0,1976,99,0,0,DET,Marvin,Barnes,0,St. Louis (ABA),NBA
+804,gervige01,All-ABA Second Team,1974,ABA,0,F,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+805,gervige01,All-ABA Second Team,1974,ABA,0,F,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+806,gervige01,All-ABA Second Team,1975,ABA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+807,gervige01,All-ABA Second Team,1975,ABA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+808,gervige01,All-NBA Second Team,1976,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+809,gervige01,All-NBA Second Team,1976,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+810,gervige01,All-NBA First Team,1977,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+811,gervige01,All-NBA First Team,1977,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+812,gervige01,All-NBA First Team,1978,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+813,gervige01,All-NBA First Team,1978,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+814,gervige01,All-NBA First Team,1979,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+815,gervige01,All-NBA First Team,1979,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+816,gervige01,All-NBA First Team,1980,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+817,gervige01,All-NBA First Team,1980,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+818,gervige01,All-NBA First Team,1981,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+819,gervige01,All-NBA First Team,1981,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+820,gervige01,All-NBA Second Team,1982,NBA,0,G,1973,1,0,0,VIR,George,Gervin,0,Eastern Michigan,ABA
+821,gervige01,All-NBA Second Team,1982,NBA,0,G,1974,3,4,40,PHO,George,Gervin,0,Eastern Michigan,NBA
+822,silasja01,All-ABA Second Team,1974,ABA,0,G,1972,0,0,0,PTC,James,Silas,0,Stephen F. Austin,ABA
+823,silasja01,All-ABA Second Team,1974,ABA,0,G,1972,5,7,70,HOU,James,Silas,0,Stephen F. Austin,NBA
+824,silasja01,All-ABA First Team,1975,ABA,0,G,1972,0,0,0,PTC,James,Silas,0,Stephen F. Austin,ABA
+825,silasja01,All-ABA First Team,1975,ABA,0,G,1972,5,7,70,HOU,James,Silas,0,Stephen F. Austin,NBA
+826,busedo01,All-Defensive Team,1974,ABA,0,0,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+827,busedo01,All-ABA Second Team,1975,ABA,0,G,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+828,busedo01,All-Defensive Team,1975,ABA,0,0,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+829,busedo01,All-Defensive First Team,1976,NBA,0,0,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+830,busedo01,All-Defensive First Team,1977,NBA,0,0,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+831,busedo01,All-Defensive First Team,1978,NBA,0,0,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+832,busedo01,All-Defensive First Team,1979,NBA,tie,0,1972,3,4,34,PHO,Don,Buse,0,Evansville,NBA
+833,jonesbo01,All-Defensive Team,1974,ABA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+834,jonesbo01,All-Defensive Team,1974,ABA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+835,jonesbo01,All-ABA Second Team,1975,ABA,0,F,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+836,jonesbo01,All-ABA Second Team,1975,ABA,0,F,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+837,jonesbo01,All-Defensive Team,1975,ABA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+838,jonesbo01,All-Defensive Team,1975,ABA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+839,jonesbo01,All-Defensive First Team,1976,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+840,jonesbo01,All-Defensive First Team,1976,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+841,jonesbo01,All-Defensive First Team,1977,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+842,jonesbo01,All-Defensive First Team,1977,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+843,jonesbo01,All-Defensive First Team,1978,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+844,jonesbo01,All-Defensive First Team,1978,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+845,jonesbo01,All-Defensive First Team,1979,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+846,jonesbo01,All-Defensive First Team,1979,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+847,jonesbo01,All-Defensive First Team,1980,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+848,jonesbo01,All-Defensive First Team,1980,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+849,jonesbo01,All-Defensive First Team,1981,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+850,jonesbo01,All-Defensive First Team,1981,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+851,jonesbo01,All-Defensive First Team,1982,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+852,jonesbo01,All-Defensive First Team,1982,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+853,jonesbo01,Sixth Man of the Year,1982,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+854,jonesbo01,Sixth Man of the Year,1982,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+855,jonesbo01,All-Defensive First Team,1983,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+856,jonesbo01,All-Defensive First Team,1983,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+857,jonesbo01,All-Defensive Second Team,1984,NBA,0,0,1973,2,0,0,CAR,Bobby,Jones,0,North Carolina,ABA
+858,jonesbo01,All-Defensive Second Team,1984,NBA,0,0,1974,1,5,5,HOU,Bobby,Jones,0,North Carolina,NBA
+859,joneswi02,All-Defensive Team,1974,ABA,0,0,1969,0,0,0,MMF,Wilbert,Jones,0,Albany State (GA),ABA
+860,joneswi02,All-Defensive Team,1974,ABA,0,0,1969,5,12,69,LAL,Wilbert,Jones,0,Albany State,NBA
+861,joneswi02,All-Defensive Team,1974,ABA,0,0,1976,99,0,0,IND,Wil,Jones,0,Kentucky (ABA),NBA
+862,cheniph01,All-NBA Second Team,1974,NBA,0,G,1971,0,0,0,CAR,Phil,Chenier,0,California,ABA
+863,cheniph01,All-NBA Second Team,1974,NBA,0,G,1973,9,0,0,VIR,Phil,Chenier,0,California,ABA
+864,cheniph01,All-NBA Second Team,1974,NBA,0,G,1974,1,0,0,NYA,Phil,Chenier,0,Capitol,ABA
+865,cheniph01,All-NBA Second Team,1974,NBA,0,G,1971,0,4,4,BAL,Phil,Chenier,0,California,NBA
+866,whitejo01,All-NBA Second Team,1974,NBA,0,G,1968,0,0,0,DLC,Jo Jo,White,0,Kansas,ABA
+867,whitejo01,All-NBA Second Team,1974,NBA,0,G,1969,1,9,9,BOS,Jo Jo,White,0,Kansas,NBA
+868,whitejo01,Finals MVP,1975,NBA,0,0,1968,0,0,0,DLC,Jo Jo,White,0,Kansas,ABA
+869,whitejo01,Finals MVP,1975,NBA,0,0,1969,1,9,9,BOS,Jo Jo,White,0,Kansas,NBA
+870,whitejo01,All-NBA Second Team,1976,NBA,0,G,1968,0,0,0,DLC,Jo Jo,White,0,Kansas,ABA
+871,whitejo01,All-NBA Second Team,1976,NBA,0,G,1969,1,9,9,BOS,Jo Jo,White,0,Kansas,NBA
+872,wilkeja01,Rookie of the Year,1974,NBA,0,0,1974,1,11,11,GSW,Keith,Wilkes,0,UCLA,NBA
+873,wilkeja01,All-Defensive Second Team,1975,NBA,0,0,1974,1,11,11,GSW,Keith,Wilkes,0,UCLA,NBA
+874,wilkeja01,All-Defensive Second Team,1976,NBA,0,0,1974,1,11,11,GSW,Keith,Wilkes,0,UCLA,NBA
+875,knighbi01,All-ABA First Team,1975,ABA,0,F,1974,1,0,0,INA,Billy,Knight,0,Pittsburgh,ABA
+876,knighbi01,All-ABA First Team,1975,ABA,0,F,1974,2,3,21,LAL,Billy,Knight,0,Pittsburgh,NBA
+877,thompda01,All-ABA Second Team,1975,ABA,0,F,1973,1,0,0,MMT,David,Thompson,0,North Carolina State,ABA
+878,thompda01,All-ABA Second Team,1975,ABA,0,F,1975,1,0,0,VIR,David,Thompson,0,North Carolina State,ABA
+879,thompda01,All-ABA Second Team,1975,ABA,0,F,1975,1,1,1,ATL,David,Thompson,0,North Carolina State,NBA
+880,thompda01,Rookie of the Year,1975,ABA,0,0,1973,1,0,0,MMT,David,Thompson,0,North Carolina State,ABA
+881,thompda01,Rookie of the Year,1975,ABA,0,0,1975,1,0,0,VIR,David,Thompson,0,North Carolina State,ABA
+882,thompda01,Rookie of the Year,1975,ABA,0,0,1975,1,1,1,ATL,David,Thompson,0,North Carolina State,NBA
+883,thompda01,All-NBA First Team,1976,NBA,0,F,1973,1,0,0,MMT,David,Thompson,0,North Carolina State,ABA
+884,thompda01,All-NBA First Team,1976,NBA,0,F,1975,1,0,0,VIR,David,Thompson,0,North Carolina State,ABA
+885,thompda01,All-NBA First Team,1976,NBA,0,F,1975,1,1,1,ATL,David,Thompson,0,North Carolina State,NBA
+886,thompda01,All-NBA First Team,1977,NBA,0,G,1973,1,0,0,MMT,David,Thompson,0,North Carolina State,ABA
+887,thompda01,All-NBA First Team,1977,NBA,0,G,1975,1,0,0,VIR,David,Thompson,0,North Carolina State,ABA
+888,thompda01,All-NBA First Team,1977,NBA,0,G,1975,1,1,1,ATL,David,Thompson,0,North Carolina State,NBA
+889,breweji01,All-Defensive Second Team,1975,NBA,0,0,1973,1,0,0,NYA,Jim,Brewer,0,Minnesota,ABA
+890,breweji01,All-Defensive Second Team,1975,NBA,0,0,1973,1,2,2,CLE,Jim,Brewer,0,Minnesota,NBA
+891,breweji01,All-Defensive Second Team,1976,NBA,0,0,1973,1,0,0,NYA,Jim,Brewer,0,Minnesota,ABA
+892,breweji01,All-Defensive Second Team,1976,NBA,0,0,1973,1,2,2,CLE,Jim,Brewer,0,Minnesota,NBA
+893,cleamji01,All-Defensive Second Team,1975,NBA,0,0,1971,0,0,0,INA,Jim,Cleamons,0,Ohio State,ABA
+894,cleamji01,All-Defensive Second Team,1975,NBA,0,0,1971,1,13,13,LAL,Jim,Cleamons,0,Ohio State,NBA
+895,smithph01,All-Defensive Second Team,1975,NBA,0,0,1973,1,0,0,VIR,Phil,Smith,0,San Francisco,ABA
+896,smithph01,All-Defensive Second Team,1975,NBA,0,0,1974,2,11,29,GSW,Phil,Smith,0,San Francisco,NBA
+897,smithph01,All-NBA Second Team,1975,NBA,0,G,1973,1,0,0,VIR,Phil,Smith,0,San Francisco,ABA
+898,smithph01,All-NBA Second Team,1975,NBA,0,G,1974,2,11,29,GSW,Phil,Smith,0,San Francisco,NBA
+899,smithra01,All-NBA Second Team,1975,NBA,0,G,1970,14,2,205,DET,Randy,Smith,0,Buffalo State,NBA
+900,smithra01,All-NBA Second Team,1975,NBA,0,G,1971,7,2,104,BUF,Randy,Smith,0,Buffalo State,NBA
+901,adamsal01,Rookie of the Year,1975,NBA,0,0,1973,2,0,0,UTS,Alvan,Adams,0,Oklahoma,ABA
+902,adamsal01,Rookie of the Year,1975,NBA,0,0,1975,1,4,4,PHO,Alvan,Adams,0,Oklahoma,NBA
+903,colemec01,All-Defensive First Team,1976,NBA,0,0,1973,7,0,0,MMT,EC,Coleman,0,Houston Baptist,ABA
+904,colemec01,All-Defensive First Team,1976,NBA,0,0,1973,3,16,51,HOU,EC,Coleman,0,Houston Baptist,NBA
+905,colemec01,All-Defensive Second Team,1977,NBA,0,0,1973,7,0,0,MMT,EC,Coleman,0,Houston Baptist,ABA
+906,colemec01,All-Defensive Second Team,1977,NBA,0,0,1973,3,16,51,HOU,EC,Coleman,0,Houston Baptist,NBA
+907,waltobi01,All-Defensive First Team,1976,NBA,0,0,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+908,waltobi01,All-Defensive First Team,1976,NBA,0,0,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+909,waltobi01,All-Defensive First Team,1976,NBA,0,0,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+910,waltobi01,All-NBA Second Team,1976,NBA,0,C,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+911,waltobi01,All-NBA Second Team,1976,NBA,0,C,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+912,waltobi01,All-NBA Second Team,1976,NBA,0,C,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+913,waltobi01,Finals MVP,1976,NBA,0,0,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+914,waltobi01,Finals MVP,1976,NBA,0,0,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+915,waltobi01,Finals MVP,1976,NBA,0,0,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+916,waltobi01,All-Defensive First Team,1977,NBA,0,0,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+917,waltobi01,All-Defensive First Team,1977,NBA,0,0,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+918,waltobi01,All-Defensive First Team,1977,NBA,0,0,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+919,waltobi01,All-NBA First Team,1977,NBA,0,C,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+920,waltobi01,All-NBA First Team,1977,NBA,0,C,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+921,waltobi01,All-NBA First Team,1977,NBA,0,C,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+922,waltobi01,Most Valuable Player,1977,NBA,0,0,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+923,waltobi01,Most Valuable Player,1977,NBA,0,0,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+924,waltobi01,Most Valuable Player,1977,NBA,0,0,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+925,waltobi01,Sixth Man of the Year,1985,NBA,0,0,1972,0,0,0,DLC,Bill,Walton,0,UCLA,ABA
+926,waltobi01,Sixth Man of the Year,1985,NBA,0,0,1973,1,0,0,SDA,Bill,Walton,0,UCLA,ABA
+927,waltobi01,Sixth Man of the Year,1985,NBA,0,0,1974,1,1,1,POR,Bill,Walton,0,UCLA,NBA
+928,westppa01,All-NBA First Team,1976,NBA,0,G,1972,0,0,0,DNR,Paul,Westphal,0,Southern California,ABA
+929,westppa01,All-NBA First Team,1976,NBA,0,G,1974,4,0,0,CAR,Paul,Westphal,0,Boston,ABA
+930,westppa01,All-NBA First Team,1976,NBA,0,G,1972,1,10,10,BOS,Paul,Westphal,0,Southern California,NBA
+931,westppa01,All-NBA Second Team,1977,NBA,0,G,1972,0,0,0,DNR,Paul,Westphal,0,Southern California,ABA
+932,westppa01,All-NBA Second Team,1977,NBA,0,G,1974,4,0,0,CAR,Paul,Westphal,0,Boston,ABA
+933,westppa01,All-NBA Second Team,1977,NBA,0,G,1972,1,10,10,BOS,Paul,Westphal,0,Southern California,NBA
+934,westppa01,All-NBA First Team,1978,NBA,0,G,1972,0,0,0,DNR,Paul,Westphal,0,Southern California,ABA
+935,westppa01,All-NBA First Team,1978,NBA,0,G,1974,4,0,0,CAR,Paul,Westphal,0,Boston,ABA
+936,westppa01,All-NBA First Team,1978,NBA,0,G,1972,1,10,10,BOS,Paul,Westphal,0,Southern California,NBA
+937,westppa01,All-NBA First Team,1979,NBA,0,G,1972,0,0,0,DNR,Paul,Westphal,0,Southern California,ABA
+938,westppa01,All-NBA First Team,1979,NBA,0,G,1974,4,0,0,CAR,Paul,Westphal,0,Boston,ABA
+939,westppa01,All-NBA First Team,1979,NBA,0,G,1972,1,10,10,BOS,Paul,Westphal,0,Southern California,NBA
+940,westppa01,Comeback,1982,NBA,0,0,1972,0,0,0,DNR,Paul,Westphal,0,Southern California,ABA
+941,westppa01,Comeback,1982,NBA,0,0,1974,4,0,0,CAR,Paul,Westphal,0,Boston,ABA
+942,westppa01,Comeback,1982,NBA,0,0,1972,1,10,10,BOS,Paul,Westphal,0,Southern California,NBA
+943,dantlad01,Rookie of the Year,1976,NBA,0,0,1976,1,6,6,BUF,Adrian,Dantley,0,Notre Dame,NBA
+944,dantlad01,All-NBA Second Team,1980,NBA,0,F,1976,1,6,6,BUF,Adrian,Dantley,0,Notre Dame,NBA
+945,dantlad01,All-NBA Second Team,1983,NBA,0,F,1976,1,6,6,BUF,Adrian,Dantley,0,Notre Dame,NBA
+946,dantlad01,Comeback,1983,NBA,0,0,1976,1,6,6,BUF,Adrian,Dantley,0,Notre Dame,NBA
+947,hollili01,All-Defensive First Team,1977,NBA,0,0,1974,9,0,0,UTS,Lionel,Hollins,0,Arizona State,ABA
+948,hollili01,All-Defensive First Team,1977,NBA,0,0,1975,1,6,6,POR,Lionel,Hollins,0,Arizona State,NBA
+949,hollili01,All-Defensive Second Team,1978,NBA,0,0,1974,9,0,0,UTS,Lionel,Hollins,0,Arizona State,ABA
+950,hollili01,All-Defensive Second Team,1978,NBA,0,0,1975,1,6,6,POR,Lionel,Hollins,0,Arizona State,NBA
+951,lucasma01,All-Defensive First Team,1977,NBA,0,0,1973,1,0,0,CAR,Maurice,Lucas,0,Marquette,ABA
+952,lucasma01,All-Defensive First Team,1977,NBA,0,0,1974,1,14,14,CHI,Maurice,Lucas,0,Marquette,NBA
+953,lucasma01,All-Defensive First Team,1977,NBA,0,0,1976,99,0,0,POR,Maurice,Lucas,0,St. Louis (ABA),NBA
+954,lucasma01,All-NBA Second Team,1977,NBA,0,F,1973,1,0,0,CAR,Maurice,Lucas,0,Marquette,ABA
+955,lucasma01,All-NBA Second Team,1977,NBA,0,F,1974,1,14,14,CHI,Maurice,Lucas,0,Marquette,NBA
+956,lucasma01,All-NBA Second Team,1977,NBA,0,F,1976,99,0,0,POR,Maurice,Lucas,0,St. Louis (ABA),NBA
+957,lucasma01,All-Defensive Second Team,1978,NBA,0,0,1973,1,0,0,CAR,Maurice,Lucas,0,Marquette,ABA
+958,lucasma01,All-Defensive Second Team,1978,NBA,0,0,1974,1,14,14,CHI,Maurice,Lucas,0,Marquette,NBA
+959,lucasma01,All-Defensive Second Team,1978,NBA,0,0,1976,99,0,0,POR,Maurice,Lucas,0,St. Louis (ABA),NBA
+960,bucknqu01,All-Defensive Second Team,1977,NBA,0,0,1976,1,7,7,MIL,Quinn,Buckner,0,Indiana,NBA
+961,bucknqu01,All-Defensive Second Team,1979,NBA,0,0,1976,1,7,7,MIL,Quinn,Buckner,0,Indiana,NBA
+962,bucknqu01,All-Defensive Second Team,1980,NBA,0,0,1976,1,7,7,MIL,Quinn,Buckner,0,Indiana,NBA
+963,bucknqu01,All-Defensive Second Team,1981,NBA,0,0,1976,1,7,7,MIL,Quinn,Buckner,0,Indiana,NBA
+964,grossbo01,All-Defensive Second Team,1977,NBA,0,0,1975,3,0,0,SDS,Bob,Gross,0,Long Beach State,ABA
+965,grossbo01,All-Defensive Second Team,1977,NBA,0,0,1975,2,7,25,POR,Bob,Gross,0,Long Beach State,NBA
+966,robintr01,All-NBA First Team,1977,NBA,0,F,1974,2,4,22,WSB,Truck,Robinson,0,Tennessee State,NBA
+967,daviswa03,All-NBA Second Team,1977,NBA,0,F,1977,1,5,5,PHO,Walter,Davis,0,North Carolina,NBA
+968,daviswa03,Rookie of the Year,1977,NBA,0,0,1977,1,5,5,PHO,Walter,Davis,0,North Carolina,NBA
+969,daviswa03,All-NBA Second Team,1978,NBA,0,F,1977,1,5,5,PHO,Walter,Davis,0,North Carolina,NBA
+970,dandrbo01,All-Defensive First Team,1978,NBA,0,0,1969,0,0,0,KEN,Bob,Dandridge,0,Norfolk State (VA),ABA
+971,dandrbo01,All-Defensive First Team,1978,NBA,0,0,1969,4,2,45,MIL,Bob,Dandridge,0,Norfolk State,NBA
+972,dandrbo01,All-NBA Second Team,1978,NBA,0,F,1969,0,0,0,KEN,Bob,Dandridge,0,Norfolk State (VA),ABA
+973,dandrbo01,All-NBA Second Team,1978,NBA,0,F,1969,4,2,45,MIL,Bob,Dandridge,0,Norfolk State,NBA
+974,johnsde01,All-Defensive First Team,1978,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+975,johnsde01,Finals MVP,1978,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+976,johnsde01,All-Defensive First Team,1979,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+977,johnsde01,All-NBA Second Team,1979,NBA,0,G,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+978,johnsde01,All-Defensive First Team,1980,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+979,johnsde01,All-NBA First Team,1980,NBA,0,G,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+980,johnsde01,All-Defensive First Team,1981,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+981,johnsde01,All-Defensive First Team,1982,NBA,tie,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+982,johnsde01,All-Defensive Second Team,1983,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+983,johnsde01,All-Defensive Second Team,1984,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+984,johnsde01,All-Defensive Second Team,1985,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+985,johnsde01,All-Defensive First Team,1986,NBA,0,0,1976,2,12,29,SEA,Dennis,Johnson,0,Pepperdine,NBA
+986,carrml01,All-Defensive Second Team,1978,NBA,0,0,1973,3,0,0,KEN,ML,Carr,0,Guilford,ABA
+987,carrml01,All-Defensive Second Team,1978,NBA,0,0,1973,5,7,76,KCO,M.L.,Carr,0,Guilford,NBA
+988,johnsed02,All-Defensive Second Team,1978,NBA,0,0,1977,3,5,49,ATL,Eddie,Johnson,0,Auburn,NBA
+989,johnsed02,All-Defensive Second Team,1979,NBA,0,0,1977,3,5,49,ATL,Eddie,Johnson,0,Auburn,NBA
+990,malonmo01,All-Defensive Second Team,1978,NBA,0,0,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+991,malonmo01,All-Defensive Second Team,1978,NBA,0,0,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+992,malonmo01,All-NBA First Team,1978,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+993,malonmo01,All-NBA First Team,1978,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+994,malonmo01,Most Valuable Player,1978,NBA,0,0,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+995,malonmo01,Most Valuable Player,1978,NBA,0,0,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+996,malonmo01,All-NBA Second Team,1979,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+997,malonmo01,All-NBA Second Team,1979,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+998,malonmo01,All-NBA Second Team,1980,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+999,malonmo01,All-NBA Second Team,1980,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1000,malonmo01,All-NBA First Team,1981,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1001,malonmo01,All-NBA First Team,1981,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1002,malonmo01,Most Valuable Player,1981,NBA,0,0,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1003,malonmo01,Most Valuable Player,1981,NBA,0,0,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1004,malonmo01,All-Defensive First Team,1982,NBA,0,0,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1005,malonmo01,All-Defensive First Team,1982,NBA,0,0,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1006,malonmo01,All-NBA First Team,1982,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1007,malonmo01,All-NBA First Team,1982,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1008,malonmo01,Finals MVP,1982,NBA,0,0,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1009,malonmo01,Finals MVP,1982,NBA,0,0,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1010,malonmo01,Most Valuable Player,1982,NBA,0,0,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1011,malonmo01,Most Valuable Player,1982,NBA,0,0,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1012,malonmo01,All-NBA Second Team,1983,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1013,malonmo01,All-NBA Second Team,1983,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1014,malonmo01,All-NBA First Team,1984,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1015,malonmo01,All-NBA First Team,1984,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1016,malonmo01,All-NBA Second Team,1986,NBA,0,C,1974,3,0,0,UTS,Moses,Malone,0,Petersburg HS (VA),ABA
+1017,malonmo01,All-NBA Second Team,1986,NBA,0,C,1976,99,0,0,POR,Moses,Malone,0,St. Louis (ABA),NBA
+1018,johnsma01,All-NBA First Team,1978,NBA,0,F,1977,1,3,3,MIL,Marques,Johnson,0,UCLA,NBA
+1019,johnsma01,All-NBA Second Team,1979,NBA,0,F,1977,1,3,3,MIL,Marques,Johnson,0,UCLA,NBA
+1020,johnsma01,All-NBA Second Team,1980,NBA,0,F,1977,1,3,3,MIL,Marques,Johnson,0,UCLA,NBA
+1021,johnsma01,Comeback,1985,NBA,0,0,1977,1,3,3,MIL,Marques,Johnson,0,UCLA,NBA
+1022,fordph01,All-NBA Second Team,1978,NBA,0,G,1978,1,2,2,KCK,Phil,Ford,0,North Carolina,NBA
+1023,fordph01,Rookie of the Year,1978,NBA,0,0,1978,1,2,2,KCK,Phil,Ford,0,North Carolina,NBA
+1024,freewo01,All-NBA Second Team,1978,NBA,0,G,1975,2,5,23,PHI,Lloyd,Free,0,Guilford,NBA
+1025,richami01,All-Defensive First Team,1979,NBA,tie,0,1978,1,4,4,NYK,Micheal,Richardson,0,Montana,NBA
+1026,richami01,All-Defensive First Team,1980,NBA,0,0,1978,1,4,4,NYK,Micheal,Richardson,0,Montana,NBA
+1027,richami01,Comeback,1984,NBA,0,0,1978,1,4,4,NYK,Micheal,Richardson,0,Montana,NBA
+1028,roundda01,All-Defensive First Team,1979,NBA,0,0,1975,1,0,0,INA,Dan,Roundfield,0,Central Michigan,ABA
+1029,roundda01,All-Defensive First Team,1979,NBA,0,0,1975,2,10,28,CLE,Dan,Roundfield,0,Central Michigan,NBA
+1030,roundda01,All-NBA Second Team,1979,NBA,0,F,1975,1,0,0,INA,Dan,Roundfield,0,Central Michigan,ABA
+1031,roundda01,All-NBA Second Team,1979,NBA,0,F,1975,2,10,28,CLE,Dan,Roundfield,0,Central Michigan,NBA
+1032,roundda01,All-Defensive Second Team,1980,NBA,0,0,1975,1,0,0,INA,Dan,Roundfield,0,Central Michigan,ABA
+1033,roundda01,All-Defensive Second Team,1980,NBA,0,0,1975,2,10,28,CLE,Dan,Roundfield,0,Central Michigan,NBA
+1034,roundda01,All-Defensive First Team,1981,NBA,0,0,1975,1,0,0,INA,Dan,Roundfield,0,Central Michigan,ABA
+1035,roundda01,All-Defensive First Team,1981,NBA,0,0,1975,2,10,28,CLE,Dan,Roundfield,0,Central Michigan,NBA
+1036,roundda01,All-Defensive First Team,1982,NBA,0,0,1975,1,0,0,INA,Dan,Roundfield,0,Central Michigan,ABA
+1037,roundda01,All-Defensive First Team,1982,NBA,0,0,1975,2,10,28,CLE,Dan,Roundfield,0,Central Michigan,NBA
+1038,roundda01,All-Defensive Second Team,1983,NBA,0,0,1975,1,0,0,INA,Dan,Roundfield,0,Central Michigan,ABA
+1039,roundda01,All-Defensive Second Team,1983,NBA,0,0,1975,2,10,28,CLE,Dan,Roundfield,0,Central Michigan,NBA
+1040,washike01,All-Defensive Second Team,1979,NBA,0,0,1973,1,5,5,LAL,Kermit,Washington,0,American,NBA
+1041,washike01,All-Defensive Second Team,1980,NBA,0,0,1973,1,5,5,LAL,Kermit,Washington,0,American,NBA
+1042,wedmasc01,All-Defensive Second Team,1979,NBA,0,0,1974,1,0,0,MMT,Scott,Wedman,0,Colorado,ABA
+1043,wedmasc01,All-Defensive Second Team,1979,NBA,0,0,1974,1,6,6,KCO,Scott,Wedman,0,Colorado,NBA
+1044,birdla01,All-NBA First Team,1979,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1045,birdla01,Rookie of the Year,1979,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1046,birdla01,All-NBA First Team,1980,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1047,birdla01,All-Defensive Second Team,1981,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1048,birdla01,All-NBA First Team,1981,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1049,birdla01,All-Defensive Second Team,1982,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1050,birdla01,All-NBA First Team,1982,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1051,birdla01,All-Defensive Second Team,1983,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1052,birdla01,All-NBA First Team,1983,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1053,birdla01,Finals MVP,1983,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1054,birdla01,Most Valuable Player,1983,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1055,birdla01,All-NBA First Team,1984,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1056,birdla01,Most Valuable Player,1984,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1057,birdla01,All-NBA First Team,1985,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1058,birdla01,Finals MVP,1985,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1059,birdla01,Most Valuable Player,1985,NBA,0,0,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1060,birdla01,All-NBA First Team,1986,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1061,birdla01,All-NBA First Team,1987,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1062,birdla01,All-NBA Second Team,1989,NBA,0,F,1978,1,6,6,BOS,Larry,Bird,0,Indiana State,NBA
+1063,willigu01,All-NBA Second Team,1979,NBA,0,G,1975,1,0,0,SSL,Gus,Williams,0,Southern California,ABA
+1064,willigu01,All-NBA Second Team,1979,NBA,0,G,1975,2,2,20,GSW,Gus,Williams,0,Southern California,NBA
+1065,willigu01,All-NBA First Team,1981,NBA,0,G,1975,1,0,0,SSL,Gus,Williams,0,Southern California,ABA
+1066,willigu01,All-NBA First Team,1981,NBA,0,G,1975,2,2,20,GSW,Gus,Williams,0,Southern California,NBA
+1067,willigu01,Comeback,1981,NBA,0,0,1975,1,0,0,SSL,Gus,Williams,0,Southern California,ABA
+1068,willigu01,Comeback,1981,NBA,0,0,1975,2,2,20,GSW,Gus,Williams,0,Southern California,NBA
+1069,johnsma02,Finals MVP,1979,NBA,0,0,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1070,johnsma02,All-NBA Second Team,1981,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1071,johnsma02,Finals MVP,1981,NBA,0,0,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1072,johnsma02,All-NBA First Team,1982,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1073,johnsma02,All-NBA First Team,1983,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1074,johnsma02,All-NBA First Team,1984,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1075,johnsma02,All-NBA First Team,1985,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1076,johnsma02,All-NBA First Team,1986,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1077,johnsma02,Finals MVP,1986,NBA,0,0,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1078,johnsma02,Most Valuable Player,1986,NBA,0,0,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1079,johnsma02,All-NBA First Team,1987,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1080,johnsma02,All-NBA First Team,1988,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1081,johnsma02,Most Valuable Player,1988,NBA,0,0,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1082,johnsma02,All-NBA First Team,1989,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1083,johnsma02,Most Valuable Player,1989,NBA,0,0,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1084,johnsma02,All-NBA First Team,1990,NBA,0,G,1979,1,1,1,LAL,Earvin,Johnson,0,Michigan State,NBA
+1085,jonesca01,All-Defensive First Team,1980,NBA,0,0,1973,3,0,0,VIR,Caldwell,Jones,0,Albany State (GA),ABA
+1086,jonesca01,All-Defensive First Team,1980,NBA,0,0,1973,2,14,32,PHI,Caldwell,Jones,0,Albany State (GA),NBA
+1087,jonesca01,All-Defensive First Team,1981,NBA,0,0,1973,3,0,0,VIR,Caldwell,Jones,0,Albany State (GA),ABA
+1088,jonesca01,All-Defensive First Team,1981,NBA,0,0,1973,2,14,32,PHI,Caldwell,Jones,0,Albany State (GA),NBA
+1089,bradldu01,All-Defensive Second Team,1980,NBA,tie,0,1979,1,13,13,IND,Dudley,Bradley,0,North Carolina,NBA
+1090,coopemi01,All-Defensive Second Team,1980,NBA,tie,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1091,coopemi01,All-Defensive First Team,1981,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1092,coopemi01,All-Defensive Second Team,1982,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1093,coopemi01,All-Defensive First Team,1983,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1094,coopemi01,All-Defensive First Team,1984,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1095,coopemi01,All-Defensive Second Team,1985,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1096,coopemi01,All-Defensive First Team,1986,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1097,coopemi01,Defensive Player of the Year,1986,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1098,coopemi01,All-Defensive First Team,1987,NBA,0,0,1978,3,16,60,LAL,Michael,Cooper,0,New Mexico,NBA
+1099,johnsge02,All-Defensive Second Team,1980,NBA,0,0,1972,0,0,0,SDA,George,Johnson,0,Dallas,ABA
+1100,johnsge02,All-Defensive Second Team,1980,NBA,0,0,1974,2,0,0,VIR,George,Johnson,0,Golden State,ABA
+1101,johnsge02,All-Defensive Second Team,1980,NBA,0,0,1970,5,11,79,CHI,George,Johnson,0,Dillard,NBA
+1102,birdsot01,All-NBA Second Team,1980,NBA,0,G,1977,1,2,2,KCK,Otis,Birdsong,0,Houston,NBA
+1103,kingbe01,Comeback,1980,NBA,0,0,1977,1,7,7,NYN,Bernard,King,0,Tennessee,NBA
+1104,kingbe01,All-NBA Second Team,1981,NBA,0,F,1977,1,7,7,NYN,Bernard,King,0,Tennessee,NBA
+1105,kingbe01,All-NBA First Team,1983,NBA,0,F,1977,1,7,7,NYN,Bernard,King,0,Tennessee,NBA
+1106,kingbe01,All-NBA First Team,1984,NBA,0,F,1977,1,7,7,NYN,Bernard,King,0,Tennessee,NBA
+1107,kingbe01,All-NBA Third Team,1990,NBA,0,F,1977,1,7,7,NYN,Bernard,King,0,Tennessee,NBA
+1108,maxwece01,Finals MVP,1980,NBA,0,0,1977,1,12,12,BOS,Cedric,Maxwell,0,North Carolina-Charlotte,NBA
+1109,griffda01,Rookie of the Year,1980,NBA,0,0,1980,1,2,2,UTA,Darrell,Griffith,0,Louisville,NBA
+1110,moncrsi01,All-Defensive Second Team,1981,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1111,moncrsi01,All-NBA Second Team,1981,NBA,0,G,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1112,moncrsi01,All-Defensive First Team,1982,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1113,moncrsi01,All-NBA First Team,1982,NBA,0,G,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1114,moncrsi01,Defensive Player of the Year,1982,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1115,moncrsi01,All-Defensive First Team,1983,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1116,moncrsi01,All-NBA Second Team,1983,NBA,0,G,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1117,moncrsi01,Defensive Player of the Year,1983,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1118,moncrsi01,All-Defensive First Team,1984,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1119,moncrsi01,All-NBA Second Team,1984,NBA,0,G,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1120,moncrsi01,All-Defensive First Team,1985,NBA,0,0,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1121,moncrsi01,All-NBA Second Team,1985,NBA,0,G,1979,1,5,5,MIL,Sidney,Moncrief,0,Arkansas,NBA
+1122,sheltlo01,All-Defensive Second Team,1981,NBA,0,0,1975,1,0,0,MMS,Lonnie,Shelton,0,Oregon State,ABA
+1123,sheltlo01,All-Defensive Second Team,1981,NBA,0,0,1976,2,8,25,NYK,Lonnie,Shelton,0,Oregon State,NBA
+1124,sikmaja01,All-Defensive Second Team,1981,NBA,0,0,1977,1,8,8,SEA,Jack,Sikma,0,Illinois Wesleyan,NBA
+1125,englial01,All-NBA Second Team,1981,NBA,0,F,1974,7,0,0,INA,Alex,English,0,South Carolina,ABA
+1126,englial01,All-NBA Second Team,1981,NBA,0,F,1976,2,6,23,MIL,Alex,English,0,South Carolina,NBA
+1127,englial01,All-NBA Second Team,1982,NBA,0,F,1974,7,0,0,INA,Alex,English,0,South Carolina,ABA
+1128,englial01,All-NBA Second Team,1982,NBA,0,F,1976,2,6,23,MIL,Alex,English,0,South Carolina,NBA
+1129,englial01,All-NBA Second Team,1985,NBA,0,F,1974,7,0,0,INA,Alex,English,0,South Carolina,ABA
+1130,englial01,All-NBA Second Team,1985,NBA,0,F,1976,2,6,23,MIL,Alex,English,0,South Carolina,NBA
+1131,parisro01,All-NBA Second Team,1981,NBA,0,C,1973,1,0,0,UTS,Robert,Parish,0,Centenary,ABA
+1132,parisro01,All-NBA Second Team,1981,NBA,0,C,1975,5,0,0,SAA,Robert,Parish,0,Centenary,ABA
+1133,parisro01,All-NBA Second Team,1981,NBA,0,C,1976,1,8,8,GSW,Robert,Parish,0,Centenary,NBA
+1134,parisro01,All-NBA Third Team,1988,NBA,0,C,1973,1,0,0,UTS,Robert,Parish,0,Centenary,ABA
+1135,parisro01,All-NBA Third Team,1988,NBA,0,C,1975,5,0,0,SAA,Robert,Parish,0,Centenary,ABA
+1136,parisro01,All-NBA Third Team,1988,NBA,0,C,1976,1,8,8,GSW,Robert,Parish,0,Centenary,NBA
+1137,willibu01,Rookie of the Year,1981,NBA,0,0,1981,1,3,3,NJN,Buck,Williams,0,Maryland,NBA
+1138,willibu01,All-NBA Second Team,1982,NBA,0,F,1981,1,3,3,NJN,Buck,Williams,0,Maryland,NBA
+1139,willibu01,All-Defensive Second Team,1987,NBA,0,0,1981,1,3,3,NJN,Buck,Williams,0,Maryland,NBA
+1140,willibu01,All-Defensive First Team,1989,NBA,0,0,1981,1,3,3,NJN,Buck,Williams,0,Maryland,NBA
+1141,willibu01,All-Defensive First Team,1990,NBA,0,0,1981,1,3,3,NJN,Buck,Williams,0,Maryland,NBA
+1142,willibu01,All-Defensive Second Team,1991,NBA,0,0,1981,1,3,3,NJN,Buck,Williams,0,Maryland,NBA
+1143,cheekma01,All-Defensive First Team,1982,NBA,tie,0,1978,2,14,36,PHI,Maurice,Cheeks,0,West Texas State,NBA
+1144,cheekma01,All-Defensive First Team,1983,NBA,0,0,1978,2,14,36,PHI,Maurice,Cheeks,0,West Texas State,NBA
+1145,cheekma01,All-Defensive First Team,1984,NBA,0,0,1978,2,14,36,PHI,Maurice,Cheeks,0,West Texas State,NBA
+1146,cheekma01,All-Defensive First Team,1985,NBA,0,0,1978,2,14,36,PHI,Maurice,Cheeks,0,West Texas State,NBA
+1147,cheekma01,All-Defensive Second Team,1986,NBA,0,0,1978,2,14,36,PHI,Maurice,Cheeks,0,West Texas State,NBA
+1148,dunntr01,All-Defensive Second Team,1982,NBA,0,0,1977,2,19,41,POR,T.R.,Dunn,0,Alabama,NBA
+1149,dunntr01,All-Defensive Second Team,1983,NBA,0,0,1977,2,19,41,POR,T.R.,Dunn,0,Alabama,NBA
+1150,dunntr01,All-Defensive Second Team,1984,NBA,0,0,1977,2,19,41,POR,T.R.,Dunn,0,Alabama,NBA
+1151,mchalke01,All-Defensive Second Team,1982,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1152,mchalke01,Sixth Man of the Year,1983,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1153,mchalke01,Sixth Man of the Year,1984,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1154,mchalke01,All-Defensive First Team,1985,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1155,mchalke01,All-Defensive First Team,1986,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1156,mchalke01,All-NBA First Team,1986,NBA,0,F,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1157,mchalke01,All-Defensive First Team,1987,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1158,mchalke01,All-Defensive Second Team,1988,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1159,mchalke01,All-Defensive Second Team,1989,NBA,0,0,1980,1,3,3,BOS,Kevin,McHale,0,Minnesota,NBA
+1160,rollitr01,All-Defensive Second Team,1982,NBA,0,0,1977,1,14,14,ATL,Tree,Rollins,0,Clemson,NBA
+1161,rollitr01,All-Defensive First Team,1983,NBA,0,0,1977,1,14,14,ATL,Tree,Rollins,0,Clemson,NBA
+1162,thomais01,All-NBA Second Team,1982,NBA,0,G,1981,1,2,2,DET,Isiah,Thomas,0,Indiana,NBA
+1163,thomais01,All-NBA First Team,1983,NBA,0,G,1981,1,2,2,DET,Isiah,Thomas,0,Indiana,NBA
+1164,thomais01,All-NBA First Team,1984,NBA,0,G,1981,1,2,2,DET,Isiah,Thomas,0,Indiana,NBA
+1165,thomais01,All-NBA First Team,1985,NBA,0,G,1981,1,2,2,DET,Isiah,Thomas,0,Indiana,NBA
+1166,thomais01,All-NBA Second Team,1986,NBA,0,G,1981,1,2,2,DET,Isiah,Thomas,0,Indiana,NBA
+1167,thomais01,Finals MVP,1989,NBA,0,0,1981,1,2,2,DET,Isiah,Thomas,0,Indiana,NBA
+1168,cummite01,Rookie of the Year,1982,NBA,0,0,1982,1,2,2,SDC,Terry,Cummings,0,DePaul,NBA
+1169,cummite01,All-NBA Second Team,1984,NBA,0,F,1982,1,2,2,SDC,Terry,Cummings,0,DePaul,NBA
+1170,cummite01,All-NBA Third Team,1988,NBA,0,F,1982,1,2,2,SDC,Terry,Cummings,0,DePaul,NBA
+1171,paxsoji02,All-NBA Second Team,1983,NBA,0,G,1979,1,12,12,POR,Jim,Paxson,0,Dayton,NBA
+1172,sampsra01,Rookie of the Year,1983,NBA,0,0,1983,1,1,1,HOU,Ralph,Sampson,0,Virginia,NBA
+1173,sampsra01,All-NBA Second Team,1984,NBA,0,F,1983,1,1,1,HOU,Ralph,Sampson,0,Virginia,NBA
+1174,eatonma01,All-Defensive First Team,1984,NBA,0,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1175,eatonma01,All-Defensive First Team,1984,NBA,0,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1176,eatonma01,Defensive Player of the Year,1984,NBA,0,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1177,eatonma01,Defensive Player of the Year,1984,NBA,0,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1178,eatonma01,All-Defensive First Team,1985,NBA,0,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1179,eatonma01,All-Defensive First Team,1985,NBA,0,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1180,eatonma01,All-Defensive Second Team,1986,NBA,0,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1181,eatonma01,All-Defensive Second Team,1986,NBA,0,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1182,eatonma01,All-Defensive Second Team,1987,NBA,tie,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1183,eatonma01,All-Defensive Second Team,1987,NBA,tie,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1184,eatonma01,All-Defensive First Team,1988,NBA,0,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1185,eatonma01,All-Defensive First Team,1988,NBA,0,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1186,eatonma01,Defensive Player of the Year,1988,NBA,0,0,1979,5,19,107,PHO,Mark,Eaton,0,Cypress JC,NBA
+1187,eatonma01,Defensive Player of the Year,1988,NBA,0,0,1982,4,3,72,UTA,Mark,Eaton,0,UCLA,NBA
+1188,presspa01,All-Defensive First Team,1984,NBA,0,0,1982,1,20,20,MIL,Paul,Pressey,0,Tulsa,NBA
+1189,presspa01,All-Defensive First Team,1985,NBA,0,0,1982,1,20,20,MIL,Paul,Pressey,0,Tulsa,NBA
+1190,presspa01,All-Defensive Second Team,1986,NBA,0,0,1982,1,20,20,MIL,Paul,Pressey,0,Tulsa,NBA
+1191,olajuha01,All-Defensive Second Team,1984,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1192,olajuha01,All-NBA Second Team,1985,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1193,olajuha01,All-Defensive First Team,1986,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1194,olajuha01,All-NBA First Team,1986,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1195,olajuha01,All-Defensive First Team,1987,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1196,olajuha01,All-NBA First Team,1987,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1197,olajuha01,All-NBA First Team,1988,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1198,olajuha01,All-Defensive First Team,1989,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1199,olajuha01,All-NBA Second Team,1989,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1200,olajuha01,All-Defensive Second Team,1990,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1201,olajuha01,All-NBA Third Team,1990,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1202,olajuha01,All-Defensive First Team,1992,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1203,olajuha01,All-NBA First Team,1992,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1204,olajuha01,Defensive Player of the Year,1992,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1205,olajuha01,All-Defensive First Team,1993,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1206,olajuha01,All-NBA First Team,1993,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1207,olajuha01,Defensive Player of the Year,1993,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1208,olajuha01,Finals MVP,1993,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1209,olajuha01,Most Valuable Player,1993,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1210,olajuha01,All-NBA Third Team,1994,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1211,olajuha01,Finals MVP,1994,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1212,olajuha01,All-Defensive Second Team,1995,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1213,olajuha01,All-NBA Second Team,1995,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1214,olajuha01,All-Defensive Second Team,1996,NBA,0,0,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1215,olajuha01,All-NBA First Team,1996,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1216,olajuha01,All-NBA Third Team,1998,NBA,0,C,1984,1,1,1,HOU,Akeem,Olajuwon,0,Houston,NBA
+1217,vraneda01,All-Defensive Second Team,1984,NBA,0,0,1981,1,5,5,SEA,Danny,Vranes,0,Utah,NBA
+1218,jordami01,All-NBA Second Team,1984,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1219,jordami01,Rookie of the Year,1984,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1220,jordami01,All-NBA First Team,1986,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1221,jordami01,All-Defensive First Team,1987,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1222,jordami01,All-NBA First Team,1987,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1223,jordami01,Defensive Player of the Year,1987,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1224,jordami01,Most Valuable Player,1987,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1225,jordami01,All-Defensive First Team,1988,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1226,jordami01,All-NBA First Team,1988,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1227,jordami01,All-Defensive First Team,1989,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1228,jordami01,All-NBA First Team,1989,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1229,jordami01,All-Defensive First Team,1990,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1230,jordami01,All-NBA First Team,1990,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1231,jordami01,Finals MVP,1990,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1232,jordami01,Most Valuable Player,1990,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1233,jordami01,All-Defensive First Team,1991,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1234,jordami01,All-NBA First Team,1991,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1235,jordami01,Finals MVP,1991,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1236,jordami01,Most Valuable Player,1991,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1237,jordami01,All-Defensive First Team,1992,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1238,jordami01,All-NBA First Team,1992,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1239,jordami01,Finals MVP,1992,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1240,jordami01,All-Defensive First Team,1995,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1241,jordami01,All-NBA First Team,1995,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1242,jordami01,Finals MVP,1995,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1243,jordami01,Most Valuable Player,1995,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1244,jordami01,All-Defensive First Team,1996,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1245,jordami01,All-NBA First Team,1996,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1246,jordami01,Finals MVP,1996,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1247,jordami01,All-Defensive First Team,1997,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1248,jordami01,All-NBA First Team,1997,NBA,0,G,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1249,jordami01,Finals MVP,1997,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1250,jordami01,Most Valuable Player,1997,NBA,0,0,1984,1,3,3,CHI,Michael,Jordan,0,North Carolina,NBA
+1251,bolma01,All-Defensive Second Team,1985,NBA,0,0,1983,5,4,97,SDC,Manute,Bol,0,None (Sudan),NBA
+1252,bolma01,All-Defensive Second Team,1985,NBA,0,0,1985,2,7,31,WSB,Manute,Bol,0,Bridgeport,NBA
+1253,hanzlbi01,All-Defensive Second Team,1985,NBA,0,0,1980,1,20,20,SEA,Bill,Hanzlik,0,Notre Dame,NBA
+1254,roberal01,All-Defensive Second Team,1985,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1255,roberal01,All-NBA Second Team,1985,NBA,0,G,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1256,roberal01,Defensive Player of the Year,1985,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1257,roberal01,Most Improved Player,1985,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1258,roberal01,All-Defensive First Team,1986,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1259,roberal01,All-Defensive Second Team,1987,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1260,roberal01,All-Defensive Second Team,1988,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1261,roberal01,All-Defensive Second Team,1989,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1262,roberal01,All-Defensive First Team,1990,NBA,0,0,1984,1,7,7,SAS,Alvin,Robertson,0,Arkansas,NBA
+1263,wilkido01,All-NBA First Team,1985,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1264,wilkido01,All-NBA Second Team,1986,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1265,wilkido01,All-NBA Second Team,1987,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1266,wilkido01,All-NBA Third Team,1988,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1267,wilkido01,All-NBA Second Team,1990,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1268,wilkido01,All-NBA Second Team,1992,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1269,wilkido01,All-NBA Third Team,1993,NBA,0,F,1982,1,3,3,UTA,Dominique,Wilkins,0,Georgia,NBA
+1270,barklch01,All-NBA Second Team,1985,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1271,barklch01,All-NBA Second Team,1986,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1272,barklch01,All-NBA First Team,1987,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1273,barklch01,All-NBA First Team,1988,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1274,barklch01,All-NBA First Team,1989,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1275,barklch01,All-NBA First Team,1990,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1276,barklch01,All-NBA Second Team,1991,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1277,barklch01,All-NBA First Team,1992,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1278,barklch01,Most Valuable Player,1992,NBA,0,0,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1279,barklch01,All-NBA Second Team,1993,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1280,barklch01,All-NBA Second Team,1994,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1281,barklch01,All-NBA Third Team,1995,NBA,0,F,1984,1,5,5,PHI,Charles,Barkley,0,Auburn,NBA
+1282,ewingpa01,Rookie of the Year,1985,NBA,0,0,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1283,ewingpa01,All-Defensive Second Team,1987,NBA,tie,0,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1284,ewingpa01,All-NBA Second Team,1987,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1285,ewingpa01,All-Defensive Second Team,1988,NBA,0,0,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1286,ewingpa01,All-NBA Second Team,1988,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1287,ewingpa01,All-NBA First Team,1989,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1288,ewingpa01,All-NBA Second Team,1990,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1289,ewingpa01,All-Defensive Second Team,1991,NBA,0,0,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1290,ewingpa01,All-NBA Second Team,1991,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1291,ewingpa01,All-NBA Second Team,1992,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1292,ewingpa01,All-NBA Second Team,1996,NBA,0,C,1985,1,1,1,NYK,Patrick,Ewing,0,Georgetown,NBA
+1293,harpede01,All-Defensive Second Team,1986,NBA,0,0,1983,1,11,11,DAL,Derek,Harper,0,Illinois,NBA
+1294,harpede01,All-Defensive Second Team,1989,NBA,0,0,1983,1,11,11,DAL,Derek,Harper,0,Illinois,NBA
+1295,mccraro01,All-Defensive Second Team,1986,NBA,0,0,1983,1,3,3,HOU,Rodney,McCray,0,Louisville,NBA
+1296,mccraro01,All-Defensive First Team,1987,NBA,0,0,1983,1,3,3,HOU,Rodney,McCray,0,Louisville,NBA
+1297,leverfa01,All-NBA Second Team,1986,NBA,0,G,1982,1,11,11,POR,Lafayette,Lever,0,Arizona State,NBA
+1298,leverfa01,All-Defensive Second Team,1987,NBA,0,0,1982,1,11,11,POR,Lafayette,Lever,0,Arizona State,NBA
+1299,ellisda01,Most Improved Player,1986,NBA,0,0,1983,1,9,9,DAL,Dale,Ellis,0,Tennessee,NBA
+1300,ellisda01,All-NBA Third Team,1988,NBA,0,G,1983,1,9,9,DAL,Dale,Ellis,0,Tennessee,NBA
+1301,persoch01,Rookie of the Year,1986,NBA,0,0,1986,1,4,4,IND,Chuck,Person,0,Auburn,NBA
+1302,piercri01,Sixth Man of the Year,1986,NBA,0,0,1982,1,18,18,DET,Ricky,Pierce,0,Rice,NBA
+1303,piercri01,Sixth Man of the Year,1989,NBA,0,0,1982,1,18,18,DET,Ricky,Pierce,0,Rice,NBA
+1304,malonka01,All-Defensive Second Team,1987,NBA,0,0,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1305,malonka01,All-NBA Second Team,1987,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1306,malonka01,All-NBA First Team,1988,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1307,malonka01,All-NBA First Team,1989,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1308,malonka01,All-NBA First Team,1990,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1309,malonka01,All-NBA First Team,1991,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1310,malonka01,All-NBA First Team,1992,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1311,malonka01,All-NBA First Team,1993,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1312,malonka01,All-NBA First Team,1994,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1313,malonka01,All-NBA First Team,1995,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1314,malonka01,All-Defensive First Team,1996,NBA,0,0,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1315,malonka01,All-NBA First Team,1996,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1316,malonka01,Most Valuable Player,1996,NBA,0,0,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1317,malonka01,All-Defensive First Team,1997,NBA,0,0,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1318,malonka01,All-NBA First Team,1997,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1319,malonka01,All-Defensive First Team,1998,NBA,0,0,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1320,malonka01,All-NBA First Team,1998,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1321,malonka01,Most Valuable Player,1998,NBA,0,0,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1322,malonka01,All-NBA Second Team,1999,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1323,malonka01,All-NBA Third Team,2000,NBA,0,F,1985,1,13,13,UTA,Karl,Malone,0,Louisiana Tech,NBA
+1324,drexlcl01,All-NBA Second Team,1987,NBA,0,G,1983,1,14,14,POR,Clyde,Drexler,0,Houston,NBA
+1325,drexlcl01,All-NBA Third Team,1989,NBA,0,G,1983,1,14,14,POR,Clyde,Drexler,0,Houston,NBA
+1326,drexlcl01,All-NBA Second Team,1990,NBA,0,G,1983,1,14,14,POR,Clyde,Drexler,0,Houston,NBA
+1327,drexlcl01,All-NBA First Team,1991,NBA,0,G,1983,1,14,14,POR,Clyde,Drexler,0,Houston,NBA
+1328,drexlcl01,All-NBA Third Team,1994,NBA,0,G,1983,1,14,14,POR,Clyde,Drexler,0,Houston,NBA
+1329,stockjo01,All-NBA Second Team,1987,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1330,stockjo01,All-Defensive Second Team,1988,NBA,0,0,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1331,stockjo01,All-NBA Second Team,1988,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1332,stockjo01,All-NBA Second Team,1989,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1333,stockjo01,All-Defensive Second Team,1990,NBA,0,0,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1334,stockjo01,All-NBA Third Team,1990,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1335,stockjo01,All-Defensive Second Team,1991,NBA,0,0,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1336,stockjo01,All-NBA Second Team,1991,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1337,stockjo01,All-NBA Second Team,1992,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1338,stockjo01,All-NBA First Team,1993,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1339,stockjo01,All-Defensive Second Team,1994,NBA,0,0,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1340,stockjo01,All-NBA First Team,1994,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1341,stockjo01,All-NBA Second Team,1995,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1342,stockjo01,All-Defensive Second Team,1996,NBA,0,0,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1343,stockjo01,All-NBA Third Team,1996,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1344,stockjo01,All-NBA Third Team,1998,NBA,0,G,1984,1,16,16,UTA,John,Stockton,0,Gonzaga,NBA
+1345,worthja01,Finals MVP,1987,NBA,0,0,1982,1,1,1,LAL,James,Worthy,0,North Carolina,NBA
+1346,worthja01,All-NBA Third Team,1989,NBA,0,F,1982,1,1,1,LAL,James,Worthy,0,North Carolina,NBA
+1347,worthja01,All-NBA Third Team,1990,NBA,0,F,1982,1,1,1,LAL,James,Worthy,0,North Carolina,NBA
+1348,duckwke01,Most Improved Player,1987,NBA,0,0,1986,2,9,33,SAS,Kevin,Duckworth,0,Eastern Illinois,NBA
+1349,jacksma01,Rookie of the Year,1987,NBA,0,0,1987,1,18,18,NYK,Mark,Jackson,0,St. John's,NBA
+1350,tarplro01,Sixth Man of the Year,1987,NBA,0,0,1986,1,7,7,DAL,Roy,Tarpley,0,Michigan,NBA
+1351,dumarjo01,All-Defensive First Team,1988,NBA,0,0,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1352,dumarjo01,Finals MVP,1988,NBA,0,0,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1353,dumarjo01,All-Defensive First Team,1989,NBA,0,0,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1354,dumarjo01,All-NBA Third Team,1989,NBA,0,G,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1355,dumarjo01,All-Defensive Second Team,1990,NBA,0,0,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1356,dumarjo01,All-NBA Third Team,1990,NBA,0,G,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1357,dumarjo01,All-Defensive First Team,1991,NBA,0,0,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1358,dumarjo01,All-Defensive First Team,1992,NBA,0,0,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1359,dumarjo01,All-NBA Second Team,1992,NBA,0,G,1985,1,18,18,DET,Joe,Dumars,0,McNeese State,NBA
+1360,nancela01,All-Defensive First Team,1988,NBA,0,0,1981,1,20,20,PHO,Larry,Nance,0,Clemson,NBA
+1361,nancela01,All-Defensive Second Team,1991,NBA,0,0,1981,1,20,20,PHO,Larry,Nance,0,Clemson,NBA
+1362,nancela01,All-Defensive Second Team,1992,NBA,0,0,1981,1,20,20,PHO,Larry,Nance,0,Clemson,NBA
+1363,rodmade01,All-Defensive First Team,1988,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1364,rodmade01,All-Defensive First Team,1989,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1365,rodmade01,Defensive Player of the Year,1989,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1366,rodmade01,All-Defensive First Team,1990,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1367,rodmade01,Defensive Player of the Year,1990,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1368,rodmade01,All-Defensive First Team,1991,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1369,rodmade01,All-NBA Third Team,1991,NBA,0,F,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1370,rodmade01,All-Defensive First Team,1992,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1371,rodmade01,All-Defensive Second Team,1993,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1372,rodmade01,All-Defensive First Team,1994,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1373,rodmade01,All-NBA Third Team,1994,NBA,0,F,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1374,rodmade01,All-Defensive First Team,1995,NBA,0,0,1986,2,3,27,DET,Dennis,Rodman,0,SE Oklahoma State,NBA
+1375,greenac01,All-Defensive Second Team,1988,NBA,0,0,1985,1,23,23,LAL,A.C.,Green,0,Oregon State,NBA
+1376,chambto01,All-NBA Second Team,1988,NBA,0,F,1981,1,8,8,SDC,Tom,Chambers,0,Utah,NBA
+1377,chambto01,All-NBA Second Team,1989,NBA,0,F,1981,1,8,8,SDC,Tom,Chambers,0,Utah,NBA
+1378,johnske02,All-NBA Second Team,1988,NBA,0,G,1987,1,7,7,CLE,Kevin,Johnson,0,California,NBA
+1379,johnske02,Most Improved Player,1988,NBA,0,0,1987,1,7,7,CLE,Kevin,Johnson,0,California,NBA
+1380,johnske02,All-NBA Second Team,1989,NBA,0,G,1987,1,7,7,CLE,Kevin,Johnson,0,California,NBA
+1381,johnske02,All-NBA Second Team,1990,NBA,0,G,1987,1,7,7,CLE,Kevin,Johnson,0,California,NBA
+1382,johnske02,All-NBA Third Team,1991,NBA,0,G,1987,1,7,7,CLE,Kevin,Johnson,0,California,NBA
+1383,johnske02,All-NBA Second Team,1993,NBA,0,G,1987,1,7,7,CLE,Kevin,Johnson,0,California,NBA
+1384,mullich01,All-NBA Second Team,1988,NBA,0,F,1985,1,7,7,GSW,Chris,Mullin,0,St. John's,NBA
+1385,mullich01,All-NBA Third Team,1989,NBA,0,F,1985,1,7,7,GSW,Chris,Mullin,0,St. John's,NBA
+1386,mullich01,All-NBA Second Team,1990,NBA,0,F,1985,1,7,7,GSW,Chris,Mullin,0,St. John's,NBA
+1387,mullich01,All-NBA First Team,1991,NBA,0,F,1985,1,7,7,GSW,Chris,Mullin,0,St. John's,NBA
+1388,pricema01,All-NBA Third Team,1988,NBA,0,G,1986,2,1,25,DAL,Mark,Price,0,Georgia Tech,NBA
+1389,pricema01,All-NBA Third Team,1991,NBA,0,G,1986,2,1,25,DAL,Mark,Price,0,Georgia Tech,NBA
+1390,pricema01,All-NBA First Team,1992,NBA,0,G,1986,2,1,25,DAL,Mark,Price,0,Georgia Tech,NBA
+1391,pricema01,All-NBA Third Team,1993,NBA,0,G,1986,2,1,25,DAL,Mark,Price,0,Georgia Tech,NBA
+1392,richmmi01,Rookie of the Year,1988,NBA,0,0,1988,1,5,5,GSW,Mitch,Richmond,0,Kansas State,NBA
+1393,richmmi01,All-NBA Second Team,1993,NBA,0,G,1988,1,5,5,GSW,Mitch,Richmond,0,Kansas State,NBA
+1394,richmmi01,All-NBA Second Team,1994,NBA,0,G,1988,1,5,5,GSW,Mitch,Richmond,0,Kansas State,NBA
+1395,richmmi01,All-NBA Third Team,1995,NBA,0,G,1988,1,5,5,GSW,Mitch,Richmond,0,Kansas State,NBA
+1396,richmmi01,All-NBA Second Team,1996,NBA,0,G,1988,1,5,5,GSW,Mitch,Richmond,0,Kansas State,NBA
+1397,richmmi01,All-NBA Third Team,1997,NBA,0,G,1988,1,5,5,GSW,Mitch,Richmond,0,Kansas State,NBA
+1398,johnsed03,Sixth Man of the Year,1988,NBA,0,0,1981,2,6,29,KCK,Eddie,Johnson,0,Illinois,NBA
+1399,mahorri01,All-Defensive Second Team,1989,NBA,0,0,1980,2,12,35,WSB,Ricky,Mahorn,0,Hampton Institute,NBA
+1400,robinda01,All-Defensive Second Team,1989,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1401,robinda01,All-NBA Third Team,1989,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1402,robinda01,Rookie of the Year,1989,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1403,robinda01,All-Defensive First Team,1990,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1404,robinda01,All-NBA First Team,1990,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1405,robinda01,All-Defensive First Team,1991,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1406,robinda01,All-NBA First Team,1991,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1407,robinda01,Defensive Player of the Year,1991,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1408,robinda01,All-Defensive Second Team,1992,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1409,robinda01,All-NBA Third Team,1992,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1410,robinda01,All-Defensive Second Team,1993,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1411,robinda01,All-NBA Second Team,1993,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1412,robinda01,All-Defensive First Team,1994,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1413,robinda01,All-NBA First Team,1994,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1414,robinda01,Most Valuable Player,1994,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1415,robinda01,All-Defensive First Team,1995,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1416,robinda01,All-NBA First Team,1995,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1417,robinda01,All-Defensive Second Team,1997,NBA,0,0,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1418,robinda01,All-NBA Second Team,1997,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1419,robinda01,All-NBA Third Team,1999,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1420,robinda01,All-NBA Third Team,2000,NBA,0,C,1987,1,1,1,SAS,David,Robinson,0,Navy,NBA
+1421,seikaro01,Most Improved Player,1989,NBA,0,0,1988,1,9,9,MIA,Rony,Seikaly,0,Syracuse,NBA
+1422,majerda01,All-Defensive Second Team,1990,NBA,0,0,1988,1,14,14,PHO,Dan,Majerle,0,Central Michigan,NBA
+1423,majerda01,All-Defensive Second Team,1992,NBA,0,0,1988,1,14,14,PHO,Dan,Majerle,0,Central Michigan,NBA
+1424,pippesc01,All-Defensive Second Team,1990,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1425,pippesc01,All-Defensive First Team,1991,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1426,pippesc01,All-NBA Second Team,1991,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1427,pippesc01,All-Defensive First Team,1992,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1428,pippesc01,All-NBA Third Team,1992,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1429,pippesc01,All-Defensive First Team,1993,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1430,pippesc01,All-NBA First Team,1993,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1431,pippesc01,All-Defensive First Team,1994,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1432,pippesc01,All-NBA First Team,1994,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1433,pippesc01,All-Defensive First Team,1995,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1434,pippesc01,All-NBA First Team,1995,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1435,pippesc01,All-Defensive First Team,1996,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1436,pippesc01,All-NBA Second Team,1996,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1437,pippesc01,All-Defensive First Team,1997,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1438,pippesc01,All-NBA Third Team,1997,NBA,0,F,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1439,pippesc01,All-Defensive First Team,1998,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1440,pippesc01,All-Defensive Second Team,1999,NBA,0,0,1987,1,5,5,SEA,Scottie,Pippen,0,Central Arkansas,NBA
+1441,skilesc01,Most Improved Player,1990,NBA,0,0,1986,1,22,22,MIL,Scott,Skiles,0,Michigan State,NBA
+1442,colemde01,Rookie of the Year,1990,NBA,0,0,1990,1,1,1,NJN,Derrick,Coleman,0,Syracuse,NBA
+1443,colemde01,All-NBA Third Team,1992,NBA,0,F,1990,1,1,1,NJN,Derrick,Coleman,0,Syracuse,NBA
+1444,colemde01,All-NBA Third Team,1993,NBA,0,F,1990,1,1,1,NJN,Derrick,Coleman,0,Syracuse,NBA
+1445,schrede01,Sixth Man of the Year,1990,NBA,0,0,1985,1,8,8,DAL,Detlef,Schrempf,0,Washington,NBA
+1446,schrede01,Sixth Man of the Year,1991,NBA,0,0,1985,1,8,8,DAL,Detlef,Schrempf,0,Washington,NBA
+1447,schrede01,All-NBA Third Team,1994,NBA,0,F,1985,1,8,8,DAL,Detlef,Schrempf,0,Washington,NBA
+1448,willimi02,All-Defensive Second Team,1991,NBA,0,0,1988,2,23,48,DET,Micheal,Williams,0,Baylor,NBA
+1449,hardati01,All-NBA Second Team,1991,NBA,0,G,1989,1,14,14,GSW,Tim,Hardaway,0,Texas-El Paso,NBA
+1450,hardati01,All-NBA Third Team,1992,NBA,0,G,1989,1,14,14,GSW,Tim,Hardaway,0,Texas-El Paso,NBA
+1451,hardati01,All-NBA First Team,1996,NBA,0,G,1989,1,14,14,GSW,Tim,Hardaway,0,Texas-El Paso,NBA
+1452,hardati01,All-NBA Second Team,1997,NBA,0,G,1989,1,14,14,GSW,Tim,Hardaway,0,Texas-El Paso,NBA
+1453,hardati01,All-NBA Second Team,1998,NBA,0,G,1989,1,14,14,GSW,Tim,Hardaway,0,Texas-El Paso,NBA
+1454,daughbr01,All-NBA Third Team,1991,NBA,0,C,1986,1,1,1,CLE,Brad,Daugherty,0,North Carolina,NBA
+1455,willike02,All-NBA Third Team,1991,NBA,0,F,1984,1,11,11,ATL,Kevin,Willis,0,Michigan State,NBA
+1456,ellispe01,Most Improved Player,1991,NBA,0,0,1989,1,1,1,SAC,Pervis,Ellison,0,Louisville,NBA
+1457,johnsla02,Rookie of the Year,1991,NBA,0,0,1991,1,1,1,CHH,Larry,Johnson,0,Nevada-Las Vegas,NBA
+1458,johnsla02,All-NBA Second Team,1992,NBA,0,F,1991,1,1,1,CHH,Larry,Johnson,0,Nevada-Las Vegas,NBA
+1459,grantho01,All-Defensive Second Team,1992,NBA,0,0,1987,1,10,10,CHI,Horace,Grant,0,Clemson,NBA
+1460,grantho01,All-Defensive Second Team,1993,NBA,0,0,1987,1,10,10,CHI,Horace,Grant,0,Clemson,NBA
+1461,grantho01,All-Defensive Second Team,1994,NBA,0,0,1987,1,10,10,CHI,Horace,Grant,0,Clemson,NBA
+1462,grantho01,All-Defensive Second Team,1995,NBA,0,0,1987,1,10,10,CHI,Horace,Grant,0,Clemson,NBA
+1463,petrodr01,All-NBA Third Team,1992,NBA,0,G,1986,3,13,60,POR,Drazen,Petrovic,0,Zagreb (Yugoslavia),NBA
+1464,abdulma02,Most Improved Player,1992,NBA,0,0,1990,1,3,3,DEN,Chris,Jackson,0,Louisiana State,NBA
+1465,onealsh01,Rookie of the Year,1992,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1466,onealsh01,All-NBA Third Team,1993,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1467,onealsh01,All-NBA Second Team,1994,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1468,onealsh01,All-NBA Third Team,1995,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1469,onealsh01,All-NBA Third Team,1996,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1470,onealsh01,All-NBA First Team,1997,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1471,onealsh01,All-NBA Second Team,1998,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1472,onealsh01,All-Defensive Second Team,1999,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1473,onealsh01,All-NBA First Team,1999,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1474,onealsh01,Finals MVP,1999,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1475,onealsh01,Most Valuable Player,1999,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1476,onealsh01,All-Defensive Second Team,2000,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1477,onealsh01,All-NBA First Team,2000,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1478,onealsh01,Finals MVP,2000,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1479,onealsh01,All-NBA First Team,2001,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1480,onealsh01,Finals MVP,2001,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1481,onealsh01,All-Defensive Second Team,2002,NBA,0,0,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1482,onealsh01,All-NBA First Team,2002,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1483,onealsh01,All-NBA First Team,2003,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1484,onealsh01,All-NBA First Team,2004,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1485,onealsh01,All-NBA First Team,2005,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1486,onealsh01,All-NBA Third Team,2008,NBA,0,C,1992,1,1,1,ORL,Shaquille,O'Neal,0,Louisiana State,NBA
+1487,robincl02,Sixth Man of the Year,1992,NBA,0,0,1989,2,9,36,POR,Cliff,Robinson,0,Connecticut,NBA
+1488,robincl02,All-Defensive Second Team,1999,NBA,0,0,1989,2,9,36,POR,Cliff,Robinson,0,Connecticut,NBA
+1489,robincl02,All-Defensive Second Team,2001,NBA,0,0,1989,2,9,36,POR,Cliff,Robinson,0,Connecticut,NBA
+1490,blaylmo01,All-Defensive First Team,1993,NBA,0,0,1989,1,12,12,NJN,Mookie,Blaylock,0,Oklahoma,NBA
+1491,blaylmo01,All-Defensive First Team,1994,NBA,0,0,1989,1,12,12,NJN,Mookie,Blaylock,0,Oklahoma,NBA
+1492,blaylmo01,All-Defensive Second Team,1995,NBA,0,0,1989,1,12,12,NJN,Mookie,Blaylock,0,Oklahoma,NBA
+1493,blaylmo01,All-Defensive Second Team,1996,NBA,0,0,1989,1,12,12,NJN,Mookie,Blaylock,0,Oklahoma,NBA
+1494,blaylmo01,All-Defensive Second Team,1997,NBA,0,0,1989,1,12,12,NJN,Mookie,Blaylock,0,Oklahoma,NBA
+1495,blaylmo01,All-Defensive Second Team,1998,NBA,0,0,1989,1,12,12,NJN,Mookie,Blaylock,0,Oklahoma,NBA
+1496,oaklech01,All-Defensive First Team,1993,NBA,0,0,1985,1,9,9,CLE,Charles,Oakley,0,Virginia Union,NBA
+1497,oaklech01,All-Defensive Second Team,1997,NBA,0,0,1985,1,9,9,CLE,Charles,Oakley,0,Virginia Union,NBA
+1498,paytoga01,All-Defensive First Team,1993,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1499,paytoga01,All-NBA Third Team,1993,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1500,paytoga01,All-Defensive First Team,1994,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1501,paytoga01,All-NBA Second Team,1994,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1502,paytoga01,All-Defensive First Team,1995,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1503,paytoga01,All-NBA Second Team,1995,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1504,paytoga01,Defensive Player of the Year,1995,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1505,paytoga01,All-Defensive First Team,1996,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1506,paytoga01,All-NBA Second Team,1996,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1507,paytoga01,All-Defensive First Team,1997,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1508,paytoga01,All-NBA First Team,1997,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1509,paytoga01,All-Defensive First Team,1998,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1510,paytoga01,All-NBA Second Team,1998,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1511,paytoga01,All-Defensive First Team,1999,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1512,paytoga01,All-NBA First Team,1999,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1513,paytoga01,All-Defensive First Team,2000,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1514,paytoga01,All-NBA Third Team,2000,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1515,paytoga01,All-Defensive First Team,2001,NBA,0,0,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1516,paytoga01,All-NBA Second Team,2001,NBA,0,G,1990,1,2,2,SEA,Gary,Payton,0,Oregon State,NBA
+1517,mcmilna01,All-Defensive Second Team,1993,NBA,0,0,1986,2,6,30,SEA,Nate,McMillan,0,North Carolina State,NBA
+1518,mcmilna01,All-Defensive Second Team,1994,NBA,0,0,1986,2,6,30,SEA,Nate,McMillan,0,North Carolina State,NBA
+1519,sprewla01,All-Defensive Second Team,1993,NBA,0,0,1992,1,24,24,GSW,Latrell,Sprewell,0,Alabama,NBA
+1520,sprewla01,All-NBA First Team,1993,NBA,0,G,1992,1,24,24,GSW,Latrell,Sprewell,0,Alabama,NBA
+1521,kempsh01,All-NBA Second Team,1993,NBA,0,F,1989,1,17,17,SEA,Shawn,Kemp,0,Trinity Valley,NBA
+1522,kempsh01,All-NBA Second Team,1994,NBA,0,F,1989,1,17,17,SEA,Shawn,Kemp,0,Trinity Valley,NBA
+1523,kempsh01,All-NBA Second Team,1995,NBA,0,F,1989,1,17,17,SEA,Shawn,Kemp,0,Trinity Valley,NBA
+1524,macledo01,Most Improved Player,1993,NBA,0,0,1992,1,19,19,DET,Don,MacLean,0,UCLA,NBA
+1525,webbech01,Rookie of the Year,1993,NBA,0,0,1993,1,1,1,ORL,Chris,Webber,0,Michigan,NBA
+1526,webbech01,All-NBA Second Team,1998,NBA,0,F,1993,1,1,1,ORL,Chris,Webber,0,Michigan,NBA
+1527,webbech01,All-NBA Third Team,1999,NBA,0,F,1993,1,1,1,ORL,Chris,Webber,0,Michigan,NBA
+1528,webbech01,All-NBA First Team,2000,NBA,0,F,1993,1,1,1,ORL,Chris,Webber,0,Michigan,NBA
+1529,webbech01,All-NBA Second Team,2001,NBA,0,F,1993,1,1,1,ORL,Chris,Webber,0,Michigan,NBA
+1530,webbech01,All-NBA Second Team,2002,NBA,0,F,1993,1,1,1,ORL,Chris,Webber,0,Michigan,NBA
+1531,curryde01,Sixth Man of the Year,1993,NBA,0,0,1986,1,15,15,UTA,Dell,Curry,0,Virginia Tech,NBA
+1532,mckeyde01,All-Defensive Second Team,1994,NBA,0,0,1987,1,9,9,SEA,Derrick,McKey,0,Alabama,NBA
+1533,mckeyde01,All-Defensive Second Team,1995,NBA,0,0,1987,1,9,9,SEA,Derrick,McKey,0,Alabama,NBA
+1534,mutomdi01,All-Defensive Second Team,1994,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1535,mutomdi01,Defensive Player of the Year,1994,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1536,mutomdi01,All-Defensive First Team,1996,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1537,mutomdi01,Defensive Player of the Year,1996,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1538,mutomdi01,All-Defensive First Team,1997,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1539,mutomdi01,All-NBA Third Team,1997,NBA,0,C,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1540,mutomdi01,Defensive Player of the Year,1997,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1541,mutomdi01,All-Defensive Second Team,1998,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1542,mutomdi01,All-Defensive First Team,2000,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1543,mutomdi01,All-NBA Second Team,2000,NBA,0,C,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1544,mutomdi01,Defensive Player of the Year,2000,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1545,mutomdi01,All-Defensive Second Team,2001,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1546,mutomdi01,All-NBA Third Team,2001,NBA,0,C,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1547,mutomdi01,J. Walter Kennedy Citizenship Award,2008,NBA,0,0,1991,1,4,4,DEN,Dikembe,Mutombo,0,Georgetown,NBA
+1548,hardaan01,All-NBA First Team,1994,NBA,0,G,1993,1,3,3,GSW,Anfernee,Hardaway,0,Memphis State,NBA
+1549,hardaan01,All-NBA First Team,1995,NBA,0,G,1993,1,3,3,GSW,Anfernee,Hardaway,0,Memphis State,NBA
+1550,hardaan01,All-NBA Third Team,1996,NBA,0,G,1993,1,3,3,GSW,Anfernee,Hardaway,0,Memphis State,NBA
+1551,millere01,All-NBA Third Team,1994,NBA,0,G,1987,1,11,11,IND,Reggie,Miller,0,UCLA,NBA
+1552,millere01,All-NBA Third Team,1995,NBA,0,G,1987,1,11,11,IND,Reggie,Miller,0,UCLA,NBA
+1553,millere01,All-NBA Third Team,1997,NBA,0,G,1987,1,11,11,IND,Reggie,Miller,0,UCLA,NBA
+1554,barroda01,Most Improved Player,1994,NBA,0,0,1989,1,16,16,SEA,Dana,Barros,0,Boston College,NBA
+1555,hillgr01,Rookie of the Year,1994,NBA,tie,0,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1556,hillgr01,All-NBA Second Team,1995,NBA,0,F,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1557,hillgr01,All-NBA First Team,1996,NBA,0,F,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1558,hillgr01,All-NBA Second Team,1997,NBA,0,F,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1559,hillgr01,All-NBA Second Team,1998,NBA,0,F,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1560,hillgr01,All-NBA Second Team,1999,NBA,0,F,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1561,hillgr01,Sportsmanship Award,2007,NBA,0,0,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1562,hillgr01,Sportsmanship Award,2009,NBA,0,0,1994,1,3,3,DET,Grant,Hill,0,Duke,NBA
+1563,kiddja01,Rookie of the Year,1994,NBA,tie,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1564,kiddja01,All-Defensive First Team,1998,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1565,kiddja01,All-NBA First Team,1998,NBA,0,G,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1566,kiddja01,All-Defensive Second Team,1999,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1567,kiddja01,All-NBA First Team,1999,NBA,0,G,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1568,kiddja01,All-Defensive First Team,2000,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1569,kiddja01,All-NBA First Team,2000,NBA,0,G,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1570,kiddja01,All-Defensive First Team,2001,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1571,kiddja01,All-NBA First Team,2001,NBA,0,G,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1572,kiddja01,All-Defensive Second Team,2002,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1573,kiddja01,All-NBA Second Team,2002,NBA,0,G,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1574,kiddja01,All-Defensive Second Team,2003,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1575,kiddja01,All-NBA First Team,2003,NBA,0,G,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1576,kiddja01,All-Defensive Second Team,2004,NBA,tie,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1577,kiddja01,All-Defensive First Team,2005,NBA,tie,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1578,kiddja01,All-Defensive Second Team,2006,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1579,kiddja01,Sportsmanship Award,2011,NBA,0,0,1994,1,2,2,DAL,Jason,Kidd,0,California,NBA
+1580,masonan01,Sixth Man of the Year,1994,NBA,0,0,1988,3,3,53,POR,Anthony,Mason,0,Tennessee State,NBA
+1581,masonan01,All-Defensive Second Team,1996,NBA,0,0,1988,3,3,53,POR,Anthony,Mason,0,Tennessee State,NBA
+1582,masonan01,All-NBA Third Team,1996,NBA,0,F,1988,3,3,53,POR,Anthony,Mason,0,Tennessee State,NBA
+1583,phillbo01,All-Defensive Second Team,1995,NBA,0,0,1991,2,18,45,MIL,Bobby,Phills,0,Southern,NBA
+1584,howarju01,All-NBA Third Team,1995,NBA,0,F,1994,1,5,5,WSB,Juwan,Howard,0,Michigan,NBA
+1585,muresgh01,Most Improved Player,1995,NBA,0,0,1993,2,3,30,WSB,Gheorghe,Muresan,0,Pau Orthez (Romania),NBA
+1586,stoudda01,Rookie of the Year,1995,NBA,0,0,1995,1,7,7,TOR,Damon,Stoudamire,0,Arizona,NBA
+1587,kukocto01,Sixth Man of the Year,1995,NBA,0,0,1990,2,2,29,CHI,Toni,Kukoc,0,Benetton Treviso (Yugoslavia),NBA
+1588,brownpj01,All-Defensive Second Team,1996,NBA,0,0,1992,2,2,29,NJN,PJ,Brown,0,Louisiana Tech,NBA
+1589,brownpj01,All-Defensive Second Team,1998,NBA,0,0,1992,2,2,29,NJN,PJ,Brown,0,Louisiana Tech,NBA
+1590,brownpj01,All-Defensive Second Team,2000,NBA,0,0,1992,2,2,29,NJN,PJ,Brown,0,Louisiana Tech,NBA
+1591,ricegl01,All-NBA Second Team,1996,NBA,0,F,1989,1,4,4,MIA,Glen,Rice,0,Michigan,NBA
+1592,ricegl01,All-NBA Third Team,1997,NBA,0,F,1989,1,4,4,MIA,Glen,Rice,0,Michigan,NBA
+1593,bakervi01,All-NBA Third Team,1996,NBA,0,F,1993,1,8,8,MIL,Vin,Baker,0,Hartford,NBA
+1594,bakervi01,All-NBA Second Team,1997,NBA,0,F,1993,1,8,8,MIL,Vin,Baker,0,Hartford,NBA
+1595,austiis01,Most Improved Player,1996,NBA,0,0,1991,2,21,48,UTA,Isaac,Austin,0,Arizona State,NBA
+1596,iversal01,Rookie of the Year,1996,NBA,0,0,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1597,iversal01,All-NBA First Team,1998,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1598,iversal01,All-NBA Second Team,1999,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1599,iversal01,All-NBA First Team,2000,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1600,iversal01,Most Valuable Player,2000,NBA,0,0,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1601,iversal01,All-NBA Second Team,2001,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1602,iversal01,All-NBA Second Team,2002,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1603,iversal01,All-NBA First Team,2004,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1604,iversal01,All-NBA Third Team,2005,NBA,0,G,1996,1,1,1,PHI,Allen,Iverson,0,Georgetown,NBA
+1605,duncati01,All-Defensive Second Team,1997,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1606,duncati01,All-NBA First Team,1997,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1607,duncati01,Rookie of the Year,1997,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1608,duncati01,All-Defensive First Team,1998,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1609,duncati01,All-NBA First Team,1998,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1610,duncati01,Finals MVP,1998,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1611,duncati01,All-Defensive First Team,1999,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1612,duncati01,All-NBA First Team,1999,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1613,duncati01,All-Defensive First Team,2000,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1614,duncati01,All-NBA First Team,2000,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1615,duncati01,All-Defensive First Team,2001,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1616,duncati01,All-NBA First Team,2001,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1617,duncati01,Most Valuable Player,2001,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1618,duncati01,All-Defensive First Team,2002,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1619,duncati01,All-NBA First Team,2002,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1620,duncati01,Finals MVP,2002,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1621,duncati01,Most Valuable Player,2002,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1622,duncati01,All-Defensive Second Team,2003,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1623,duncati01,All-NBA First Team,2003,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1624,duncati01,All-Defensive First Team,2004,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1625,duncati01,All-NBA First Team,2004,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1626,duncati01,Finals MVP,2004,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1627,duncati01,All-Defensive Second Team,2005,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1628,duncati01,All-NBA Second Team,2005,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1629,duncati01,All-Defensive First Team,2006,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1630,duncati01,All-NBA First Team,2006,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1631,duncati01,All-NBA Second Team,2007,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1632,duncati01,All-Defensive First Team,2007,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1633,duncati01,All-NBA Second Team,2008,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1634,duncati01,All-Defensive Second Team,2008,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1635,duncati01,All-NBA Third Team,2009,NBA,0,F,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1636,duncati01,All-Defensive Second Team,2009,NBA,0,0,1997,1,1,1,SAS,Tim,Duncan,0,Wake Forest,NBA
+1637,jonesed02,All-Defensive Second Team,1997,NBA,0,0,1994,1,10,10,LAL,Eddie,Jones,0,Temple,NBA
+1638,jonesed02,All-Defensive Second Team,1998,NBA,0,0,1994,1,10,10,LAL,Eddie,Jones,0,Temple,NBA
+1639,jonesed02,All-Defensive Second Team,1999,NBA,0,0,1994,1,10,10,LAL,Eddie,Jones,0,Temple,NBA
+1640,jonesed02,All-NBA Third Team,1999,NBA,0,G,1994,1,10,10,LAL,Eddie,Jones,0,Temple,NBA
+1641,stricro02,All-NBA Second Team,1997,NBA,0,G,1988,1,19,19,NYK,Rod,Strickland,0,DePaul,NBA
+1642,hendeal01,Most Improved Player,1997,NBA,0,0,1995,1,16,16,ATL,Alan,Henderson,0,Indiana,NBA
+1643,mannida01,Sixth Man of the Year,1997,NBA,0,0,1988,1,1,1,LAC,Danny,Manning,0,Kansas,NBA
+1644,mournal01,All-Defensive First Team,1998,NBA,0,0,1992,1,2,2,CHH,Alonzo,Mourning,0,Georgetown,NBA
+1645,mournal01,All-NBA First Team,1998,NBA,0,C,1992,1,2,2,CHH,Alonzo,Mourning,0,Georgetown,NBA
+1646,mournal01,Defensive Player of the Year,1998,NBA,0,0,1992,1,2,2,CHH,Alonzo,Mourning,0,Georgetown,NBA
+1647,mournal01,All-Defensive First Team,1999,NBA,0,0,1992,1,2,2,CHH,Alonzo,Mourning,0,Georgetown,NBA
+1648,mournal01,All-NBA Second Team,1999,NBA,0,C,1992,1,2,2,CHH,Alonzo,Mourning,0,Georgetown,NBA
+1649,mournal01,Defensive Player of the Year,1999,NBA,0,0,1992,1,2,2,CHH,Alonzo,Mourning,0,Georgetown,NBA
+1650,ratlith01,All-Defensive Second Team,1998,NBA,0,0,1995,1,18,18,DET,Theo,Ratliff,0,Wyoming,NBA
+1651,ratlith01,All-Defensive Second Team,2003,NBA,0,0,1995,1,18,18,DET,Theo,Ratliff,0,Wyoming,NBA
+1652,bryanko01,All-NBA Third Team,1998,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1653,bryanko01,All-Defensive First Team,1999,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1654,bryanko01,All-NBA Second Team,1999,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1655,bryanko01,All-Defensive Second Team,2000,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1656,bryanko01,All-NBA Second Team,2000,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1657,bryanko01,All-Defensive Second Team,2001,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1658,bryanko01,All-NBA First Team,2001,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1659,bryanko01,All-Defensive First Team,2002,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1660,bryanko01,All-NBA First Team,2002,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1661,bryanko01,All-Defensive First Team,2003,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1662,bryanko01,All-NBA First Team,2003,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1663,bryanko01,All-NBA Third Team,2004,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1664,bryanko01,All-Defensive First Team,2005,NBA,tie,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1665,bryanko01,All-NBA First Team,2005,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1666,bryanko01,All-Defensive First Team,2006,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1667,bryanko01,All-NBA First Team,2006,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1668,bryanko01,All-NBA First Team,2007,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1669,bryanko01,Most Valuable Player,2007,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1670,bryanko01,All-Defensive First Team,2007,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1671,bryanko01,All-NBA First Team,2008,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1672,bryanko01,Finals MVP ,2008,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1673,bryanko01,All-Defensive First Team,2008,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1674,bryanko01,All-NBA First Team,2009,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1675,bryanko01,Finals MVP ,2009,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1676,bryanko01,All-Defensive First Team,2009,NBA,0,0,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1677,bryanko01,All-NBA First Team,2010,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1678,bryanko01,All-Defensive First Team,2010,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1679,bryanko01,All-NBA First Team,2011,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1680,bryanko01,All-Defensive Second Team,2011,NBA,0,G,1996,1,13,13,CHH,Kobe,Bryant,0,Lower Merion (PA) HS,NBA
+1681,garneke01,All-NBA Third Team,1998,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1682,garneke01,All-Defensive First Team,1999,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1683,garneke01,All-NBA First Team,1999,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1684,garneke01,All-Defensive First Team,2000,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1685,garneke01,All-NBA Second Team,2000,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1686,garneke01,All-Defensive First Team,2001,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1687,garneke01,All-NBA Second Team,2001,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1688,garneke01,All-Defensive First Team,2002,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1689,garneke01,All-NBA First Team,2002,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1690,garneke01,All-Defensive First Team,2003,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1691,garneke01,All-NBA First Team,2003,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1692,garneke01,Most Valuable Player,2003,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1693,garneke01,All-Defensive First Team,2004,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1694,garneke01,All-NBA Second Team,2004,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1695,garneke01,All-Defensive Second Team,2005,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1696,garneke01,All-Defensive Second Team,2006,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1697,garneke01,All-NBA Third Team,2006,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1698,garneke01,All-NBA First Team,2007,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1699,garneke01,Defensive Player of the Year,2007,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1700,garneke01,All-Defensive First Team,2007,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1701,garneke01,All-Defensive First Team,2008,NBA,0,0,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1702,garneke01,All-Defensive First Team,2010,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1703,garneke01,All-Defensive Second Team,2011,NBA,0,F,1995,1,5,5,MIN,Kevin,Garnett,0,Farragut Academy (IL),NBA
+1704,mcdyean01,All-NBA Third Team,1998,NBA,0,F,1995,1,2,2,LAC,Antonio,McDyess,0,Alabama,NBA
+1705,cartevi01,Rookie of the Year,1998,NBA,0,0,1998,1,5,5,GSW,Vince,Carter,0,North Carolina,NBA
+1706,cartevi01,All-NBA Third Team,1999,NBA,0,F,1998,1,5,5,GSW,Vince,Carter,0,North Carolina,NBA
+1707,cartevi01,All-NBA Second Team,2000,NBA,0,F,1998,1,5,5,GSW,Vince,Carter,0,North Carolina,NBA
+1708,marbust01,All-NBA Third Team,1999,NBA,0,G,1996,1,4,4,MIL,Stephon,Marbury,0,Georgia Tech,NBA
+1709,marbust01,All-NBA Third Team,2002,NBA,0,G,1996,1,4,4,MIL,Stephon,Marbury,0,Georgia Tech,NBA
+1710,roseja01,Most Improved Player,1999,NBA,0,0,1994,1,13,13,DEN,Jalen,Rose,0,Michigan,NBA
+1711,brandel01,Rookie of the Year,1999,NBA,tie,0,1999,1,1,1,CHI,Elton,Brand,0,Duke,NBA
+1712,brandel01,All-NBA Second Team,2005,NBA,0,F,1999,1,1,1,CHI,Elton,Brand,0,Duke,NBA
+1713,francst01,Rookie of the Year,1999,NBA,tie,0,1999,1,2,2,VAN,Steve,Francis,0,Maryland,NBA
+1714,rogerro01,Sixth Man of the Year,1999,NBA,0,0,1993,1,9,9,DEN,Rodney,Rogers,0,Wake Forest,NBA
+1715,chrisdo01,All-Defensive Second Team,2000,NBA,0,0,1992,1,17,17,SEA,Doug,Christie,0,Pepperdine,NBA
+1716,chrisdo01,All-Defensive Second Team,2001,NBA,0,0,1992,1,17,17,SEA,Doug,Christie,0,Pepperdine,NBA
+1717,chrisdo01,All-Defensive First Team,2002,NBA,0,0,1992,1,17,17,SEA,Doug,Christie,0,Pepperdine,NBA
+1718,chrisdo01,All-Defensive Second Team,2003,NBA,0,0,1992,1,17,17,SEA,Doug,Christie,0,Pepperdine,NBA
+1719,mcgratr01,All-NBA Second Team,2000,NBA,0,G,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1720,mcgratr01,Most Improved Player,2000,NBA,0,0,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1721,mcgratr01,All-NBA First Team,2001,NBA,0,F,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1722,mcgratr01,All-NBA First Team,2002,NBA,0,G,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1723,mcgratr01,All-NBA Second Team,2003,NBA,0,G,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1724,mcgratr01,All-NBA Third Team,2004,NBA,0,F,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1725,mcgratr01,All-NBA Second Team,2006,NBA,0,G,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1726,mcgratr01,All-NBA Third Team,2007,NBA,0,G,1997,1,9,9,TOR,Tracy,McGrady,0,Mount Zion (NC) Academy,NBA
+1727,allenra02,All-NBA Third Team,2000,NBA,0,G,1996,1,5,5,MIN,Ray,Allen,0,Connecticut,NBA
+1728,allenra02,All-NBA Second Team,2004,NBA,0,G,1996,1,5,5,MIN,Ray,Allen,0,Connecticut,NBA
+1729,nowitdi01,All-NBA Third Team,2000,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1730,nowitdi01,All-NBA Second Team,2001,NBA,0,C,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1731,nowitdi01,All-NBA Second Team,2002,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1732,nowitdi01,All-NBA Third Team,2003,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1733,nowitdi01,All-NBA First Team,2004,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1734,nowitdi01,All-NBA First Team,2005,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1735,nowitdi01,All-NBA First Team,2006,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1736,nowitdi01,Most Valuable Player,2006,NBA,0,0,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1737,nowitdi01,All-NBA Second Team,2007,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1738,nowitdi01,All-NBA First Team,2008,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1739,nowitdi01,All-NBA Second Team,2009,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1740,nowitdi01,All-NBA Second Team,2010,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1741,nowitdi01,Finals MVP,2010,NBA,0,0,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1742,nowitdi01,All-NBA Third Team,2011,NBA,0,F,1998,1,9,9,MIL,Dirk,Nowitzki,0,Germany,NBA
+1743,millemi01,Rookie of the Year,2000,NBA,0,0,2000,1,5,5,ORL,Mike,Miller,0,Florida,NBA
+1744,millemi01,Sixth Man of the Year,2005,NBA,0,0,2000,1,5,5,ORL,Mike,Miller,0,Florida,NBA
+1745,mckieaa01,Sixth Man of the Year,2000,NBA,0,0,1994,1,17,17,POR,Aaron,McKie,0,Temple,NBA
+1746,nashst01,All-NBA Third Team,2001,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1747,nashst01,All-NBA Third Team,2002,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1748,nashst01,All-NBA First Team,2004,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1749,nashst01,Most Valuable Player,2004,NBA,0,0,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1750,nashst01,All-NBA First Team,2005,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1751,nashst01,Most Valuable Player,2005,NBA,0,0,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1752,nashst01,All-NBA First Team,2006,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1753,nashst01,All-NBA Second Team,2007,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1754,nashst01,All-NBA Second Team,2009,NBA,0,G,1996,1,15,15,PHO,Steve,Nash,0,Santa Clara,NBA
+1755,onealje01,All-NBA Third Team,2001,NBA,0,F,1996,1,17,17,POR,Jermaine,ONeal,0,Eau Claire (SC) HS,NBA
+1756,onealje01,Most Improved Player,2001,NBA,0,0,1996,1,17,17,POR,Jermaine,ONeal,0,Eau Claire (SC) HS,NBA
+1757,onealje01,All-NBA Third Team,2002,NBA,0,C,1996,1,17,17,POR,Jermaine,ONeal,0,Eau Claire (SC) HS,NBA
+1758,onealje01,All-NBA Second Team,2003,NBA,0,F,1996,1,17,17,POR,Jermaine,ONeal,0,Eau Claire (SC) HS,NBA
+1759,piercpa01,All-NBA Third Team,2001,NBA,0,G,1998,1,10,10,BOS,Paul,Pierce,0,Kansas,NBA
+1760,piercpa01,All-NBA Third Team,2002,NBA,0,F,1998,1,10,10,BOS,Paul,Pierce,0,Kansas,NBA
+1761,piercpa01,All-NBA Third Team,2007,NBA,0,F,1998,1,10,10,BOS,Paul,Pierce,0,Kansas,NBA
+1762,piercpa01,Finals MVP,2007,NBA,0,0,1998,1,10,10,BOS,Paul,Pierce,0,Kansas,NBA
+1763,piercpa01,All-NBA Second Team,2008,NBA,0,F,1998,1,10,10,BOS,Paul,Pierce,0,Kansas,NBA
+1764,gasolpa01,Rookie of the Year,2001,NBA,0,0,2001,1,3,3,ATL,Pau,Gasol,0,None,NBA
+1765,gasolpa01,All-NBA Third Team,2008,NBA,0,F,2001,1,3,3,ATL,Pau,Gasol,0,None,NBA
+1766,gasolpa01,All-NBA Third Team,2009,NBA,0,F,2001,1,3,3,ATL,Pau,Gasol,0,None,NBA
+1767,gasolpa01,All-NBA Second Team,2010,NBA,0,F,2001,1,3,3,ATL,Pau,Gasol,0,None,NBA
+1768,gasolpa01,J. Walter Kennedy Citizenship Award,2011,NBA,0,0,2001,1,3,3,ATL,Pau,Gasol,0,None,NBA
+1769,willico02,Sixth Man of the Year,2001,NBA,0,0,1995,1,13,13,SAC,Corliss,Williamson,0,Arkansas,NBA
+1770,artesro01,All-Defensive Second Team,2002,NBA,0,0,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1771,artesro01,All-Defensive First Team,2003,NBA,0,0,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1772,artesro01,All-NBA Third Team,2003,NBA,0,F,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1773,artesro01,Defensive Player of the Year,2003,NBA,0,0,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1774,artesro01,All-Defensive First Team,2005,NBA,0,0,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1775,artesro01,All-Defensive Second Team,2008,NBA,0,0,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1776,artesro01,J. Walter Kennedy Citizenship Award,2010,NBA,0,0,1999,1,16,16,CHI,Ron,Artest,0,St. John's,NBA
+1777,snower01,All-Defensive Second Team,2002,NBA,0,0,1995,2,14,43,MIL,Eric,Snow,0,Michigan State,NBA
+1778,mashbja01,All-NBA Third Team,2002,NBA,0,F,1993,1,4,4,DAL,Jamal,Mashburn,0,Kentucky,NBA
+1779,arenagi01,Most Improved Player,2002,NBA,0,0,2001,2,2,30,GSW,Gilbert,Arenas,0,Arizona,NBA
+1780,arenagi01,All-NBA Third Team,2004,NBA,0,G,2001,2,2,30,GSW,Gilbert,Arenas,0,Arizona,NBA
+1781,arenagi01,All-NBA Third Team,2005,NBA,0,G,2001,2,2,30,GSW,Gilbert,Arenas,0,Arizona,NBA
+1782,arenagi01,All-NBA Second Team,2006,NBA,0,G,2001,2,2,30,GSW,Gilbert,Arenas,0,Arizona,NBA
+1783,stoudam01,Rookie of the Year,2002,NBA,0,0,2002,1,9,9,PHO,Amare,Stoudemire,0,Cypress Creek HS (Fla.),NBA
+1784,stoudam01,All-NBA Second Team,2004,NBA,0,C,2002,1,9,9,PHO,Amare,Stoudemire,0,Cypress Creek HS (Fla.),NBA
+1785,stoudam01,All-NBA First Team,2006,NBA,0,C,2002,1,9,9,PHO,Amare,Stoudemire,0,Cypress Creek HS (Fla.),NBA
+1786,stoudam01,All-NBA Second Team,2007,NBA,0,C,2002,1,9,9,PHO,Amare,Stoudemire,0,Cypress Creek HS (Fla.),NBA
+1787,stoudam01,All-NBA Second Team,2009,NBA,0,C,2002,1,9,9,PHO,Amare,Stoudemire,0,Cypress Creek HS (Fla.),NBA
+1788,stoudam01,All-NBA Second Team,2010,NBA,0,C,2002,1,9,9,PHO,Amare,Stoudemire,0,Cypress Creek HS (Fla.),NBA
+1789,jacksbo01,Sixth Man of the Year,2002,NBA,0,0,1997,1,23,23,SEA,Bobby,Jackson,0,Minnesota,NBA
+1790,kirilan01,All-Defensive Second Team,2003,NBA,0,0,1999,1,24,24,UTA,Andrei,Kirilenko,0,Russia,NBA
+1791,kirilan01,All-Defensive Second Team,2004,NBA,0,0,1999,1,24,24,UTA,Andrei,Kirilenko,0,Russia,NBA
+1792,kirilan01,All-Defensive First Team,2005,NBA,0,0,1999,1,24,24,UTA,Andrei,Kirilenko,0,Russia,NBA
+1793,cassesa01,All-NBA Second Team,2003,NBA,0,G,1993,1,24,24,HOU,Sam,Cassell,0,Florida State,NBA
+1794,stojape01,All-NBA Second Team,2003,NBA,0,F,1996,1,14,14,SAC,Predrag,Stojakovic,0,PAOK Greece,NBA
+1795,davisba01,All-NBA Third Team,2003,NBA,0,G,1999,1,3,3,CHH,Baron,Davis,0,UCLA,NBA
+1796,mingya01,All-NBA Third Team,2003,NBA,0,C,2002,1,1,1,HOU,Yao,Ming,0,Shanghai Sharks,NBA
+1797,mingya01,All-NBA Third Team,2005,NBA,0,C,2002,1,1,1,HOU,Yao,Ming,0,Shanghai Sharks,NBA
+1798,mingya01,All-NBA Second Team,2006,NBA,0,C,2002,1,1,1,HOU,Yao,Ming,0,Shanghai Sharks,NBA
+1799,mingya01,All-NBA Third Team,2007,NBA,0,C,2002,1,1,1,HOU,Yao,Ming,0,Shanghai Sharks,NBA
+1800,mingya01,All-NBA Second Team,2008,NBA,0,C,2002,1,1,1,HOU,Yao,Ming,0,Shanghai Sharks,NBA
+1801,reddmi01,All-NBA Third Team,2003,NBA,0,G,2000,2,14,43,MIL,Michael,Redd,0,Ohio State,NBA
+1802,billuch01,Finals MVP,2003,NBA,0,0,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1803,billuch01,All-Defensive Second Team,2004,NBA,0,0,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1804,billuch01,All-Defensive Second Team,2005,NBA,0,0,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1805,billuch01,All-NBA Second Team,2005,NBA,0,G,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1806,billuch01,All-NBA Third Team,2006,NBA,0,G,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1807,billuch01,All-NBA Third Team,2008,NBA,0,G,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1808,billuch01,Sportsmanship Award,2008,NBA,0,0,1997,1,3,3,BOS,Chauncey,Billups,0,Colorado,NBA
+1809,randoza01,Most Improved Player,2003,NBA,0,0,2001,1,19,19,POR,Zachary,Randolph,0,Michigan St.,NBA
+1810,randoza01,All-NBA Third Team,2010,NBA,0,F,2001,1,19,19,POR,Zachary,Randolph,0,Michigan St.,NBA
+1811,jamesle01,Rookie of the Year,2003,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1812,jamesle01,All-NBA Second Team,2004,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1813,jamesle01,All-NBA First Team,2005,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1814,jamesle01,All-NBA Second Team,2006,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1815,jamesle01,All-NBA First Team,2007,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1816,jamesle01,All-NBA First Team,2008,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1817,jamesle01,Most Valuable Player,2008,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1818,jamesle01,All-Defensive First Team,2008,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1819,jamesle01,All-NBA First Team,2009,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1820,jamesle01,Most Valuable Player,2009,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1821,jamesle01,All-Defensive First Team,2009,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1822,jamesle01,All-NBA First Team,2010,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1823,jamesle01,All-Defensive First Team,2010,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1824,jamesle01,All-NBA First Team,2011,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1825,jamesle01,Finals MVP ,2011,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1826,jamesle01,Most Valuable Player,2011,NBA,0,0,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1827,jamesle01,All-Defensive First Team,2011,NBA,0,F,2003,1,1,1,CLE,LeBron,James,0,St. Mary / St. Vincent (Ohio) HS,NBA
+1828,jamisan01,Sixth Man of the Year,2003,NBA,0,0,1998,1,4,4,TOR,Antawn,Jamison,0,North Carolina,NBA
+1829,hughela01,All-Defensive First Team,2004,NBA,0,0,1998,1,8,8,PHI,Larry,Hughes,0,Saint Louis,NBA
+1830,cambyma01,All-Defensive Second Team,2004,NBA,0,0,1996,1,2,2,TOR,Marcus,Camby,0,Massachusetts,NBA
+1831,cambyma01,All-Defensive Second Team,2005,NBA,0,0,1996,1,2,2,TOR,Marcus,Camby,0,Massachusetts,NBA
+1832,cambyma01,All-Defensive First Team,2006,NBA,0,0,1996,1,2,2,TOR,Marcus,Camby,0,Massachusetts,NBA
+1833,cambyma01,Defensive Player of the Year,2006,NBA,0,0,1996,1,2,2,TOR,Marcus,Camby,0,Massachusetts,NBA
+1834,cambyma01,All-Defensive First Team,2007,NBA,0,C,1996,1,2,2,TOR,Marcus,Camby,0,Massachusetts,NBA
+1835,princta01,All-Defensive Second Team,2004,NBA,0,0,2002,1,23,23,DET,Tayshaun,Prince,0,Kentucky,NBA
+1836,princta01,All-Defensive Second Team,2005,NBA,0,0,2002,1,23,23,DET,Tayshaun,Prince,0,Kentucky,NBA
+1837,princta01,All-Defensive Second Team,2006,NBA,0,0,2002,1,23,23,DET,Tayshaun,Prince,0,Kentucky,NBA
+1838,princta01,All-Defensive Second Team,2007,NBA,0,F,2002,1,23,23,DET,Tayshaun,Prince,0,Kentucky,NBA
+1839,wadedw01,All-Defensive Second Team,2004,NBA,tie,0,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1840,wadedw01,All-NBA Second Team,2004,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1841,wadedw01,All-NBA Second Team,2005,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1842,wadedw01,Finals MVP,2005,NBA,0,0,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1843,wadedw01,All-NBA Third Team,2006,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1844,wadedw01,All-NBA First Team,2008,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1845,wadedw01,All-Defensive Second Team,2008,NBA,0,0,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1846,wadedw01,All-NBA First Team,2009,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1847,wadedw01,All-Defensive Second Team,2009,NBA,0,0,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1848,wadedw01,All-NBA Second Team,2010,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1849,wadedw01,All-NBA Third Team,2011,NBA,0,G,2003,1,5,5,MIA,Dwyane,Wade,0,Marquette,NBA
+1850,mariosh01,All-NBA Third Team,2004,NBA,0,F,1999,1,9,9,PHO,Shawn,Marion,0,Nevada-Las Vegas,NBA
+1851,mariosh01,All-NBA Third Team,2005,NBA,0,F,1999,1,9,9,PHO,Shawn,Marion,0,Nevada-Las Vegas,NBA
+1852,simmobo01,Most Improved Player,2004,NBA,0,0,2001,2,13,41,SEA,Bobby,Simmons,0,DePaul,NBA
+1853,okafoem01,Rookie of the Year,2004,NBA,0,0,2004,1,2,2,CHA,Emeka,Okafor,0,Connecticut,NBA
+1854,gordobe01,Sixth Man of the Year,2004,NBA,0,0,2004,1,3,3,CHI,Ben,Gordon,0,Connecticut,NBA
+1855,anthoca01,All-NBA Third Team,2005,NBA,0,F,2003,1,3,3,DEN,Carmelo,Anthony,0,Syracuse,NBA
+1856,anthoca01,All-NBA Third Team,2006,NBA,0,F,2003,1,3,3,DEN,Carmelo,Anthony,0,Syracuse,NBA
+1857,anthoca01,All-NBA Third Team,2008,NBA,0,F,2003,1,3,3,DEN,Carmelo,Anthony,0,Syracuse,NBA
+1858,anthoca01,All-NBA Second Team,2009,NBA,0,F,2003,1,3,3,DEN,Carmelo,Anthony,0,Syracuse,NBA
+1859,anthoca01,All-NBA Third Team,2011,NBA,0,F,2003,1,3,3,DEN,Carmelo,Anthony,0,Syracuse,NBA
+1860,diawbo01,Most Improved Player,2005,NBA,0,0,2003,1,21,21,ATL,Boris,Diaw,0,France,NBA
+1861,paulch01,Rookie of the Year,2005,NBA,0,0,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1862,paulch01,All-NBA First Team,2007,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1863,paulch01,All-Defensive Second Team,2007,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1864,paulch01,All-NBA Second Team,2008,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1865,paulch01,All-Defensive First Team,2008,NBA,0,0,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1866,paulch01,All-NBA Third Team,2010,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1867,paulch01,All-Defensive Second Team,2010,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1868,paulch01,All-NBA First Team,2011,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1869,paulch01,All-Defensive First Team,2011,NBA,0,G,2005,1,4,4,NOK,Chris,Paul,0,Wake Forest,NBA
+1870,hinriki01,All-Defensive Second Team,2006,NBA,0,0,2003,1,7,7,CHI,Kirk,Hinrich,0,Kansas,NBA
+1871,boshch01,All-NBA Second Team,2006,NBA,0,F,2003,1,4,4,TOR,Chris,Bosh,0,Georgia Tech,NBA
+1872,howardw01,All-NBA Third Team,2006,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1873,howardw01,All-NBA First Team,2007,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1874,howardw01,All-Defensive Second Team,2007,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1875,howardw01,All-NBA First Team,2008,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1876,howardw01,Defensive Player of the Year,2008,NBA,0,0,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1877,howardw01,All-Defensive First Team,2008,NBA,0,0,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1878,howardw01,All-NBA First Team,2009,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1879,howardw01,Defensive Player of the Year,2009,NBA,0,0,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1880,howardw01,All-Defensive First Team,2009,NBA,0,0,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1881,howardw01,All-NBA First Team,2010,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1882,howardw01,Defensive Player of the Year,2010,NBA,0,0,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1883,howardw01,All-Defensive First Team,2010,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1884,howardw01,All-NBA First Team,2011,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1885,howardw01,All-Defensive First Team,2011,NBA,0,C,2004,1,1,1,ORL,Dwight,Howard,0,Southwest Christian Acad. (GA),NBA
+1886,parketo01,Finals MVP,2006,NBA,0,0,2001,1,28,28,SAS,Tony,Parker,0,None,NBA
+1887,parketo01,All-NBA Third Team,2008,NBA,0,G,2001,1,28,28,SAS,Tony,Parker,0,None,NBA
+1888,parketo01,All-NBA Second Team,2011,NBA,0,G,2001,1,28,28,SAS,Tony,Parker,0,None,NBA
+1889,ellismo01,Most Improved Player,2006,NBA,0,0,2005,2,10,40,GSW,Monta,Ellis,0,"Lanier HS (Jackson, MS) HS",NBA
+1890,roybr01,Rookie of the Year,2006,NBA,0,0,2006,1,6,6,MIN,Brandon,Roy,0,Washington,NBA
+1891,roybr01,All-NBA Second Team,2008,NBA,0,G,2006,1,6,6,MIN,Brandon,Roy,0,Washington,NBA
+1892,roybr01,All-NBA Third Team,2009,NBA,0,G,2006,1,6,6,MIN,Brandon,Roy,0,Washington,NBA
+1893,barbole01,Sixth Man of the Year,2006,NBA,0,0,2003,1,28,28,SAS,Leandrinho,Barbosa,0,Brazil,NBA
+1894,aingeda01,Executive of the Year,2007,NBA,0,0,1981,2,8,31,BOS,Danny,Ainge,0,Brigham Young,NBA
+1895,battish01,All-Defensive Second Team,2007,NBA,0,F,2001,1,6,6,VAN,Shane,Battier,0,Duke,NBA
+1896,battish01,All-Defensive Second Team,2008,NBA,0,0,2001,1,6,6,VAN,Shane,Battier,0,Duke,NBA
+1897,boozeca01,All-NBA Third Team,2007,NBA,0,F,2002,2,6,34,CLE,Carlos,Boozer,0,Duke,NBA
+1898,duranke01,All-Rookie First Team,2007,NBA,0,0,2007,1,2,2,SEA,Kevin,Durant,0,Texas,NBA
+1899,duranke01,Rookie of the Year,2007,NBA,0,0,2007,1,2,2,SEA,Kevin,Durant,0,Texas,NBA
+1900,duranke01,All-NBA First Team,2009,NBA,0,F,2007,1,2,2,SEA,Kevin,Durant,0,Texas,NBA
+1901,duranke01,All-NBA First Team,2010,NBA,0,F,2007,1,2,2,SEA,Kevin,Durant,0,Texas,NBA
+1902,duranke01,All-NBA First Team,2011,NBA,0,F,2007,1,2,2,SEA,Kevin,Durant,0,Texas,NBA
+1903,greenje02,All-Rookie First Team,2007,NBA,0,0,2007,1,5,5,BOS,Jeff,Green,0,Georgetown,NBA
+1904,horfoal01,All-Rookie First Team,2007,NBA,0,0,2007,1,3,3,ATL,Al,Horford,0,Florida,NBA
+1905,horfoal01,All-NBA Third Team,2010,NBA,0,C,2007,1,3,3,ATL,Al,Horford,0,Florida,NBA
+1906,landrca01,All-Rookie Second Team,2007,NBA,0,0,2007,2,1,31,SEA,Carl,Landry,0,Purdue,NBA
+1907,navarju01,All-Rookie Second Team,2007,NBA,0,0,2002,2,11,39,WAS,Juan Carlos,Navarro,0,Spain,NBA
+1908,scolalu01,All-Rookie First Team,2007,NBA,0,0,2002,2,27,55,SAS,Luis,Scola,0,Tau Ceramica (Spain),NBA
+1909,stuckro01,All-Rookie Second Team,2007,NBA,0,0,2007,1,15,15,DET,Rodney,Stuckey,0,Eastern Washington,NBA
+1910,thornal01,All-Rookie First Team,2007,NBA,0,0,2007,1,14,14,LAC,Al,Thornton,0,Florida State,NBA
+1911,turkohe01,Most Improved Player,2007,NBA,0,0,2000,1,16,16,SAC,Hidayet,Turkoglu,0,Turkey,NBA
+1912,willide01,All-NBA Second Team,2007,NBA,0,G,2005,1,3,3,UTA,Deron,Williams,0,Illinois,NBA
+1913,willide01,All-NBA Second Team,2009,NBA,0,G,2005,1,3,3,UTA,Deron,Williams,0,Illinois,NBA
+1914,youngth01,All-Rookie Second Team,2007,NBA,0,0,2007,1,12,12,PHI,Thaddeus,Young,0,Georgia Tech,NBA
+1915,augusdj01,All-Rookie Second Team,2008,NBA,tie,0,2008,1,9,9,CHA,D.J.,Augustin,0,Texas,NBA
+1916,beaslmi01,All-Rookie First Team,2008,NBA,0,0,2008,1,2,2,MIA,Michael,Beasley,0,Kansas State,NBA
+1917,chalmma01,All-Rookie Second Team,2008,NBA,0,0,2008,2,4,34,MIN,Mario,Chalmers,0,Kansas,NBA
+1918,fernaru01,All-Rookie Second Team,2008,NBA,tie,0,2007,1,24,24,PHO,Rudy,Fernandez,0,Joventut Badalona (Spain),NBA
+1919,gasolma01,All-Rookie Second Team,2008,NBA,0,0,2007,2,18,48,LAL,Marc,Gasol,0,Akasvayu Girona (Spain),NBA
+1920,gordoer01,All-Rookie Second Team,2008,NBA,0,0,2008,1,7,7,LAC,Eric,Gordon,0,Indiana,NBA
+1921,grangda01,Most Improved Player,2008,NBA,0,0,2005,1,17,17,IND,Danny,Granger,0,New Mexico,NBA
+1922,lopezbr01,All-Rookie First Team,2008,NBA,0,0,2008,1,10,10,NJN,Brook,Lopez,0,Stanford,NBA
+1923,loveke01,All-Rookie Second Team,2008,NBA,0,0,2008,1,5,5,MEM,Kevin,Love,0,UCLA,NBA
+1924,loveke01,Most Improved Player,2010,NBA,0,0,2008,1,5,5,MEM,Kevin,Love,0,UCLA,NBA
+1925,loveke01,All-NBA Second Team,2011,NBA,0,F,2008,1,5,5,MEM,Kevin,Love,0,UCLA,NBA
+1926,mayooj01,All-Rookie First Team,2008,NBA,0,0,2008,1,3,3,MIN,O.J.,Mayo,0,USC,NBA
+1927,rondora01,All-Defensive Second Team,2008,NBA,0,0,2006,1,21,21,PHO,Rajon,Rondo,0,Kentucky,NBA
+1928,rondora01,All-Defensive First Team,2009,NBA,0,0,2006,1,21,21,PHO,Rajon,Rondo,0,Kentucky,NBA
+1929,rondora01,All-Defensive First Team,2010,NBA,0,G,2006,1,21,21,PHO,Rajon,Rondo,0,Kentucky,NBA
+1930,rondora01,All-NBA Third Team,2011,NBA,0,G,2006,1,21,21,PHO,Rajon,Rondo,0,Kentucky,NBA
+1931,rondora01,All-Defensive Second Team,2011,NBA,0,G,2006,1,21,21,PHO,Rajon,Rondo,0,Kentucky,NBA
+1932,rosede01,All-Rookie First Team,2008,NBA,0,0,2008,1,1,1,CHI,Derrick,Rose,0,Memphis,NBA
+1933,rosede01,Rookie of the Year,2008,NBA,0,0,2008,1,1,1,CHI,Derrick,Rose,0,Memphis,NBA
+1934,rosede01,All-NBA First Team,2010,NBA,0,G,2008,1,1,1,CHI,Derrick,Rose,0,Memphis,NBA
+1935,rosede01,Most Valuable Player,2010,NBA,0,0,2008,1,1,1,CHI,Derrick,Rose,0,Memphis,NBA
+1936,terryja01,Sixth Man of the Year,2008,NBA,0,0,1999,1,10,10,ATL,Jason,Terry,0,Arizona,NBA
+1937,westbru01,All-Rookie First Team,2008,NBA,0,0,2008,1,4,4,SEA,Russell,Westbrook,0,UCLA,NBA
+1938,westbru01,All-NBA Second Team,2010,NBA,0,G,2008,1,4,4,SEA,Russell,Westbrook,0,UCLA,NBA
+1939,westbru01,All-NBA Second Team,2011,NBA,0,G,2008,1,4,4,SEA,Russell,Westbrook,0,UCLA,NBA
+1940,blairde01,All-Rookie Second Team,2009,NBA,0,0,2009,2,7,37,SAS,DeJuan,Blair,0,Pittsburgh,NBA
+1941,bogutan01,All-NBA Third Team,2009,NBA,0,C,2005,1,1,1,MIL,Andrew,Bogut,0,Utah,NBA
+1942,brookaa01,Most Improved Player,2009,NBA,0,0,2007,1,26,26,HOU,Aaron,Brooks,0,Oregon,NBA
+1943,collida01,All-Rookie First Team,2009,NBA,0,0,2009,1,21,21,NOK,Darren,Collison,0,UCLA,NBA
+1944,crawfja01,Sixth Man of the Year,2009,NBA,0,0,2000,1,8,8,CHI,Jamal,Crawford,0,Michigan,NBA
+1945,curryst01,All-Rookie First Team,2009,NBA,0,0,2009,1,7,7,GSW,Stephen,Curry,0,Davidson,NBA
+1946,curryst01,Sportsmanship Award,2010,NBA,0,0,2009,1,7,7,GSW,Stephen,Curry,0,Davidson,NBA
+1947,dalemsa01,J. Walter Kennedy Citizenship Award,2009,NBA,0,0,2001,1,26,26,PHI,Samuel,Dalembert,0,Seton Hall,NBA
+1948,evansty01,All-Rookie First Team,2009,NBA,0,0,2009,1,4,4,SAC,Tyreke,Evans,0,Memphis,NBA
+1949,evansty01,Rookie of the Year,2009,NBA,0,0,2009,1,4,4,SAC,Tyreke,Evans,0,Memphis,NBA
+1950,flynnjo01,All-Rookie Second Team,2009,NBA,0,0,2009,1,6,6,MIN,Jonny,Flynn,0,Syracuse,NBA
+1951,gibsota01,All-Rookie First Team,2009,NBA,0,0,2009,1,26,26,CHI,Taj,Gibson,0,USC,NBA
+1952,hardeja01,All-Rookie Second Team,2009,NBA,0,0,2009,1,3,3,OCT,James,Harden,0,Arizona State,NBA
+1953,hardeja01,Sixth Man of the Year,2011,NBA,0,0,2009,1,3,3,OCT,James,Harden,0,Arizona State,NBA
+1954,jennibr01,All-Rookie First Team,2009,NBA,0,0,2009,1,10,10,MIL,Brandon,Jennings,0,Lottomatica Roma (Italy),NBA
+1955,jerebjo01,All-Rookie Second Team,2009,NBA,0,0,2009,2,9,39,DET,Jonas,Jerebko,0,Angelico Biella (Italy),NBA
+1956,johnsjo02,All-NBA Third Team,2009,NBA,0,G,2001,1,10,10,BOS,Joe,Johnson,0,Arkansas,NBA
+1957,sefolth01,All-Defensive Second Team,2009,NBA,0,0,2006,1,13,13,PHI,Thabo,Sefolosha,0,Angelico Biella (Italy),NBA
+1958,smithjo03,All-Defensive Second Team,2009,NBA,0,0,2004,1,17,17,ATL,Josh,Smith,0,Oak Hill Academy HS (VA),NBA
+1959,thornma01,All-Rookie Second Team,2009,NBA,0,0,2009,2,13,43,MIA,Marcus,Thornton,0,LSU,NBA
+1960,varejan01,All-Defensive Second Team,2009,NBA,0,0,2004,2,1,30,ORL,Anderson,Varejao,0,Spain,NBA
+1961,wallage01,All-Defensive First Team,2009,NBA,0,0,2001,1,25,25,SAC,Gerald,Wallace,0,Alabama,NBA
+1962,aldrila01,All-NBA Third Team,2010,NBA,0,F,2006,1,2,2,CHI,LaMarcus,Aldridge,0,Texas,NBA
+1963,allento01,All-Defensive Second Team,2010,NBA,0,G,2004,1,25,25,BOS,Tony,Allen,0,Oklahoma State,NBA
+1964,allento01,All-Defensive First Team,2011,NBA,0,G,2004,1,25,25,BOS,Tony,Allen,0,Oklahoma State,NBA
+1965,bledser01,All-Rookie Second Team,2010,NBA,0,G,2010,1,18,18,OCT,Eric,Bledsoe,0,Kentucky,NBA
+1966,chandty01,All-Defensive Second Team,2010,NBA,0,C,2001,1,2,2,LAC,Tyson,Chandler,0,Dominguez HS,NBA
+1967,chandty01,All-NBA Third Team,2011,NBA,0,C,2001,1,2,2,LAC,Tyson,Chandler,0,Dominguez HS,NBA
+1968,chandty01,Defensive Player of the Year,2011,NBA,0,0,2001,1,2,2,LAC,Tyson,Chandler,0,Dominguez HS,NBA
+1969,chandty01,All-Defensive Second Team,2011,NBA,0,C,2001,1,2,2,LAC,Tyson,Chandler,0,Dominguez HS,NBA
+1970,couside01,All-Rookie First Team,2010,NBA,0,C,2010,1,5,5,SAC,DeMarcus,Cousins,0,Kentucky,NBA
+1971,favorde01,All-Rookie Second Team,2010,NBA,0,F,2010,1,3,3,NJN,Derrick,Favors,0,Georgia Tech,NBA
+1972,fieldla01,All-Rookie First Team,2010,NBA,0,F/G,2010,2,9,39,NYK,Landry,Fields,0,Stanford,NBA
+1973,georgpa01,All-Rookie Second Team,2010,NBA,0,F,2010,1,10,10,IND,Paul,George,0,Fresno State,NBA
+1974,griffbl01,All-Rookie First Team,2010,NBA,0,F,2009,1,1,1,LAC,Blake,Griffin,0,Oklahoma,NBA
+1975,griffbl01,Rookie of the Year,2010,NBA,0,0,2009,1,1,1,LAC,Blake,Griffin,0,Oklahoma,NBA
+1976,griffbl01,All-NBA Second Team,2011,NBA,0,F,2009,1,1,1,LAC,Blake,Griffin,0,Oklahoma,NBA
+1977,iguodan01,All-Defensive Second Team,2010,NBA,0,F,2004,1,9,9,PHI,Andre,Iguodala,0,Arizona,NBA
+1978,johnswe01,All-Rookie Second Team,2010,NBA,0,G,2010,1,4,4,MIN,Wesley,Johnson,0,Syracuse,NBA
+1979,monrogr01,All-Rookie Second Team,2010,NBA,0,C,2010,1,7,7,DET,Greg,Monroe,0,Georgetown,NBA
+1980,noahjo01,All-Defensive Second Team,2010,NBA,0,F/C,2007,1,9,9,CHI,Joakim,Noah,0,Florida,NBA
+1981,odomla01,Sixth Man of the Year,2010,NBA,0,0,1999,1,4,4,LAC,Lamar,Odom,0,Rhode Island,NBA
+1982,walljo01,All-Rookie First Team,2010,NBA,0,G,2010,1,1,1,WAS,John,Wall,0,Kentucky,NBA
+1983,anderry01,Most Improved Player,2011,NBA,0,0,2008,1,21,21,NJN,Ryan,Anderson,0,California,NBA
+1984,brookma01,All-Rookie Second Team,2011,NBA,0,F/G,2011,1,25,25,BOS,MarShon,Brooks,0,Providence,NBA
+1985,bynuman01,All-NBA Second Team,2011,NBA,0,C,2005,1,10,10,LAL,Andrew,Bynum,0,"St. Joseph HS (Metuchen, NJ) HS",NBA
+1986,denglu01,All-Defensive Second Team,2011,NBA,0,F,2004,1,7,7,PHO,Luol,Deng,0,Duke,NBA
+1987,farieke01,All-Rookie First Team,2011,NBA,0,F,2011,1,22,22,DEN,Kenneth,Faried,0,Morehead State,NBA
+1988,ibakase01,All-Defensive First Team,2011,NBA,0,F,2008,1,24,24,SEA,Serge,Ibaka,0,L'Hospitalet (Spain),NBA
+1989,irvinky01,All-Rookie First Team,2011,NBA,0,G,2011,1,1,1,CLE,Kyrie,Irving,0,Duke,NBA
+1990,irvinky01,Rookie of the Year,2011,NBA,0,0,2011,1,1,1,CLE,Kyrie,Irving,0,Duke,NBA
+1991,knighbr03,All-Rookie First Team,2011,NBA,tie,G,2011,1,8,8,DET,Brandon,Knight,0,Kentucky,NBA
+1992,leonaka01,All-Rookie First Team,2011,NBA,tie,F,2011,1,15,15,IND,Kawhi,Leonard,0,San Diego State,NBA
+1993,parsoch01,All-Rookie Second Team,2011,NBA,0,F,2011,2,8,38,HOU,Chandler,Parsons,0,Florida,NBA
+1994,rubiori01,All-Rookie First Team,2011,NBA,0,G,2009,1,5,5,MIN,Ricky,Rubio,0,DKV Joventut (Spain),NBA
+1995,shumpim01,All-Rookie First Team,2011,NBA,tie,G,2011,1,17,17,NYK,Iman,Shumpert,0,Georgia Tech,NBA
+1996,thomais02,All-Rookie Second Team,2011,NBA,0,G,2011,2,30,60,SAC,Isaiah,Thomas,0,Washington,NBA
+1997,thompkl01,All-Rookie First Team,2011,NBA,0,F/G,2011,1,11,11,GSW,Klay,Thompson,0,Washington State,NBA
+1998,thomptr02,All-Rookie Second Team,2011,NBA,0,F/C,2011,1,4,4,CLE,Tristan,Thompson,0,Texas,NBA
+1999,willide02,All-Rookie Second Team,2011,NBA,0,F,2011,1,2,2,MIN,Derrick,Williams,0,Arizona,NBA

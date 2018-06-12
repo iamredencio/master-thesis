@@ -1,0 +1,69 @@
+team_id,team_name,team_seed,team_region,playin_flag,team_alive,rd1_win,rd2_win,rd3_win,rd4_win,rd5_win,rd6_win,rd7_win,win_odds,timestamp
+96,Kentucky,1,Midwest,false,true,true,true,true,true,1,0.693150712565,0.553923588571,0.805303151253,2015-03-29 17:07:53.530000
+2363,Manhattan,16a,Midwest,true,false,false,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2261,Hampton,16b,Midwest,true,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2132,Cincinnati,8,Midwest,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2509,Purdue,9,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+277,West Virginia,5,Midwest,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+2084,Buffalo,12,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+120,Maryland,4,Midwest,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2674,Valparaiso,13,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2086,Butler,6,Midwest,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+251,Texas,11,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+87,Notre Dame,3,Midwest,false,false,true,true,true,true,0,0,0,--,2015-03-29 17:07:53.530000
+111,Northeastern,14,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2724,Wichita State,7,Midwest,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+84,Indiana,10,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2305,Kansas,2,Midwest,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+166,New Mexico State,15,Midwest,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+275,Wisconsin,1,West,false,true,true,true,true,true,1,0.306849287435,0.199737147843,4.0065799517,2015-03-29 17:07:53.530000
+324,Coastal Carolina,16,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2483,Oregon,8,West,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+197,Oklahoma State,9,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+8,Arkansas,5,West,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2747,Wofford,12,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+153,North Carolina,4,West,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+108,Harvard,13,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2752,Xavier,6,West,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+252,Brigham Young,11a,West,true,false,false,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+145,Ole Miss,11b,West,true,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+239,Baylor,3,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2247,Georgia State,14,West,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2670,Virginia Commonwealth,7,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+194,Ohio State,10,West,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+12,Arizona,2,West,false,false,true,true,true,true,0,0,0,--,2015-03-29 17:07:53.530000
+2640,Texas Southern,15,West,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+150,Duke,1,South,false,true,true,true,true,true,0.590472600681,0.386896797971,0.120802426199,7.27797943689,2015-03-29 17:07:53.530000
+2454,North Florida,16a,South,true,false,false,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2523,Robert Morris,16b,South,true,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+21,San Diego State,8,South,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2599,St. John's,9,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+254,Utah,5,South,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+2617,Stephen F. Austin,12,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+46,Georgetown,4,South,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+331,Eastern Washington,13,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2567,Southern Methodist,6,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+26,UCLA,11,South,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+66,Iowa State,3,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+5,UAB,14,South,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2294,Iowa,7,South,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2166,Davidson,10,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2250,Gonzaga,2,South,false,true,true,true,true,true,0.409527399319,0.218239272515,0.0469976270918,20.2776699991,2015-03-29 17:07:53.530000
+2449,North Dakota State,15,South,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+222,Villanova,1,East,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+322,Lafayette,16,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+152,North Carolina State,8,East,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+99,LSU,9,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2460,Northern Iowa,5,East,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2751,Wyoming,12,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+97,Louisville,4,East,false,false,true,true,true,true,0,0,0,--,2015-03-29 17:07:53.530000
+300,UC Irvine,13,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2507,Providence,6,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+68,Boise State,11a,East,true,false,false,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2168,Dayton,11b,East,true,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+201,Oklahoma,3,East,false,false,true,true,true,false,0,0,0,--,2015-03-29 17:07:53.530000
+399,Albany,14,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+127,Michigan State,7,East,false,true,true,true,true,true,1,0.394863929514,0.0785392102955,11.7324936963,2015-03-29 17:07:53.530000
+61,Georgia,10,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+258,Virginia,2,East,false,false,true,true,false,false,0,0,0,--,2015-03-29 17:07:53.530000
+2057,Belmont,15,East,false,false,true,false,false,false,0,0,0,--,2015-03-29 17:07:53.530000
