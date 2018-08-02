@@ -36,7 +36,7 @@ X[X<0] = 0
 y = data.per
 
 X_train, X_test, y_train,y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
+'''
 
 # In[180]:
 
@@ -99,11 +99,11 @@ explained_variance
 plt.plot(np.cumsum(explained_variance))
 plt.xlabel('number of components')
 plt.ylabel('cumulative explained variance');
-
+'''
 '''
 The image shows that we need a max of 17 features
 '''
-
+'''
 
 # In[28]:
 
@@ -217,7 +217,7 @@ y_train
 
 
 # In[ ]:
-
+'''
 
 import numpy as np
 import time
@@ -259,7 +259,7 @@ print('\n')
 
 
 start = time.clock()
-kern = ['rbf', 'linear']
+kern = ['rbf', 'sigmoid']#, 'poly', 'linear']
 epsil = [0.1, 0.2, 0.5, 0.001, 0.0001, 0.000001, 0.0000001]
 for knl in kern:
     for eps in epsil:
@@ -391,7 +391,7 @@ print("MAE sklearn", mean_absolute_error(y_test2, y_pred))
 
 # Cross Validation Regression MSE
 '''
-The Mean Squared Error (or MSE) is much like the mean absolute error in that it provides a gross idea of the 
+'''The Mean Squared Error (or MSE) is much like the mean absolute error in that it provides a gross idea of the 
 magnitude of error.
 Taking the square root of the mean squared error converts the units back to the original units of the output 
 variable and can be meaningful for description and presentation. 
@@ -418,7 +418,7 @@ print("MSE sklearn", mean_squared_error(y_test, y_pred))
 
 
 # Cross Validation Regression R^2
-'''
+
 The R^2 (or R Squared) metric provides an indication of the goodness of fit of a set of predictions to the actual values. In statistical literature, this measure is called the coefficient of determination.
 
 This is a value between 0 and 1 for no-fit and perfect fit respectively.
@@ -428,7 +428,7 @@ You can see that the predictions have a poor fit to the actual values with a val
 
 # In[206]:
 
-
+'''
 from sklearn import model_selection
 model = LinearRegression()
 scoring = 'r2'
@@ -438,12 +438,13 @@ print("R^2: ", results.mean(), results.std())
 from sklearn.metrics import r2_score
 print("R^2 sklearn", r2_score(y_test2, y_pred))
 
-
+'''
 # In[267]:
 
 
 # Calculate everything
 
+from sklearn import model_selection
 import time
 from sklearn import metrics
 
@@ -510,7 +511,7 @@ train_and_evaluate('DummyRegressor', DummyRegressor(strategy='mean', constant=No
 
 
 # In[ ]:
-
+'''
 
 #Set the display format to be scientific for ease of analysis
 pd.options.display.float_format = '{:,.2g}'.format
@@ -569,4 +570,4 @@ y
 
 
 alpha_ridge[0]
-
+'''

@@ -1,0 +1,350 @@
+LinearRegression
+Score LinearRegression:  -0.33701127744
+Total time:  0.0294859999999999 seconds
+
+
+SVR with kernel  rbf and epsilon  0.1
+Score SVR:  -0.571581263838
+Total time:  0.4039240000000004 seconds
+
+
+SVR with kernel  rbf and epsilon  0.2
+Score SVR:  -0.571032832974
+Total time:  0.40198 seconds
+
+
+SVR with kernel  rbf and epsilon  0.5
+Score SVR:  -0.569389119417
+Total time:  0.39857699999999996 seconds
+
+
+SVR with kernel  rbf and epsilon  0.001
+Score SVR:  -0.572124469631
+Total time:  0.40254600000000007 seconds
+
+
+SVR with kernel  rbf and epsilon  0.0001
+Score SVR:  -0.572129409049
+Total time:  0.4023240000000001 seconds
+
+
+SVR with kernel  rbf and epsilon  1e-06
+Score SVR:  -0.572129952386
+Total time:  0.40279299999999996 seconds
+
+
+SVR with kernel  rbf and epsilon  1e-07
+Score SVR:  -0.572129957326
+Total time:  0.4028129999999992 seconds
+
+
+SVR with kernel  sigmoid and epsilon  0.1
+Score SVR:  -0.580592416116
+Total time:  0.36632 seconds
+
+
+SVR with kernel  sigmoid and epsilon  0.2
+Score SVR:  -0.577831687385
+Total time:  0.3660590000000008 seconds
+
+
+SVR with kernel  sigmoid and epsilon  0.5
+Score SVR:  -0.569588977064
+Total time:  0.365081 seconds
+
+
+SVR with kernel  sigmoid and epsilon  0.001
+Score SVR:  -0.583332018512
+Total time:  0.36616300000000024 seconds
+
+
+SVR with kernel  sigmoid and epsilon  0.0001
+Score SVR:  -0.583356953566
+Total time:  0.36625900000000033 seconds
+
+
+SVR with kernel  sigmoid and epsilon  1e-06
+Score SVR:  -0.583359696454
+Total time:  0.3660540000000001 seconds
+
+
+SVR with kernel  sigmoid and epsilon  1e-07
+Score SVR:  -0.583359721389
+Total time:  0.36650399999999994 seconds
+
+
+LogisticRegression
+Score LogisticRegression:  0.0162866449511
+Total time:  13.892971 seconds
+
+
+BayesianRidge
+Score BayesianRidge:  -0.343618513776
+Total time:  0.058046999999998405 seconds
+
+
+DecisionTreeRegressor
+Score DecisionTreeRegressor:  -0.363503538493
+Total time:  0.053350000000001785 seconds
+
+
+KNeighborsRegressor
+Score KNeighborsRegressor:  -0.362446723061
+Total time:  0.02524000000000015 seconds
+
+
+Ridge regression alpha: 1e-15
+Score Ridge regression:  -2625.39337416
+Ridge regression alpha: 1e-10
+Score Ridge regression:  -2625.39334355
+Ridge regression alpha: 1e-08
+Score Ridge regression:  -2625.39031485
+Ridge regression alpha: 0.0001
+Score Ridge regression:  -2621.99893029
+Ridge regression alpha: 0.001
+Score Ridge regression:  -2622.47841076
+Ridge regression alpha: 0.01
+Score Ridge regression:  -2613.75699912
+Ridge regression alpha: 1
+Score Ridge regression:  -2445.2733349
+Ridge regression alpha: 5
+Score Ridge regression:  -2317.52208061
+Ridge regression alpha: 10
+Score Ridge regression:  -2233.92684845
+Ridge regression alpha: 20
+Score Ridge regression:  -2124.59867533
+Total time:  -1.2000000001677336e-05 seconds
+
+
+Accuracy on training set for LinearRegression :
+0.989039641053
+Accuracy on testing set:
+0.988928628998
+MAE score:
+85.5284189581
+MAE:  -0.277205903529 0.0260386300685
+MSE score:
+0.111022253406
+MSE:  -0.154153049538 0.0227034596789
+R^2 score:
+-2.28542957895
+R^2:  0.985687217997 0.00271409660157
+That took 0.5708019999999969 seconds
+
+
+
+
+Accuracy on training set for SVR :
+0.380270144029
+Accuracy on testing set:
+-0.0179829704627
+MAE score:
+86.4721931237
+MAE:  -2.561741697 0.191349877571
+MSE score:
+10.2081994444
+MSE:  -11.0305615783 1.65468324107
+R^2 score:
+-2.41745750427
+R^2:  -0.00723567281549 0.0130258145684
+That took 8.195846000000003 seconds
+
+
+
+
+Accuracy on training set for BayesianRidge :
+0.988676963098
+Accuracy on testing set:
+0.989230071137
+MAE score:
+85.5274116698
+MAE:  -0.279520258682 0.0251392535933
+MSE score:
+0.107999431253
+MSE:  -0.158923930747 0.0240717531414
+R^2 score:
+-2.28550323506
+R^2:  0.985224893426 0.00295466711739
+That took 1.5456090000000025 seconds
+
+
+
+
+Accuracy on training set for DecisionTreeRegressor depth: 3 :
+0.817915009138
+Accuracy on testing set:
+0.802157590786
+MAE score:
+85.6316738767
+MAE:  -1.15520769682 0.0537024888989
+MSE score:
+1.98393767912
+MSE:  -2.15743523783 0.233850884197
+R^2 score:
+-2.29843991682
+R^2:  0.799289469549 0.0330341143692
+That took 0.6606050000000039 seconds
+
+
+Accuracy on training set for DecisionTreeRegressor depth: 5 :
+0.938364120287
+Accuracy on testing set:
+0.932786638594
+MAE score:
+85.5772085677
+MAE:  -0.718609336077 0.0287445815419
+MSE score:
+0.674006754992
+MSE:  -0.875102615979 0.114636706963
+R^2 score:
+-2.29435433735
+R^2:  0.918839954629 0.0132124987995
+That took 0.9869529999999997 seconds
+
+
+Accuracy on training set for DecisionTreeRegressor depth: 10 :
+0.999557692117
+Accuracy on testing set:
+0.999286613834
+MAE score:
+85.5113116976
+MAE:  -0.0444668328029 0.0167630347102
+MSE score:
+0.00715374271438
+MSE:  -0.0220799937208 0.017741398037
+R^2 score:
+-2.28393258038
+R^2:  0.998031607207 0.00145208408288
+That took 1.5440980000000053 seconds
+
+
+Accuracy on training set for DecisionTreeRegressor depth: 50 :
+1.0
+Accuracy on testing set:
+0.99998070067
+MAE score:
+85.5025408597
+MAE:  -0.00927953214759 0.00877465003786
+MSE score:
+0.000193531148208
+MSE:  -0.00797267319846 0.0101005427541
+R^2 score:
+-2.28376481001
+R^2:  0.999315629113 0.000792627674627
+That took 1.6175250000000005 seconds
+
+
+Accuracy on training set for DecisionTreeRegressor depth: 100 :
+1.0
+Accuracy on testing set:
+0.99998070067
+MAE score:
+85.5025408597
+MAE:  -0.00927953214759 0.00877465003786
+MSE score:
+0.000193531148208
+MSE:  -0.00797267319846 0.0101005427541
+R^2 score:
+-2.28376481001
+R^2:  0.999315629113 0.000792627674627
+That took 1.6157010000000014 seconds
+
+
+
+
+Accuracy on training set for KNeighborsRegressor :
+0.978297417915
+Accuracy on testing set:
+-0.407798297771
+MAE score:
+57.9348534202
+MAE:  -19.5998680528 1.45855905159
+MSE score:
+4279.46944625
+MSE:  -908.064595229 117.542432088
+R^2 score:
+-0.407798297771
+R^2:  0.881354430634 0.0149696854015
+That took 0.49800900000000325 seconds
+
+
+Accuracy on training set for KNeighborsRegressor :
+0.811121205281
+Accuracy on testing set:
+-0.539267091214
+MAE score:
+57.8374592834
+MAE:  -34.9681034253 2.49876473597
+MSE score:
+4679.11241042
+MSE:  -2086.60114594 303.74158484
+R^2 score:
+-0.539267091214
+R^2:  0.727296392605 0.0359042754616
+That took 0.5072779999999995 seconds
+
+
+Accuracy on training set for KNeighborsRegressor :
+0.649184689445
+Accuracy on testing set:
+-0.635143131275
+MAE score:
+60.9564820847
+MAE:  -42.9270972944 2.34151202457
+MSE score:
+4970.55940586
+MSE:  -2855.03936702 378.977776053
+R^2 score:
+-0.635143131275
+R^2:  0.626528658352 0.0485564509383
+That took 0.6150439999999975 seconds
+
+
+Accuracy on training set for KNeighborsRegressor :
+0.610943509915
+Accuracy on testing set:
+-0.58346178826
+MAE score:
+60.1042019544
+MAE:  -45.3213318673 2.13765131899
+MSE score:
+4813.45683746
+MSE:  -3074.47223032 296.132100046
+R^2 score:
+-0.58346178826
+R^2:  0.597286130862 0.0435218266678
+That took 0.7285240000000002 seconds
+
+
+Accuracy on training set for Standard Ridge :
+0.664848670198
+Accuracy on testing set:
+0.652982721447
+MAE score:
+85.8540622232
+MAE:  -1.52529976036 0.0907163006353
+MSE score:
+3.47984366428
+MSE:  -3.71496522742 0.451216128376
+R^2 score:
+-2.33846897304
+R^2:  0.657206089742 0.0374798459858
+That took 0.3832790000000017 seconds
+
+
+Accuracy on training set for DummyRegressor :
+0.0
+Accuracy on testing set:
+-0.00570738999854
+MAE score:
+86.292535085
+MAE:  -2.57226480536 0.187510018395
+MSE score:
+10.0851015367
+MSE:  -11.0118114274 1.61684844556
+R^2 score:
+-2.40576551698
+R^2:  -0.00595831137173 0.00924750944505
+That took 0.07160400000000067 seconds
+
+
