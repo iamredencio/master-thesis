@@ -151,10 +151,16 @@ def plotRFAdata(modelsData, names):
 
 from sklearn.svm import SVR
 from sklearn.feature_selection import RFE
+import time
 
+start = time.clock()
 Smodels = [SVR(kernel="linear")]
 Xversions = [('original', X), ('rescaled', rescaledX), ('standardized', standardizedX)]
 modelsData, results = rankRFE(Smodels, Xversions, y, names)
+
+end = time.clock()
+
+print('Runtime was: ', end-start, 'seconds')
 
 
 # In[ ]:
