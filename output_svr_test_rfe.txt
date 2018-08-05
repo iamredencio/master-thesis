@@ -1,0 +1,62 @@
+[?1049h[?1h=[1;74r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[74;1H"svr_test_rfe.py" 172L, 5165C[2;1H[34m# coding: utf-8
+
+# In[1]:
+
+
+# Feature Extraction with Univariate Statistical Tests (Chi-squared for classification)[m
+[35mimport[m pandas [33mas[m pd
+[35mimport[m numpy
+[35mfrom[m sklearn.feature_selection [35mimport[m SelectKBest
+[35mfrom[m sklearn.feature_selection [35mimport[m chi2
+[34m# load data[m
+dataframe = pd.read_csv([31m'players5years.csv'[m)
+X = dataframe.drop([[31m'player_id'[m, [31m'player_efficiency'[m, [31m'per'[m], [31m1[m).fillna([31m0[m).values
+y = dataframe.per.values
+names = dataframe.drop([[31m'player_id'[m, [31m'player_efficiency'[m, [31m'per'[m], [31m1[m).columns.tolist()
+dataframe.head([31m3[m)
+
+
+[34m# In[2]:
+
+
+# Rescale data (between 0 and 1), rescale range to (0,1)[m
+[35mfrom[m sklearn.preprocessing [35mimport[m MinMaxScaler
+scaler = MinMaxScaler(feature_range=([31m0[m, [31m1[m))
+rescaledX = scaler.fit_transform(X)
+
+
+[34m# In[3]:
+
+
+# Standardize data (0 mean, 1 stdev), standardize data so that variance is 1 and mean is zeroo[33;1H.[m
+[35mfrom[m sklearn.preprocessing [35mimport[m StandardScaler
+scaler = StandardScaler().fit(X)
+standardizedX = scaler.transform(X)
+
+
+[34m# In[4]:[m
+
+
+[31m"""runModel is a generic function that runs a given model and produces the r2 score with or ww[43;1Hithout cross-validation.
+"""[m
+[35mimport[m numpy [33mas[m np
+[35mfrom[m sklearn.model_selection [35mimport[m KFold
+[35mfrom[m sklearn.model_selection [35mimport[m cross_val_score
+
+[33mdef[m [36mrunModel[m(model, Xw, y, cv):
+    [33mif[m cv==[36mFalse[m:[51;9Hmodel.fit(Xw,y)[52;9Hscore = model.score(Xw,y)
+    [33melse[m:[54;9Hkfold = KFold(n_splits=[31m10[m, random_state=[31m7[m, shuffle=[36mTrue[m)[55;9Hscores = cross_val_score(model, Xw, y, cv=kfold, scoring=[31m'r2'[m)[56;9Hscore = np.array(scores).mean()
+    [33mreturn[m(score)
+
+
+[34m# In[5]:[m
+
+
+[31m"""RFAperf runs the given model using the provide feature ranking list starting with the top  [64;1Hfeature and adding 
+the next important feature in a recursive fashion and reports the score at each step along wii[66;1Hth the features 
+utilized in that step. RFA stands for Recursive Feature Augmentation."""[m
+[33mdef[m [36mRFAperf[m(ranking, modelstr, Xw, y, names, cv=[36mFalse[m):
+    ranking = [36mlist[m(ranking)
+    model = [36meval[m(modelstr)
+    l = [36mlen[m(ranking)[73;5Hf_inds = [][74;76H1,0-1[9CTop[1;1H[?12l[?25h[74;1H
+[?1l>[?1049l

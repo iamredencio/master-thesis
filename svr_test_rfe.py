@@ -10,7 +10,7 @@ import numpy
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
 # load data
-dataframe = pd.read_csv('created_data/players5years.csv')
+dataframe = pd.read_csv('players5years.csv')
 X = dataframe.drop(['player_id', 'player_efficiency', 'per'], 1).fillna(0).values
 y = dataframe.per.values
 names = dataframe.drop(['player_id', 'player_efficiency', 'per'], 1).columns.tolist()
@@ -154,6 +154,7 @@ from sklearn.feature_selection import RFE
 import time
 
 start = time.clock()
+print('Start: ', start)
 Smodels = [SVR(kernel="linear")]
 Xversions = [('original', X), ('rescaled', rescaledX), ('standardized', standardizedX)]
 modelsData, results = rankRFE(Smodels, Xversions, y, names)
