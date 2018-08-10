@@ -17,18 +17,20 @@ from sklearn import preprocessing
 from sklearn.cross_validation import train_test_split
 data = pd.read_csv('randomforest_selectedfeatures.csv')
 labels = data.columns.tolist()
-X = data.drop(['PER', 'Player', 'player_efficiency'], 1).fillna(0) #'player_efficiency', 'Unnamed: 0', 'Team'
-y = data.PER
 
-X_train, X_test, y_train,y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+X = data.drop(['PER', 'Player', 'player_efficiency'], 1).fillna(0) #'player_efficiency', 'Unnamed: 0', 'Team'
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
 
 
 # In[10]:
 
 
-from sklearn.preprocessing import StandardScaler
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+X = scaler.fit_transform(X)
+y = data.PER
+
+X_train, X_test, y_train,y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 
 # In[11]:
