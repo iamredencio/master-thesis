@@ -40,6 +40,8 @@ X_train, X_test, y_train,y_test = train_test_split(X, y, test_size=0.2, random_s
 
 import time
 from sklearn import metrics
+from sklearn.linear_model           import LinearRegression
+from sklearn                        import preprocessing
 
 def train_and_evaluate(name, model, X_train, X_test, y_train, y_test):
     start = time.clock()
@@ -56,25 +58,30 @@ def train_and_evaluate(name, model, X_train, X_test, y_train, y_test):
     y_pred = model.predict(X_test)
     y_pred2 = lab_enc.fit_transform(y_pred)
     
-    print ("MAE score:")
-    print (metrics.mean_absolute_error(y_test, y_pred))
+#     print('params', model.get_params(deep=True))
+    
+#     print ("MAE score:")
+#     print (metrics.mean_absolute_error(y_test, y_pred))
     scoring = 'neg_mean_absolute_error'
     results = model_selection.cross_val_score(model, X_train, y_train, cv=kfold, scoring=scoring)
-    print("MAE: ", results.mean(), results.std())
+    mae = np.sqrt(-1 * results)
+    print("MAE: ", mae.mean(), mae.std())
     
-    print ("MSE score:")
-    print (metrics.mean_squared_error(y_test, y_pred))
+#     print ("MSE score:")
+#     print (metrics.mean_squared_error(y_test, y_pred))
     scoring = 'neg_mean_squared_error'
     results = model_selection.cross_val_score(model, X_train, y_train, cv=kfold, scoring=scoring)
-    print("MSE: ", results.mean(), results.std())
+    mse = np.sqrt(-1 * results)
+    print("MSE: ", mse.mean(), mse.std())
     
-    print ("R^2 score:")
-    print (metrics.r2_score(y_test, y_pred))
+#     print ("R^2 score:")
+#     print (metrics.r2_score(y_test, y_pred))
     scoring = 'r2'
     results = model_selection.cross_val_score(model, X_train, y_train, cv=kfold, scoring=scoring)
     print("R^2: ", results.mean(), results.std())
     end = time.clock()
     print('That took', end-start, 'seconds')
+    print(model.score(X_train, y_train), '&', model.score(X_test, y_test), '&',  model.get_params(deep=True), '&', mae.mean(), '&', mse.mean(), '&', metrics.r2_score(y_test, y_pred), '&', end-start, '\\\\')
 #     print ("Confusion Matrix:")
 #     print (metrics.confusion_matrix(y_test, y_pred))
     print('\n')
