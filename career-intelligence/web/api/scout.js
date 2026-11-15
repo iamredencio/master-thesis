@@ -69,11 +69,11 @@ export default async function handler(req,res){
   }
   if(type==="team-stats"){
    const data=await readJson(BASE+slug+"/teams/"+teamId+"/statistics?season="+season);
-   const stats=extractStats(data);
+   if(req.query.inspect==="1")return res.status(200).json({ok:true,keys:Object.keys(data),peek:JSON.stringify(data).slice(0,22000)});\n   const stats=extractStats(data);
    return res.status(200).json({ok:true,league,season,stats,availableKeys:Object.keys(stats).slice(0,110),source:"ESPN",fetchedAt:new Date().toISOString()});
   }
   const data=await readJson(WEB+slug+"/athletes/"+athleteId+"/stats?season="+season);
-  if(req.query.inspect==="1")return res.status(200).json({ok:true,raw:JSON.stringify(data).slice(0,14000)});
+  if(req.query.inspect==="1")return res.status(200).json({ok:true,keys:Object.keys(data), statsPreview:JSON.stringify(data.statistics||data.stats||data.splits||data.categories||{}).slice(0,24000), subObjects:Object.keys(data).filter(k=>k!=="teams").slice(0,80).map(k=>({key:k,type:typeof data[k],preview:JSON.stringify(data[k]).slice(0,400)}))});
   const stats=extractStats(data);
   return res.status(200).json({ok:true,id:athleteId,league,season,stats,availableKeys:Object.keys(stats).slice(0,100),source:"ESPN",fetchedAt:new Date().toISOString()});
  }catch(err){return res.status(503).json({ok:false,league,season,error:"ESPN data unavailable",reason:String(err?.message||err).slice(0,130)})}
