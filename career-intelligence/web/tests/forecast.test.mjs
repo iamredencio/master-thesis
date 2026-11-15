@@ -58,7 +58,7 @@ test("new Research page uses Hoop Metrics look and retains original at the archi
  legacy=readFileSync(new URL("research-legacy.html",root),"utf8"),
  dash=readFileSync(new URL("scouting.html",root),"utf8");
  assert.match(research,/The Research/);
- assert.match(research,/research\\.css/);
+ assert.ok(research.includes("research.css"));
  assert.match(legacy,/COURTLINE/);
  for(const id of ["team-skill-gaps","team-development-list","external-players","signal-games","team-priority-skill"]){
   assert.match(dash,new RegExp('id="'+id+'"'));
