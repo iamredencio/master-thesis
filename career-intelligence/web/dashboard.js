@@ -501,6 +501,36 @@ async function loadExternalRoster(){
  renderExternal();
 }
 
+
+async function loadLiveSignals(){
+ if(S.liveBusy)return;
+ S.liveBusy=true;$("signal-source").textContent="Refreshing verified NBA scoreboard…";
+ try{
+  const response=await fetch("/api/live",{headers:{Accept:"application/json"}});
+  const j=await response.json();
+  if(!response.ok||!j.ok)throw Error(j.message||"Score feed temporarily unavailable");
+  S.liveGames=Array.isArray(j.games)?j.games:[];S.liveProvider=j.source||"NBA scoreboard";S.liveUpdatedAt=j.updatedAt||new Date().toISOString();S.liveError=null;
+ }catch(e){S.liveError=String(e.message||e);S.liveGames=[]}
+ S.liveBusy=false;renderLiveSignals();
+}
+function renderLiveSignals(){
+ const holder=$("signal-games");if(!holder)return;
+ $("signal-source").textContent=S.liveError?"NBA feed unavailable":S.liveProvider?"Verified source: "+S.liveProvider:"Connecting to scoreboard…";
+ $("signal-updated").textContent=S.liveUpdatedAt&&!S.liveError?"Observed "+new Date(S.liveUpdatedAt).toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Amsterdam"})+" CET · refresh every 30s":"Waiting for provider data";
+ if(S.liveError){holder.innerHTML='<div class="dash-empty">The source score feed is unavailable: '+esc(S.liveError)+'. No probabilities or imaginary scores are displayed.</div>';return}
+ if(!S.liveGames.length){holder.innerHTML='<div class="dash-empty">No NBA games on the provider scoreboard for the current date.</div>';return}
+ const games=S.liveGames.slice().sort((a,b)=>a.status===2?-1:b.status===2?1:0);
+ holder.innerHTML=games.map(g=>{
+  const forecast=liveForecast(g),sentence=validatedLiveText(g,forecast),live=g.status===2,complete=g.status===3;
+  const pct=forecast?.mode==="experimental-live"?Math.round(forecast.probability*100):null;
+  return '<article class="dash-signal-game"><div class="dash-signal-head"><span>'+esc(g.statusText||"NBA game")+'</span><b>'+(live?"● LIVE":complete?"FINAL":"SCHEDULED")+'</b></div>'+
+   '<div class="dash-signal-score"><div><span>AWAY</span><strong>'+esc(g.away?.code||"—")+'</strong><span>'+(g.away?.score??"—")+'</span></div><em>VS</em><div><span>HOME</span><strong>'+esc(g.home?.code||"—")+'</strong><span>'+(g.home?.score??"—")+'</span></div></div>'+
+   (pct===null?'<div class="dash-signal-prob"><div class="dash-signal-probline"><span>Experimental in-game probability</span><strong>'+(complete?"Game final":"Not available")+'</strong></div></div>':
+    '<div class="dash-signal-prob"><div class="dash-signal-probline"><span>'+esc(g.home?.code||"HOME")+' provisional win chance</span><strong>'+pct+'%</strong></div><div class="dash-signal-probbar"><span style="width:'+pct+'%"></span></div><div class="dash-tiny-help">Q'+esc(String(g.period))+' · '+esc(g.clock||"—")+' · '+fmt(forecast.remainingMinutes,1)+' min left · experimental</div></div>')+
+   '<div class="dash-signal-verified">'+esc(sentence||"Insufficient verified information for an explanation.").trim()+'</div></article>';
+ }).join("");
+}
+
 function bind(){
  document.querySelectorAll("[data-section]").forEach(b=>b.addEventListener("click",()=>nav(b.dataset.section)));
  document.querySelectorAll("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();nav(a.dataset.go)}));
