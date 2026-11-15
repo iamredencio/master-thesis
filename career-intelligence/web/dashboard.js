@@ -1,4 +1,5 @@
 "use strict";
+import {SKILL_DEFS,CORE_SKILLS,computeTeamGaps,forecastImprovement,scoreExternalSkill,liveForecast,validatedLiveText} from "./forecast-engine.js";
 const $=id=>document.getElementById(id);
 const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
@@ -18,7 +19,7 @@ const S={section:"players",league:"nba",playerTab:"overview",metric:"points",ran
 teams:{nba:[],college:[]},rosters:{nba:new Map(),college:new Map()},historical:[],model:null,draft:null,
 teamId:"9",collegeId:"150",candidateId:"150",draftPlayer:null,draftPick:15,
 stats:new Map(),games:new Map(),history:new Map(),teamStats:new Map(),
-needs:{spacing:50,creation:50,defense:50,rebounding:50,ballsecurity:50},ratings:{},sources:{},shortlist:[],loadingTeams:false};
+needs:{spacing:50,creation:50,defense:50,rebounding:50,ballsecurity:50},ratings:{},sources:{},shortlist:[],loadingTeams:false,benchmarks:null,benchStatus:"loading",prioritySkill:"spacing",priorityTouched:false,developmentDone:new Set(),scanRevision:0,externalTeamId:"13",externalLoaded:null,externalRevision:0,liveGames:[],liveProvider:null,liveUpdatedAt:null,liveError:null};
 function photo(p,cls=""){const img=p?.headshot;const valid=typeof img==="string"&&/^https:\/\/[^/]*\.(?:espncdn|espn)\.com\//i.test(img);
  return '<div class="dash-avatar '+cls+'"><span>'+esc((p?.name||"PL").split(/\s+/).map(x=>x[0]).slice(0,2).join("").toUpperCase())+'</span>'+(valid?'<img src="'+esc(img)+'" alt="" loading="lazy" onerror="this.remove()">':"")+'</div>';
 }
@@ -76,12 +77,13 @@ async function fetchHistory(p){
 }
 function persist(){try{sessionStorage.setItem("hoop-metrics-scout-v1",JSON.stringify({needs:S.needs,ratings:S.ratings,sources:S.sources,shortlist:S.shortlist}))}catch(e){}}
 function restore(){try{const v=JSON.parse(sessionStorage.getItem("hoop-metrics-scout-v1")||"{}");if(v.needs)for(const k of skills)if(Number.isFinite(+v.needs[k]))S.needs[k]=clamp(+v.needs[k],0,100);if(v.ratings&&typeof v.ratings==="object")S.ratings=v.ratings;if(v.sources&&typeof v.sources==="object")S.sources=v.sources;if(Array.isArray(v.shortlist))S.shortlist=v.shortlist.slice(0,100)}catch(e){}}
-function nav(section){if(!["players","team","prospects"].includes(section))section="players";S.section=section;
+function nav(section){if(!["players","team","prospects","live"].includes(section))section="players";S.section=section;
  document.querySelectorAll(".dash-section").forEach(x=>x.classList.toggle("show",x.id==="section-"+section));
  document.querySelectorAll("[data-section]").forEach(x=>x.classList.toggle("on",x.dataset.section===section));
  history.replaceState(null,"","#"+section);window.scrollTo({top:0,behavior:"smooth"});
  if(section==="team"){renderTeam();ensureTeamStats(S.teamId)}
  if(section==="prospects")renderDraft();
+ if(section==="live")void loadLiveSignals();
 }
 function choices(league,active,withFeatured=false){
  let list=S.teams[league],html=withFeatured?'<option value="all">Featured & loaded NBA teams</option>':"";
@@ -93,6 +95,7 @@ function setupTeams(){
  $("players-team").innerHTML=S.league==="historical"?'<option value="all">All archived years</option>':choices(S.league,S.league==="college"?S.collegeId:"all",S.league==="nba");
  $("draft-school").innerHTML=choices("college",S.collegeId);
  $("candidate-school").innerHTML=choices("college",S.candidateId);
+ setupExternalTeamOptions();
 }
 function changeLeague(league){
  S.league=league;$("players-search").value="";$("players-min-pts").value=0;$("players-min-ast").value=0;$("players-min-reb").value=0;
@@ -258,7 +261,7 @@ async function ensureTeamStats(id){
  if(!id)return;const key=String(id);if(S.teamStats.has(key)){if(S.section==="team")renderTeamFactors();return}
  $("team-data-status").textContent="Fetching observed 2026–27 team box scores…";
  try{const j=await endpoint("team-stats","nba",key);S.teamStats.set(key,j)}catch(e){S.teamStats.set(key,null)}
- if(S.teamId===key){$("team-data-status").textContent=S.teamStats.get(key)?"Current season · ESPN":"Team stats temporarily unavailable";renderTeamFactors();renderRecommendation()}
+ if(S.teamId===key){$("team-data-status").textContent=S.teamStats.get(key)?"Current season · ESPN":"Team stats temporarily unavailable";renderTeamFactors();renderRecommendation();renderSkillGaps()}
 }
 function teamData(){return S.teamStats.get(S.teamId)?.fourFactors||null}
 function renderTeamRoster(){
@@ -318,11 +321,11 @@ function renderRecommendation(){
  $("team-recommendation").innerHTML='<div class="dash-recommendation-box"><p><strong>'+esc(x.p.name)+'</strong> currently ranks highest in your evaluated NCAA candidates with a <strong>'+x.fit+'/100</strong> illustrative fit index, based on '+source+' and the editable needs of <strong>'+esc(teamName(S.teamId)||"your NBA team")+'</strong>. This is a scouting-priority ranking, not predicted NBA wins or roster synergy.</p><div class="dash-mini-meter"><span>Weighted fit / 100 · heuristic</span><span>'+x.fit+'/100</span></div><div class="dash-progress"><span style="width:'+x.fit+'%"></span></div></div>';
 }
 function renderTeam(){
- $("team-franchise").value=S.teamId;renderTeamRoster();renderTeamFactors();renderTeamNeeds();renderCandidateList();renderRecommendation();
+ $("team-franchise").value=S.teamId;renderTeamRoster();renderTeamFactors();renderTeamNeeds();renderCandidateList();renderRecommendation();renderSkillGaps();renderDevelopment();renderExternal();
 }
 async function chooseTeam(id){
- if(!id)return;S.teamId=id;renderTeam();const roster=loadRoster("nba",id).catch(()=>[]);
- await Promise.allSettled([roster,ensureTeamStats(id)]);if(S.teamId===id)renderTeam();
+ if(!id)return;S.teamId=id;S.priorityTouched=false;S.externalLoaded=null;S.scanRevision++;setupTeams();renderTeam();const roster=loadRoster("nba",id).catch(()=>[]);
+ await Promise.allSettled([roster,ensureTeamStats(id)]);if(S.teamId===id){renderTeam();void scanDevelopment(id)}
 }
 async function loadCandidates(id){
  if(!id)return;S.candidateId=id;$("candidate-school").value=id;$("team-candidates").innerHTML='<div class="dash-skeleton">Loading college prospects…</div>';
@@ -400,6 +403,11 @@ function bind(){
   else renderPlayerStrip();
  });
  $("team-franchise").addEventListener("change",e=>chooseTeam(e.target.value));
+ $("team-priority-skill").addEventListener("change",e=>{S.priorityTouched=true;setPrioritySkill(e.target.value)});
+ $("team-rescan-development").addEventListener("click",()=>scanDevelopment(S.teamId,true));
+ $("external-team-select").addEventListener("change",e=>{S.externalTeamId=e.target.value;S.externalLoaded=null;renderExternal()});
+ $("external-load").addEventListener("click",()=>loadExternalRoster());
+ $("signal-refresh").addEventListener("click",()=>loadLiveSignals());
  $("team-suggest-needs").addEventListener("click",suggestNeeds);
  $("team-reset-needs").addEventListener("click",()=>{for(const k of skills)S.needs[k]=50;persist();renderTeamNeeds();renderCandidateList();renderRecommendation()});
  $("candidate-school").addEventListener("change",e=>loadCandidates(e.target.value));
@@ -410,12 +418,13 @@ function bind(){
  document.addEventListener("click",e=>{
   const node=e.target.closest("[data-player]");if(node){const p=getByKey(node.dataset.player);if(p)selectPlayer(p);return}
   const roster=e.target.closest("[data-team-player]");if(roster){const p=getByKey(roster.dataset.teamPlayer);if(p){S.league="nba";document.querySelectorAll("[data-league]").forEach(x=>x.classList.toggle("on",x.dataset.league==="nba"));setupTeams();nav("players");selectPlayer(p)}return}
+  const gap=e.target.closest("[data-skill-gap]");if(gap){S.priorityTouched=true;setPrioritySkill(gap.dataset.skillGap);return}
   const assess=e.target.closest("[data-evaluate]");if(assess){showAssess(assess.dataset.evaluate);return}
   if(e.target.id==="dash-modal-close"||e.target.id==="dash-modal-backdrop")$("dash-assess-modal").hidden=true;
  });
  document.addEventListener("input",e=>{const k=e.target.dataset.need;if(k){S.needs[k]=Number(e.target.value);$("need-"+k).textContent=e.target.value;persist();renderCandidateList();renderRecommendation()}});
  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&$("dash-assess-modal"))$("dash-assess-modal").hidden=true});
- window.addEventListener("hashchange",()=>{const v=location.hash.slice(1);if(["players","team","prospects"].includes(v)&&v!==S.section)nav(v)});
+ window.addEventListener("hashchange",()=>{const v=location.hash.slice(1);if(["players","team","prospects","live"].includes(v)&&v!==S.section)nav(v)});
 }
 async function init(){
  restore();bind();const results=await Promise.allSettled([endpoint("teams","nba"),endpoint("teams","college"),jsonFile("/data/rookies.json"),jsonFile("/data/model.json"),jsonFile("/data/draft-path.json")]);
@@ -425,12 +434,14 @@ async function init(){
  if(results[3].status==="fulfilled")S.model=results[3].value;
  if(results[4].status==="fulfilled")S.draft=results[4].value;
  setupTeams();renderTeamNeeds();renderDraft();renderPlayerStrip();
- const v=location.hash.slice(1);nav(["players","team","prospects"].includes(v)?v:"players");
+ const v=location.hash.slice(1);nav(["players","team","prospects","live"].includes(v)?v:"players");
+ void loadBenchmarks();
  await Promise.allSettled([loadRoster("nba","13"),loadRoster("nba","9"),loadRoster("college","150")]);
  const expanded=["PHX","PHI","MIL"].map(a=>S.teams.nba.find(t=>t.abbreviation===a)?.id).filter(Boolean);
  Promise.allSettled(expanded.map(id=>loadRoster("nba",id))).then(()=>renderPlayerStrip());
  await Promise.allSettled([chooseTeam(S.teamId),chooseCollege(S.collegeId),loadCandidates(S.candidateId)]);
  const p=getByKey(S.selectedKey)||featured[0];await selectPlayer(p);
+ setInterval(()=>{if(S.section==="live"&&document.visibilityState!=="hidden")void loadLiveSignals()},30000);
 }
 const modal=document.createElement("div");modal.id="dash-assess-modal";modal.hidden=true;modal.innerHTML='<div class="dash-modal-backdrop" id="dash-modal-backdrop"></div><div class="dash-modal-panel" role="dialog" aria-modal="true" aria-label="College player scouting assessment"><button class="dash-modal-close" id="dash-modal-close" aria-label="Close dialog">×</button><div id="dash-assess-body"></div></div>';document.body.append(modal);
 init();
