@@ -79,7 +79,22 @@ export default async function handler(req,res){
   }
   if(type==="games"){
    const raw=await request(WEB+slug+"/athletes/"+athleteId+"/gamelog?season="+year);
-   return res.status(200).json({ok:true,id:athleteId,season:year,league,source:"ESPN",keys:Object.keys(raw),labels:raw.labels,names:raw.names,eventsPreview:JSON.stringify(raw.events).slice(0,8500),seasonTypesPreview:JSON.stringify(raw.seasonTypes).slice(0,2500)});
+   const names=Array.isArray(raw.names)?raw.names:[],index=name=>names.indexOf(name);
+   const num=(values,name)=>{const i=index(name);if(i<0)return null;const v=Number(values?.[i]);return Number.isFinite(v)?v:null};
+   const groups=(raw.seasonTypes||[]).flatMap(seas=>(seas.categories||[])
+      .filter(group=>/regular season|regular season stats/i.test(group.displayName||seas.displayName||"")||String(group.splitType)==="2")
+      .flatMap(group=>group.events||[]));
+   const observed=groups.map(row=>{
+      const event=raw.events?.[String(row.eventId)]||{},when=Date.parse(event.gameDate||event.date||"");
+      if(!Number.isFinite(when)||when>Date.now()+86400000)return null;
+      const stats=row.stats||[];
+      return{id:String(row.eventId),date:new Date(when).toISOString(),opponent:String(event.opponent?.abbreviation||event.opponent?.displayName||"—"),
+       result:String(event.gameResult||"—"),minutes:num(stats,"minutes"),points:num(stats,"points"),
+       rebounds:num(stats,"totalRebounds")??num(stats,"rebounds"),assists:num(stats,"assists"),
+       steals:num(stats,"steals"),blocks:num(stats,"blocks"),turnovers:num(stats,"turnovers")};
+   }).filter(row=>row&&row.points!==null).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
+   const unique=[...new Map(observed.map(v=>[v.id,v])).values()].slice(-110);
+   return res.status(200).json({ok:true,id:athleteId,season:year,league,source:"ESPN game log",games:unique,sample:unique.length,fetchedAt:new Date().toISOString()});
   }
   if(type==="history"){
    const raw=await request(WEB+slug+"/athletes/"+athleteId+"/stats");
