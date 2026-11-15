@@ -72,7 +72,8 @@ export default async function handler(req,res){
    const stats=extractStats(data);
    return res.status(200).json({ok:true,league,season,stats,availableKeys:Object.keys(stats).slice(0,110),source:"ESPN",fetchedAt:new Date().toISOString()});
   }
-  const data=await readJson(WEB+slug+"/athletes/"+athleteId+"/stats?season="+season);\n  if(req.query.inspect==="1")return res.status(200).json({ok:true,raw:JSON.stringify(data).slice(0,14000)});
+  const data=await readJson(WEB+slug+"/athletes/"+athleteId+"/stats?season="+season);
+  if(req.query.inspect==="1")return res.status(200).json({ok:true,raw:JSON.stringify(data).slice(0,14000)});
   const stats=extractStats(data);
   return res.status(200).json({ok:true,id:athleteId,league,season,stats,availableKeys:Object.keys(stats).slice(0,100),source:"ESPN",fetchedAt:new Date().toISOString()});
  }catch(err){return res.status(503).json({ok:false,league,season,error:"ESPN data unavailable",reason:String(err?.message||err).slice(0,130)})}
