@@ -24,8 +24,8 @@ test("Player averages uses only requested season and maps names to numbers",()=>
  assert.equal(r.stats.avgThreePointFieldGoalsAttempted,5);
  assert.deepEqual(playerAverages(data,2028).stats,{});
 });
-test("Scouting UI has clear navigation and evidence boundaries",()=>{
- const source=readFileSync(new URL("../scouting.html",import.meta.url),"utf8");
+test("Classic scouting UI retained with evidence boundaries",()=>{
+ const source=readFileSync(new URL("../scouting-classic.html",import.meta.url),"utf8");
  for(const id of ["sc-player-grid","sc-prob-five","sc-prob-ten","sc-observed-four","sc-need-sliders","sc-candidate-list"]){
   assert.match(source,new RegExp('id="'+id+'"'));
  }

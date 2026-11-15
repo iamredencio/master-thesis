@@ -29,4 +29,6 @@ jobs:
       - run: node --check career-intelligence/web/api/health.js
       - run: node --check career-intelligence/web/api/scout.js
       - run: node --check career-intelligence/web/scouting.js
+      - run: node --check career-intelligence/web/dashboard.js
       - run: node --test career-intelligence/web/tests/scout.test.mjs
+      - run: node --test career-intelligence/web/tests/dashboard.test.mjs
