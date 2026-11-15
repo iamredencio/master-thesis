@@ -437,6 +437,70 @@ function renderSkillGaps(){
  }).join("");
 }
 
+
+async function scanDevelopment(teamId,force=false){
+ if(!teamId||S.teamId!==teamId)return;
+ const roster=rosterOf("nba",teamId);if(!roster.length){$("development-status").textContent="Current roster unavailable.";return}
+ if(S.developmentDone.has(teamId)&&!force){renderDevelopment();return}
+ const revision=++S.scanRevision;
+ $("development-status").textContent="Checking real NBA game logs for 0/"+roster.length+" roster members…";
+ if(force){for(const p of roster)S.games.delete(playerKey(p));S.developmentDone.delete(teamId)}
+ let completed=0;
+ for(let i=0;i<roster.length;i+=4){
+  await Promise.allSettled(roster.slice(i,i+4).map(p=>fetchGames(p)));
+  completed+=Math.min(4,roster.length-i);
+  if(revision!==S.scanRevision||teamId!==S.teamId)return;
+  $("development-status").textContent="Observed game logs: "+completed+"/"+roster.length+" players. At least six real games are needed per estimate.";
+  renderDevelopment();
+ }
+ S.developmentDone.add(teamId);
+ $("development-status").textContent="Scan complete · "+roster.length+" roster members · forecast probabilities are experimental, not calibrated.";
+ renderDevelopment();
+}
+function renderDevelopment(){
+ const list=$("team-development-list");if(!list)return;
+ const skill=S.prioritySkill,items=rosterOf("nba",S.teamId).map(p=>({p,f:forecastImprovement(gameOf(p),skill)})).filter(row=>row.f);
+ items.sort((a,b)=>b.f.probability-a.f.probability||b.f.n-a.f.n);
+ if(!items.length){list.innerHTML='<div class="dash-development-empty">No roster member has six qualifying, up-to-date game records yet, or the roster scan is running. No improvement probability is invented.</div>';return}
+ const unit=SKILL_DEFS[skill].unit;
+ list.innerHTML=items.slice(0,7).map(({p,f},i)=>
+ '<div class="dash-development-row">'+photo(p)+'<div><b>'+(i===0?'<span class="dash-development-tag">TOP INTERNAL DEVELOPMENT SCENARIO</span>':"")+esc(p.name)+'</b>'+
+ '<span>Baseline '+fmt(f.baseline,2)+' '+esc(unit)+' · next-10 target '+fmt(f.threshold,2)+' · '+f.n+' observed games</span></div>'+
+ '<div><strong>'+Math.round(f.probability*100)+'%</strong><small>'+esc(f.confidence)+' evidence</small></div></div>').join("");
+}
+function renderExternal(){
+ const list=$("external-players");if(!list)return;
+ if(S.externalLoaded!==S.externalTeamId){
+  list.innerHTML='<div class="dash-development-empty">Choose a different NBA franchise and click Compare to see players with current observed production that could address the selected gap. This is not an availability or trade recommendation.</div>';return;
+ }
+ const skill=S.prioritySkill,own=new Set(rosterOf("nba",S.teamId).map(p=>p.id));
+ const items=rosterOf("nba",S.externalTeamId).filter(p=>!own.has(p.id))
+  .map(p=>({p,stats:statOf(p),score:scoreExternalSkill(statOf(p),skill)}))
+  .filter(x=>x.score!==null&&x.stats?.gamesPlayed>=3).sort((a,b)=>b.score-a.score);
+ list.innerHTML=items.length?items.slice(0,6).map(({p,stats,score})=>
+ '<div class="dash-candidate-row">'+photo(p)+'<div><strong>'+esc(p.name)+'</strong><small>'+esc(teamName(S.externalTeamId))+' · '+fmt(stats.gamesPlayed,0)+' GP · observed '+esc(SKILL_DEFS[skill].label.toLowerCase())+'</small></div>'+
+ '<strong>'+score+'/100</strong><button data-team-player="'+esc(playerKey(p))+'">Profile ↗</button></div>').join(""):
+ '<div class="dash-development-empty">No players on this roster have a verified three-game sample of the selected metric yet.</div>';
+}
+async function loadExternalRoster(){
+ const teamId=$("external-team-select").value;if(!teamId||teamId===S.teamId)return;
+ S.externalTeamId=teamId;S.externalLoaded=null;const rev=++S.externalRevision;
+ $("external-status").textContent="Fetching observed season totals from "+(teamName(teamId)||"selected NBA franchise")+"…";
+ $("external-players").innerHTML='<div class="dash-skeleton">Comparing current NBA players…</div>';
+ let roster=[];
+ try{roster=await loadRoster("nba",teamId)}catch(e){if(rev===S.externalRevision)$("external-status").textContent="Roster unavailable: "+e.message;return}
+ let completed=0;
+ for(let i=0;i<roster.length;i+=4){
+  await Promise.allSettled(roster.slice(i,i+4).map(p=>fetchStats(p)));
+  completed+=Math.min(4,roster.length-i);
+  if(rev!==S.externalRevision||teamId!==S.externalTeamId)return;
+  $("external-status").textContent="Verified player averages: "+completed+"/"+roster.length;
+ }
+ S.externalLoaded=teamId;
+ $("external-status").textContent="Observed production rankings · no assumption that players are on the transfer or trade market.";
+ renderExternal();
+}
+
 function bind(){
  document.querySelectorAll("[data-section]").forEach(b=>b.addEventListener("click",()=>nav(b.dataset.section)));
  document.querySelectorAll("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();nav(a.dataset.go)}));
