@@ -9,7 +9,7 @@ A professionally presented research application built on top of the original mas
 - **Held-out test:** ROC-AUC ~0.819; Brier ~0.149 vs prevalence-only baseline ~0.194.
 - **1,538 searchable historical rookies** (1980–2016), with normalized data, position and approximate rookie age where available.
 - **Interactive scouting profile**, player comparison, feature contributions, scenario analysis, and risk-banded historical career-span survival curves.
-- **Live NBA scoreboard** from the public NBA CDN, refreshed every minute when available; reports errors instead of fabricated scores.
+- **Live NBA scoreboard** from the NBA liveData CDN with an ESPN data fallback, refreshed every minute when available; reports errors instead of fabricated scores.
 - Static frontend and one serverless endpoint; no API key needed for the historical application.
 
 **Important:** The scoreboard is real-time; career predictions are **not** trained on live 2026 player-season data. It would be misleading to call the predictions themselves real-time until a new ingestion, backfill, training and drift-validation pipeline exists.
@@ -54,6 +54,6 @@ python career-intelligence/ml/train.py --write
 - Previous experiments: `LSTM basketball data.py`, `SVR linear test.py`, `svr_test_rfe.py`, `feature_Extraction_pca.py`, notebooks and archived outputs.
 - Optional current basketball integration: [nba_api](https://github.com/swar/nba_api) wraps NBA.com stats/live endpoints; upstream availability and terms must be verified.
 - Commercial current player statistics: [BALLDONTLIE API](https://docs.balldontlie.io/) — season averages require a paid plan and API key; free plan does not suffice.
-- Live games: public [NBA CDN liveData scoreboard](https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json); availability/redistribution subject to provider terms.
+- Live games: public [NBA CDN liveData scoreboard](https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json), with fallback to [ESPN scoreboard](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard) when the CDN rejects serverless requests. Both feeds are third-party interfaces; uptime, usage rights and commercial redistribution are not guaranteed.
 
 The software is intended for research and visualization. Before public commercialization, review the provenance, copyright and API terms for the original archived datasets and all live feeds.
