@@ -69,3 +69,26 @@ The software is intended for research and visualization. Before public commercia
 - Data provider: public ESPN site APIs via official-looking but **unofficial undocumented access**, subject to provider restrictions. Commercial redistribution, especially player headshots, must be licensed/reviewed before public launch. Data is served to the authenticated Vercel preview and may not be permanently available.
 
 See [SCOUTING_METHODS.md](SCOUTING_METHODS.md) for data methodology, provenance and known limitations.
+
+## Hoop Metrics — screenshot-led redesign (November 2026)
+
+The six screenshot references define the design direction: cinematic black hero with dark athlete portraits, yellow headline and CTA; dark blue-black dashboard background, purple/indigo panels, rounded controls, selectable player portrait chips, yellow observed performance chart, six numeric season cards, advanced/defensive ring metrics, and a two-column NBA Moneyball analysis.
+
+### Routes
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Screenshot-led Hoop Metrics landing page |
+| `/scouting.html#players` | Player explorer: NBA / NCAA / archived rookies, search, observed stats, chart, highlights |
+| `/scouting.html#team` | Team analytics: real 2026–27 NBA roster & Four Factors, scouting candidate ratings |
+| `/scouting.html#prospects` | NCAA-to-draft conditional *historical scenario* lab |
+| `/research.html` | Original master's thesis research dashboard, fully preserved |
+| `/scouting-classic.html` | Original v0.2 COURTLINE scouting prototype, fully preserved |
+
+The layout is designed for desktop and mobile and contains no illustrative/fabricated box scores. The API `/api/scout` now supports `games` (ESPN regular-season athlete game log, current season) and `history` (historical player season averages). The front end never extrapolates future games or treats draft-slot conditional estimates as player-specific selection odds.
+
+The gallery uses ESPN remote athlete images, **not copies of the user's screenshots as backgrounds**. Source headshot image licenses and API access terms require review before commercial public release.
+
+### Verification
+
+The GitHub Actions workflow runs reproducible Python model checks, Python tests, JS syntax validation and Node tests for the dashboard and the classic scouting API. Preview and production deployments must additionally smoke-test a real NBA player's game log, a real NCAA player's game log, an NBA team's current stats and all three application routes.
