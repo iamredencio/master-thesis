@@ -1,0 +1,168 @@
+{
+  "version": "0.1.0",
+  "trainedAt": "2026-11-15",
+  "description": "Historical draft-pick conditional NBA career-span rates, smoothed by cohort prevalence. Not draft probability; not college stats model.",
+  "source": {
+    "draft": "master thesis/Deeplearning articles/data/gmoney-nba-drafts-2016-1989/gmoney-nba-drafts-2016-1989/data/nba_drafts.csv",
+    "career": "nba-players-stats/player_data.csv"
+  },
+  "cohortLimit": "Career source ends in 2018. Historic pick records end in 2016. Labels after safe horizons excluded.",
+  "matched": 1160,
+  "horizons": {
+    "five": {
+      "target": 5,
+      "cohorts": {
+        "train": "1989–2004",
+        "validation": "2005–2007",
+        "test": "2008–2011"
+      },
+      "n": {
+        "train": 753,
+        "val": 150,
+        "test": 201
+      },
+      "baseline": 0.656,
+      "bands": [
+        {
+          "name": "Top 5",
+          "range": "1–5",
+          "low": 1,
+          "high": 5,
+          "n": 75,
+          "positive": 73,
+          "prob": 0.9234,
+          "median": 14
+        },
+        {
+          "name": "Lottery",
+          "range": "6–14",
+          "low": 6,
+          "high": 14,
+          "n": 141,
+          "positive": 124,
+          "prob": 0.8593,
+          "median": 11
+        },
+        {
+          "name": "Late first",
+          "range": "15–30",
+          "low": 15,
+          "high": 30,
+          "n": 245,
+          "positive": 164,
+          "prob": 0.6687,
+          "median": 8
+        },
+        {
+          "name": "Early second",
+          "range": "31–45",
+          "low": 31,
+          "high": 45,
+          "n": 188,
+          "positive": 89,
+          "prob": 0.4861,
+          "median": 4
+        },
+        {
+          "name": "Late second",
+          "range": "46–60",
+          "low": 46,
+          "high": 60,
+          "n": 104,
+          "positive": 44,
+          "prob": 0.4507,
+          "median": 4
+        }
+      ],
+      "validation": {
+        "brier": 0.207,
+        "baseline": 0.2286
+      },
+      "test": {
+        "brier": 0.1778,
+        "baseline": 0.2239
+      }
+    },
+    "ten": {
+      "target": 10,
+      "cohorts": {
+        "train": "1989–2002",
+        "validation": "2003–2004",
+        "test": "2005–2008"
+      },
+      "n": {
+        "train": 661,
+        "val": 92,
+        "test": 199
+      },
+      "baseline": 0.4191,
+      "bands": [
+        {
+          "name": "Top 5",
+          "range": "1–5",
+          "low": 1,
+          "high": 5,
+          "n": 65,
+          "positive": 55,
+          "prob": 0.7705,
+          "median": 14
+        },
+        {
+          "name": "Lottery",
+          "range": "6–14",
+          "low": 6,
+          "high": 14,
+          "n": 124,
+          "positive": 74,
+          "prob": 0.5787,
+          "median": 11
+        },
+        {
+          "name": "Late first",
+          "range": "15–30",
+          "low": 15,
+          "high": 30,
+          "n": 213,
+          "positive": 84,
+          "prob": 0.3959,
+          "median": 8
+        },
+        {
+          "name": "Early second",
+          "range": "31–45",
+          "low": 31,
+          "high": 45,
+          "n": 166,
+          "positive": 45,
+          "prob": 0.2826,
+          "median": 4
+        },
+        {
+          "name": "Late second",
+          "range": "46–60",
+          "low": 46,
+          "high": 60,
+          "n": 93,
+          "positive": 19,
+          "prob": 0.2324,
+          "median": 4
+        }
+      ],
+      "validation": {
+        "brier": 0.2307,
+        "baseline": 0.2618
+      },
+      "test": {
+        "brier": 0.2128,
+        "baseline": 0.2391
+      }
+    }
+  },
+  "limitations": [
+    "These are conditional on already being selected at this draft pick; they are not P(drafted).",
+    "Five and ten years refer to calendar span (last recorded season year minus first plus one), not unique active seasons.",
+    "Players without unambiguous names in both archives are excluded (selection bias).",
+    "Historical draft cohort rates can differ substantially from current NBA roster dynamics.",
+    "Scouting scenarios are conditional comparisons, not independently trained NCAA-to-NBA projections."
+  ]
+}

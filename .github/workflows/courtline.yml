@@ -19,6 +19,7 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install -r career-intelligence/ml/requirements.txt
       - run: python career-intelligence/ml/train.py --check
+      - run: python career-intelligence/ml/draft_path.py --check
       - run: python -m unittest discover -s career-intelligence/ml/tests -v
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
@@ -26,3 +27,6 @@ jobs:
       - run: node --check career-intelligence/web/app.js
       - run: node --check career-intelligence/web/api/live.js
       - run: node --check career-intelligence/web/api/health.js
+      - run: node --check career-intelligence/web/api/scout.js
+      - run: node --check career-intelligence/web/scouting.js
+      - run: node --test career-intelligence/web/tests/scout.test.mjs
