@@ -1,10 +1,10 @@
 /** Two independent read-only NBA scoreboard providers. No fabricated scores. */
 function nbaClock(value){
- if(typeof value==="string"&&/^PT\\d+M\\d+(?:\\.\\d+)?S$/.test(value)){
-  const m=value.match(/^PT(\\d+)M(\\d+)(?:\\.\\d+)?S$/);
+ if(typeof value==="string"&&/^PT\d+M\d+(?:\.\d+)?S$/.test(value)){
+  const m=value.match(/^PT(\d+)M(\d+)(?:\.\d+)?S$/);
   return String(m[1]).padStart(2,"0")+":"+String(m[2]).padStart(2,"0");
  }
- return typeof value==="string"&&/^\\d+:\\d{1,2}$/.test(value)?value:null;
+ return typeof value==="string"&&/^\d+:\d{1,2}$/.test(value)?value:null;
 }
 const fmtET = () => {
  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
