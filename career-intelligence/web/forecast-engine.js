@@ -119,8 +119,9 @@ export function liveForecast(game){
  if(game.status!==2||!finite(game.home?.score)||!finite(game.away?.score))return null;
  const period=Number(game.period),clock=String(game.clock||"");
  const match=clock.match(/^(\d+):(\d{1,2})(?:\.\d+)?$/);
- if(!Number.isInteger(period)||period<1||period>12||!match)return null;
- const clockMin=Number(match[1])+Number(match[2])/60;
+ const decimal=clock.match(/^(\d{1,2})\.(\d+)$/);
+ if(!Number.isInteger(period)||period<1||period>12||(!match&&!decimal))return null;
+ const clockMin=match?Number(match[1])+Number(match[2])/60:Number(clock)/60;
  if(clockMin<0||clockMin>12.01)return null;
  const remaining=period<=4?Math.max(0,(4-period)*12+clockMin):clockMin;
  if(remaining<=0)return null;
