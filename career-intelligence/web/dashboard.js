@@ -382,6 +382,61 @@ function setPlayerTab(tab){
  document.querySelectorAll("[data-player-tab]").forEach(b=>b.classList.toggle("on",b.dataset.playerTab===tab));
  renderPlayer();
 }
+
+function setupExternalTeamOptions(){
+ const others=S.teams.nba.filter(t=>t.id!==S.teamId);
+ if(S.externalTeamId===S.teamId||!others.some(t=>t.id===S.externalTeamId))S.externalTeamId=others[0]?.id||"";
+ $("external-team-select").innerHTML=others.map(t=>'<option value="'+esc(t.id)+'" '+(t.id===S.externalTeamId?"selected":"")+'>'+esc(t.name)+'</option>').join("");
+}
+async function loadBenchmarks(){
+ S.benchStatus="loading";renderSkillGaps();
+ try{
+  const response=await fetch("/api/team-benchmarks",{headers:{Accept:"application/json"}});
+  const data=await response.json();
+  if(!response.ok||!data.ok)throw Error(data.reason||data.error||"Insufficient league coverage");
+  S.benchmarks=data;S.benchStatus="ready";
+ }catch(e){S.benchmarks=null;S.benchStatus="unavailable";S.benchError=String(e.message||e)}
+ renderSkillGaps();
+}
+function measuredGaps(){
+ const data=S.teamStats.get(S.teamId),benchmark=S.benchmarks?.benchmarks;
+ if(!data?.stats||!benchmark)return[];
+ return computeTeamGaps(data.stats,data.fourFactors,benchmark);
+}
+function unitValue(v,unit){
+ if(v===null||v===undefined||!Number.isFinite(Number(v)))return"—";
+ return["%","TOV%","eFG%"].includes(unit)?fmt(v,1)+"%":unit==="FTM/FGA"?fmt(v,3):fmt(v,1);
+}
+function setPrioritySkill(skill){
+ if(!SKILL_DEFS[skill])return;
+ S.prioritySkill=skill;$("team-priority-skill").value=skill;
+ renderSkillGaps();renderDevelopment();renderExternal();
+}
+function renderSkillGaps(){
+ const status=$("team-benchmark-status"),hero=$("team-gap-hero"),grid=$("team-skill-gaps");
+ if(!status||!hero||!grid)return;
+ const coverage=S.benchmarks;
+ if(S.benchStatus==="loading")status.textContent="Fetching current NBA team statistics to compute observed league medians…";
+ else if(S.benchStatus!=="ready")status.textContent="League sample temporarily unavailable"+(S.benchError?" ("+S.benchError+")":"")+". The team Four Factors above remain measured; unsupported league rankings are withheld.";
+ else status.textContent="Observed NBA league median · "+coverage.leagueSample+"/"+coverage.totalTeams+" teams · "+coverage.season+" season. League comparisons, not proven winning formulas.";
+ const gaps=measuredGaps();
+ if(!gaps.length){
+  hero.innerHTML='<p class="dash-muted">Once team stats and sufficient observed league benchmarks are available, this panel shows which measurable skills fall below the NBA median.</p>';grid.innerHTML="";return;
+ }
+ const primary=gaps.find(g=>g.needsAttention)||gaps[0],attention=gaps.filter(g=>g.needsAttention);
+ if(!S.priorityTouched&&primary&&SKILL_DEFS[primary.key]){S.prioritySkill=primary.key;$("team-priority-skill").value=primary.key}
+ hero.innerHTML='<small>HIGHEST MEASURED GAP · '+esc(teamName(S.teamId)||"SELECTED TEAM")+'</small><strong>'+esc(primary.label)+'</strong><p>'+
+ (attention.length?attention.length+" of "+gaps.length+" categories are at least 0.4 standard deviations below the observed NBA median. ":"No measured category is substantially below the league median. ")+
+ 'First test the current roster for development capacity, then compare outside skill profiles.</p>';
+ grid.innerHTML=gaps.map(g=>{
+  const unit=SKILL_DEFS[g.key]?.teamUnit||"";
+  return '<button type="button" data-skill-gap="'+esc(g.key)+'" class="dash-gap-card '+(g.key===S.prioritySkill?"selected":"")+'"><div class="dash-gap-card-head"><b>'+esc(g.label)+'</b><span class="dash-gap-status '+(g.z>=-.4?"ok":"")+'">'+esc(g.status)+'</span></div>'+
+   '<div class="dash-gap-values">'+esc(unitValue(g.current,unit))+' <span>vs NBA '+esc(unitValue(g.median,unit))+'</span></div><small>'+
+   Math.abs(g.z).toFixed(2)+' league SD '+(g.z<0?"below":"above")+' median · gap '+g.gap+'/100</small>'+
+   '<div class="dash-gap-meter"><span class="'+(g.z>=0?"ok":"")+'" style="width:'+clamp(Math.round((g.z+2)/4*100),1,100)+'%"></span></div></button>';
+ }).join("");
+}
+
 function bind(){
  document.querySelectorAll("[data-section]").forEach(b=>b.addEventListener("click",()=>nav(b.dataset.section)));
  document.querySelectorAll("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();nav(a.dataset.go)}));
