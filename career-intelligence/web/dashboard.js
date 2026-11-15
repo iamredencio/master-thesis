@@ -8,7 +8,7 @@ const skills=["spacing","creation","defense","rebounding","ballsecurity"];
 const skillNames={spacing:"Three-point spacing",creation:"Scoring & playmaking",defense:"Defensive activity",rebounding:"Rebounding",ballsecurity:"Ball security"};
 const skillDesc={spacing:"Shooting accuracy and three-point volume",creation:"Self-created shots and passing",defense:"Steals, blocks, perimeter and rim activity",rebounding:"Rebounding production and role",ballsecurity:"Protecting possessions and making passes"};
 const featured=[
-{id:"1966",name:"LeBron James",league:"nba",headshot:"https://a.espncdn.com/i/headshots/nba/players/full/1966.png",teamName:"NBA player",position:"F",teamId:"13"},
+{id:"1966",name:"LeBron James",league:"nba",headshot:"https://a.espncdn.com/i/headshots/nba/players/full/1966.png",teamName:"NBA player · team lookup",position:"F",teamId:""},
 {id:"3975",name:"Stephen Curry",league:"nba",headshot:"https://a.espncdn.com/i/headshots/nba/players/full/3975.png",teamName:"NBA player",position:"G",teamId:"9"},
 {id:"3202",name:"Kevin Durant",league:"nba",headshot:"https://a.espncdn.com/i/headshots/nba/players/full/3202.png",teamName:"NBA player",position:"F",teamId:""},
 {id:"3059318",name:"Joel Embiid",league:"nba",headshot:"https://a.espncdn.com/i/headshots/nba/players/full/3059318.png",teamName:"NBA player",position:"C",teamId:""},
@@ -56,7 +56,7 @@ async function loadRoster(league,id,force=false){
  const rows=response.players.map(p=>fromRoster(p,league,id));
  S.rosters[league].set(id,rows);
  if(league==="college"&&id===S.collegeId){if(!S.draftPlayer||!rows.some(x=>x.id===S.draftPlayer.id))S.draftPlayer=rows[0]||null;renderDraftPlayers()}
- if(league==="nba")renderTeamRoster();
+ if(league==="nba"){renderTeamRoster();if(id===S.teamId)void prefetchRosterStats(league,id,7)}
  renderPlayerStrip();return rows;
 }
 async function fetchStats(p){
@@ -72,7 +72,7 @@ async function fetchGames(p){
 async function fetchHistory(p){
  if(!p||p.league==="historical")return null;
  const key=playerKey(p);if(S.history.has(key))return S.history.get(key);
- try{const j=await endpoint("history",p.league,p.id);S.history.set(key,j);return j}catch(e){S.history.set(key,null);return null}
+ try{const j=await endpoint("history",p.league,p.id);S.history.set(key,j);const latest=j.history?.at(-1);if(p.league==="nba"&&latest?.year===2027&&latest.teamId){const known=teamName(latest.teamId,"nba");const fp=featured.find(x=>x.id===p.id);if(fp){fp.teamId=latest.teamId;fp.teamName=known||"NBA team"}if(S.selectedKey===key){S.selected.teamId=latest.teamId;S.selected.teamName=known||"NBA team"}}return j}catch(e){S.history.set(key,null);return null}
 }
 function persist(){try{sessionStorage.setItem("hoop-metrics-scout-v1",JSON.stringify({needs:S.needs,ratings:S.ratings,sources:S.sources,shortlist:S.shortlist}))}catch(e){}}
 function restore(){try{const v=JSON.parse(sessionStorage.getItem("hoop-metrics-scout-v1")||"{}");if(v.needs)for(const k of skills)if(Number.isFinite(+v.needs[k]))S.needs[k]=clamp(+v.needs[k],0,100);if(v.ratings&&typeof v.ratings==="object")S.ratings=v.ratings;if(v.sources&&typeof v.sources==="object")S.sources=v.sources;if(Array.isArray(v.shortlist))S.shortlist=v.shortlist.slice(0,100)}catch(e){}}
@@ -252,6 +252,7 @@ function renderPlayerAnalysis(){
  }else html+='<div class="dash-empty">Current verified season statistics are not available yet. We do not generate artificial performance or team synergy.</div>';
  $("player-team-analysis").innerHTML=html;
 }
+async function prefetchRosterStats(league,id,limit=7){const players=rosterOf(league,id).slice(0,limit);for(let i=0;i<players.length;i+=3){await Promise.allSettled(players.slice(i,i+3).map(fetchStats));if(league==="nba"&&id===S.teamId){renderTeamRoster();renderPlayerStrip()}}}
 function historical(p,index){return{...p,id:"rookie-"+index,league:"historical",teamName:"Historical NBA rookie",headshot:null,year:Number(p.year),position:p.position||"—"}}
 async function ensureTeamStats(id){
  if(!id)return;const key=String(id);if(S.teamStats.has(key)){if(S.section==="team")renderTeamFactors();return}
