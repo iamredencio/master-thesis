@@ -82,7 +82,7 @@ export default async function handler(req,res){
    const names=Array.isArray(raw.names)?raw.names:[],index=name=>names.indexOf(name);
    const num=(values,name)=>{const i=index(name);if(i<0)return null;const v=Number(values?.[i]);return Number.isFinite(v)?v:null};
    const groups=(raw.seasonTypes||[]).flatMap(seas=>(seas.categories||[])
-      .filter(group=>/regular season|regular season stats/i.test(group.displayName||seas.displayName||"")||String(group.splitType)==="2")
+      .filter(group=>/regular season|regular season stats/i.test(seas.displayName||"")||/regular season|regular season stats/i.test(group.displayName||"")||String(group.splitType)==="2")
       .flatMap(group=>group.events||[]));
    const observed=groups.map(row=>{
       const event=raw.events?.[String(row.eventId)]||{},when=Date.parse(event.gameDate||event.date||"");
