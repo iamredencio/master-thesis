@@ -1,0 +1,1 @@
+export default function handler(req,res){if(req.method!=="GET")return res.status(405).json({status:"method-not-allowed"});return res.status(200).json({status:"ok",service:"COURTLINE",model:"1.0.0",historicalDataEnd:2016,liveScoreEndpoint:"/api/live"});}
