@@ -1,0 +1,184 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-11-15",
+  "modelType": "L2-regularized logistic regression",
+  "target": "NBA career year span >= 5 (last - first + 1)",
+  "trainingYears": "1980–2004",
+  "validationYears": "2005–2007",
+  "testYears": "2008–2011",
+  "archiveEnd": 2018,
+  "lambda": 0.002,
+  "featureNames": [
+    "min",
+    "pts",
+    "gp",
+    "reb",
+    "ast",
+    "stl",
+    "blk",
+    "tov",
+    "fg",
+    "3pa",
+    "ft",
+    "eff",
+    "age"
+  ],
+  "mean": [
+    17.51255060728745,
+    6.879554655870449,
+    61.624493927125506,
+    3.113562753036437,
+    1.5433198380566808,
+    0.6205465587044537,
+    0.4044534412955486,
+    1.2480769230769235,
+    44.420546558704494,
+    0.5887651821862386,
+    69.61437246963555,
+    7.487044534412952,
+    23.074898785425102
+  ],
+  "std": [
+    8.49657018039838,
+    4.4791766300794595,
+    16.71436893192424,
+    2.1861910795594826,
+    1.450731321554497,
+    0.4184423894126742,
+    0.5128119716598175,
+    0.7300701162557217,
+    5.859788249139664,
+    0.9392397722194754,
+    10.186404167779884,
+    4.813780632493941,
+    1.5800045770312945
+  ],
+  "coef": [
+    -0.284,
+    -0.107,
+    0.492,
+    0.46,
+    0.25,
+    0.166,
+    0.509,
+    -0.167,
+    0.15,
+    0.213,
+    0.199,
+    0.418,
+    -0.446
+  ],
+  "intercept": 1.3473813794412766,
+  "clipZ": 5,
+  "survival": [
+    {
+      "band": 0,
+      "n": 247,
+      "pMin": 0.0867,
+      "pMax": 0.5495,
+      "curve": [
+        1,
+        0.753,
+        0.5951,
+        0.4858,
+        0.3968,
+        0.3522,
+        0.2955,
+        0.2551,
+        0.2186,
+        0.1579
+      ]
+    },
+    {
+      "band": 1,
+      "n": 247,
+      "pMin": 0.5497,
+      "pMax": 0.7687,
+      "curve": [
+        1,
+        0.9271,
+        0.83,
+        0.7328,
+        0.6518,
+        0.5749,
+        0.5101,
+        0.4494,
+        0.3765,
+        0.3401
+      ]
+    },
+    {
+      "band": 2,
+      "n": 247,
+      "pMin": 0.7711,
+      "pMax": 0.905,
+      "curve": [
+        1,
+        0.9798,
+        0.9514,
+        0.8947,
+        0.8421,
+        0.7976,
+        0.7571,
+        0.7004,
+        0.6397,
+        0.5709
+      ]
+    },
+    {
+      "band": 3,
+      "n": 247,
+      "pMin": 0.9056,
+      "pMax": 0.9995,
+      "curve": [
+        1,
+        0.9919,
+        0.9919,
+        0.9879,
+        0.9757,
+        0.9595,
+        0.9433,
+        0.9231,
+        0.8664,
+        0.7895
+      ]
+    }
+  ],
+  "metrics": {
+    "validation": {
+      "n": 120,
+      "auc": 0.8421,
+      "brier": 0.16,
+      "logloss": 0.4743
+    },
+    "heldOut": {
+      "n": 172,
+      "auc": 0.8185,
+      "brier": 0.1489,
+      "logloss": 0.4448
+    },
+    "baselineHeldOut": {
+      "n": 172,
+      "auc": 0.5,
+      "brier": 0.1937,
+      "logloss": 0.5759
+    },
+    "baselineProbability": 0.7165991902834008
+  },
+  "rowCounts": {
+    "rookieRecords": 1538,
+    "careerRecords": 4550,
+    "matchedTotal": 1280,
+    "train": 988,
+    "validation": 120,
+    "test": 172
+  },
+  "limitations": [
+    "Archived rookie records end in 2016; career records end in 2018.",
+    "Outcome is career calendar-year span, not distinct seasons played.",
+    "Future cohorts were excluded to avoid censored labels.",
+    "Name normalization matching can exclude/ambiguously join some players.",
+    "Historical out-of-time validation, not 2026 performance proof.",
+    "Coefficients are associational, not causal."
+  ]
+}
