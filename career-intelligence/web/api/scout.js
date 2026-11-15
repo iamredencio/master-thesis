@@ -64,10 +64,10 @@ function playerAverages(json,year){
 export default async function handler(req,res){
  if(req.method!=="GET"){res.setHeader("Allow","GET");return res.status(405).json({ok:false,error:"Method not allowed"})}
  const {type,league="college",team,id}=req.query||{};
- if(!LEAGUES[league]||!["teams","roster","player","team-stats"].includes(type))return res.status(400).json({ok:false,error:"Invalid resource"});
+ if(!LEAGUES[league]||!["teams","roster","player","team-stats","games","history"].includes(type))return res.status(400).json({ok:false,error:"Invalid resource"});
  const teamId=String(team||""),athleteId=String(id||"");
  if(["roster","team-stats"].includes(type)&&!/^[0-9]{1,7}$/.test(teamId))return res.status(400).json({ok:false,error:"Invalid team ID"});
- if(type==="player"&&!/^[0-9]{1,10}$/.test(athleteId))return res.status(400).json({ok:false,error:"Invalid athlete ID"});
+ if(["player","games","history"].includes(type)&&!/^[0-9]{1,10}$/.test(athleteId))return res.status(400).json({ok:false,error:"Invalid athlete ID"});
  const slug=LEAGUES[league],year=season();
  res.setHeader("Cache-Control","s-maxage=180, stale-while-revalidate=600");
  try{
@@ -76,6 +76,18 @@ export default async function handler(req,res){
   if(type==="team-stats"){
    const raw=await request(BASE+slug+"/teams/"+teamId+"/statistics?season="+year),stats=teamNumbers(raw);
    return res.status(200).json({ok:true,season:year,league,source:"ESPN",stats,fourFactors:league==="nba"?fourFactors(stats):null,fetchedAt:new Date().toISOString()});
+  }
+  if(type==="games"){
+   const raw=await request(WEB+slug+"/athletes/"+athleteId+"/gamelog?season="+year);
+   return res.status(200).json({ok:true,id:athleteId,season:year,league,source:"ESPN",keys:Object.keys(raw),labels:raw.labels,names:raw.names,eventsPreview:JSON.stringify(raw.events).slice(0,8500),seasonTypesPreview:JSON.stringify(raw.seasonTypes).slice(0,2500)});
+  }
+  if(type==="history"){
+   const raw=await request(WEB+slug+"/athletes/"+athleteId+"/stats");
+   const avg=(raw.categories||[]).find(c=>c.name==="averages"),list=(avg?.statistics||[]).map(row=>{
+    const stats={};for(let i=0;i<(avg?.names||[]).length;i++){const value=Number(row.stats?.[i]);if(Number.isFinite(value)&&row.stats?.[i]!=="")stats[avg.names[i]]=value}
+    return{year:Number(row.season?.year),label:String(row.season?.displayName||""),teamId:String(row.teamId||""),stats}
+   }).filter(s=>Number.isFinite(s.year)).sort((a,b)=>a.year-b.year).slice(-25);
+   return res.status(200).json({ok:true,id:athleteId,season:year,league,source:"ESPN",history:list});
   }
   const raw=await request(WEB+slug+"/athletes/"+athleteId+"/stats?season="+year),summary=playerAverages(raw,year);
   return res.status(200).json({ok:true,season:year,league,source:"ESPN",id:athleteId,...summary,fetchedAt:new Date().toISOString()});
