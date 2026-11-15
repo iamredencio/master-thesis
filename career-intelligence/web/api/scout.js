@@ -81,3 +81,4 @@ export default async function handler(req,res){
   return res.status(200).json({ok:true,season:year,league,source:"ESPN",id:athleteId,...summary,fetchedAt:new Date().toISOString()});
  }catch(e){return res.status(503).json({ok:false,season:year,league,error:"ESPN data temporarily unavailable",reason:String(e?.message||e).slice(0,120)})}
 }
+export { fourFactors, playerAverages };

@@ -57,3 +57,15 @@ python career-intelligence/ml/train.py --write
 - Live games: public [NBA CDN liveData scoreboard](https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json), with fallback to [ESPN scoreboard](https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard) when the CDN rejects serverless requests. Both feeds are third-party interfaces; uptime, usage rights and commercial redistribution are not guaranteed.
 
 The software is intended for research and visualization. Before public commercialization, review the provenance, copyright and API terms for the original archived datasets and all live feeds.
+
+## Scouting expansion: Player cards, NCAA drafts and team fit
+
+- [Scouting workspace](web/scouting.html): **Player cards**, **Draft lab** and **Team fit lab**. The original overview remains at /.
+- Player cards use current **ESPN 2026–27 rosters and portraits** (via /api/scout) for NCAA and NBA. Individual statistics are fetched when a player is inspected. Archived rookie cards remain available and are not mixed with current players' predictions.
+- Draft path shows empirical NBA career-span probabilities **conditional on a user-chosen draft pick**, using only players drafted in the thesis' 1989–2016 archive. It does **not** estimate whether a student will be drafted, current scouting rank, draft salary or NBA success from NCAA stats.
+- Draft-path reproducibility: `python career-intelligence/ml/draft_path.py --check`; output `web/data/draft-path.json`; year-separated held-out tests for the 5-year and 10-year targets.
+- The team fit lab loads the selected NBA team's current roster and measured box-score team totals. It computes eFG%, turnover rate, FT makes per FGA, and *offensive rebounds per game* (not true offensive rebounding percentage). Compare with clearly labeled planning targets, and optionally seed editable priorities from measured team stats. The app does not claim to predict wins.
+- Candidate skills can be assessed manually or populated from an **explicit opt-in box-score proxy** using observed current-season NCAA PPG, RPG, APG, STL, BLK, TO and 3PT attempts/percentage. Ratings are a transparent heuristic, not a calibrated NCAA-to-NBA conversion. The fit index weights user assessed skills by user set roster needs.
+- Data provider: public ESPN site APIs via official-looking but **unofficial undocumented access**, subject to provider restrictions. Commercial redistribution, especially player headshots, must be licensed/reviewed before public launch. Data is served to the authenticated Vercel preview and may not be permanently available.
+
+See [SCOUTING_METHODS.md](SCOUTING_METHODS.md) for data methodology, provenance and known limitations.

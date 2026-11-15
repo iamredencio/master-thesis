@@ -29,3 +29,4 @@ jobs:
       - run: node --check career-intelligence/web/api/health.js
       - run: node --check career-intelligence/web/api/scout.js
       - run: node --check career-intelligence/web/scouting.js
+      - run: node --test career-intelligence/web/tests/scout.test.mjs
