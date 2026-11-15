@@ -69,7 +69,8 @@ export default async function handler(req,res){
   }
   if(type==="team-stats"){
    const data=await readJson(BASE+slug+"/teams/"+teamId+"/statistics?season="+season);
-   if(req.query.inspect==="1")return res.status(200).json({ok:true,keys:Object.keys(data),peek:JSON.stringify(data).slice(0,22000)});\n   const stats=extractStats(data);
+   if(req.query.inspect==="1")return res.status(200).json({ok:true,keys:Object.keys(data),peek:JSON.stringify(data).slice(0,22000)});
+   const stats=extractStats(data);
    return res.status(200).json({ok:true,league,season,stats,availableKeys:Object.keys(stats).slice(0,110),source:"ESPN",fetchedAt:new Date().toISOString()});
   }
   const data=await readJson(WEB+slug+"/athletes/"+athleteId+"/stats?season="+season);
