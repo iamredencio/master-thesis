@@ -2,6 +2,13 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {readFileSync} from "node:fs";
 import {SKILL_DEFS,normalCdf,extractTeamMetrics,summarizeBenchmarkRows,computeTeamGaps,forecastImprovement,scoreExternalSkill,liveForecast,validatedLiveText} from "../forecast-engine.js";
+test("ESPN 3-point split parsing accepts observed made-attempted lines",async()=>{
+ const {parseShotLinePair}=await import("../api/scout.js");
+ const labels=["minutes","threePointFieldGoalsMade-threePointFieldGoalsAttempted","points"];
+ assert.equal(parseShotLinePair(["35","5-11","28"],labels,labels[1],0),5);
+ assert.equal(parseShotLinePair(["35","5-11","28"],labels,labels[1],1),11);
+ assert.equal(parseShotLinePair(["35","N/A","28"],labels,labels[1],0),null);
+});
 test("normal CDF is symmetric, monotonic, and bounded",()=>{
  assert.ok(Math.abs(normalCdf(0)-.5)<1e-7);
  assert.ok(Math.abs(normalCdf(1)-.841345)<1e-4);
@@ -48,6 +55,7 @@ test("live estimate requires real period, clock and scores",()=>{
  assert.equal(estimate.mode,"experimental-live");
  assert.match(validatedLiveText(game,estimate),/not calibrated/i);
  assert.equal(liveForecast({...game,clock:null}),null);
+ const fractional=liveForecast({...game,clock:"0.1"});assert.ok(fractional&&fractional.remainingMinutes>0);
  assert.equal(liveForecast({...game,status:1}),null);
  assert.equal(liveForecast({...game,home:{code:"GS",score:null}}),null);
  assert.equal(liveForecast({...game,status:3}).probability,1);
