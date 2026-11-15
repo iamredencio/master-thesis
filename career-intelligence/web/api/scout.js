@@ -46,6 +46,11 @@ function fourFactors(stats){
   note:"OREB per game is a proxy only; actual offensive rebounding percentage needs opponent defensive rebounds."
  };
 }
+function parseShotLinePair(values,names,name,half){
+ const i=names.indexOf(name),value=i<0?null:values?.[i];
+ if(typeof value!=="string"||!/^\d+(?:\.\d+)?-\d+(?:\.\d+)?$/.test(value))return null;
+ return Number(value.split("-")[half]);
+}
 function playerAverages(json,year){
  const avg=(json.categories||[]).find(c=>c.name==="averages");
  if(!avg||!Array.isArray(avg.names))return{stats:{},sample:0};
@@ -81,6 +86,7 @@ export default async function handler(req,res){
    const raw=await request(WEB+slug+"/athletes/"+athleteId+"/gamelog?season="+year);
    const names=Array.isArray(raw.names)?raw.names:[],index=name=>names.indexOf(name);
    const num=(values,name)=>{const i=index(name);if(i<0)return null;const v=Number(values?.[i]);return Number.isFinite(v)?v:null};
+   const pair=(values,name,half)=>parseShotLinePair(values,names,name,half);
    const groups=(raw.seasonTypes||[]).flatMap(seas=>(seas.categories||[])
       .filter(group=>/regular season|regular season stats/i.test(seas.displayName||"")||/regular season|regular season stats/i.test(group.displayName||"")||String(group.splitType)==="2")
       .flatMap(group=>group.events||[]));
@@ -91,7 +97,7 @@ export default async function handler(req,res){
       return{id:String(row.eventId),date:new Date(when).toISOString(),opponent:String(event.opponent?.abbreviation||event.opponent?.displayName||"—"),
        result:String(event.gameResult||"—"),minutes:num(stats,"minutes"),points:num(stats,"points"),
        rebounds:num(stats,"totalRebounds")??num(stats,"rebounds"),assists:num(stats,"assists"),
-       steals:num(stats,"steals"),blocks:num(stats,"blocks"),turnovers:num(stats,"turnovers")};
+       steals:num(stats,"steals"),blocks:num(stats,"blocks"),turnovers:num(stats,"turnovers"),threeMade:pair(stats,"threePointFieldGoalsMade-threePointFieldGoalsAttempted",0),threeAttempts:pair(stats,"threePointFieldGoalsMade-threePointFieldGoalsAttempted",1),freeThrowsMade:pair(stats,"freeThrowsMade-freeThrowsAttempted",0)};
    }).filter(row=>row&&row.points!==null).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
    const unique=[...new Map(observed.map(v=>[v.id,v])).values()].slice(-110);
    return res.status(200).json({ok:true,id:athleteId,season:year,league,source:"ESPN game log",games:unique,sample:unique.length,fetchedAt:new Date().toISOString()});
@@ -108,4 +114,4 @@ export default async function handler(req,res){
   return res.status(200).json({ok:true,season:year,league,source:"ESPN",id:athleteId,...summary,fetchedAt:new Date().toISOString()});
  }catch(e){return res.status(503).json({ok:false,season:year,league,error:"ESPN data temporarily unavailable",reason:String(e?.message||e).slice(0,120)})}
 }
-export { fourFactors, playerAverages };
+export { fourFactors, playerAverages, parseShotLinePair };

@@ -30,5 +30,9 @@ jobs:
       - run: node --check career-intelligence/web/api/scout.js
       - run: node --check career-intelligence/web/scouting.js
       - run: node --check career-intelligence/web/dashboard.js
+      - run: node --check career-intelligence/web/forecast-engine.js
+      - run: node --check career-intelligence/web/research.js
+      - run: node --check career-intelligence/web/api/team-benchmarks.js
       - run: node --test career-intelligence/web/tests/scout.test.mjs
       - run: node --test career-intelligence/web/tests/dashboard.test.mjs
+      - run: node --test career-intelligence/web/tests/forecast.test.mjs

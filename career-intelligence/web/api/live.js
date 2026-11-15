@@ -1,4 +1,11 @@
 /** Two independent read-only NBA scoreboard providers. No fabricated scores. */
+function nbaClock(value){
+ if(typeof value==="string"&&/^PT\d+M\d+(?:\.\d+)?S$/.test(value)){
+  const m=value.match(/^PT(\d+)M(\d+)(?:\.\d+)?S$/);
+  return String(m[1]).padStart(2,"0")+":"+String(m[2]).padStart(2,"0");
+ }
+ return typeof value==="string"&&/^\d+:\d{1,2}$/.test(value)?value:null;
+}
 const fmtET = () => {
  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
    timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"
@@ -13,7 +20,7 @@ async function fetchJSON(url){
 function fromNBA(data){
  if(!data?.scoreboard?.games)throw Error("Unexpected NBA schema");
  return{source:"NBA liveData",games:data.scoreboard.games.slice(0,25).map(g=>({
- id:String(g.gameId||""),status:Number(g.gameStatus||1),statusText:String(g.gameStatusText||""),
+ id:String(g.gameId||""),status:Number(g.gameStatus||1),statusText:String(g.gameStatusText||""),period:Number(g.period||0),clock:nbaClock(g.gameClock),
  timeUTC:g.gameTimeUTC||null,away:{code:String(g.awayTeam?.teamTricode||"—"),score:g.awayTeam?.score??null},
  home:{code:String(g.homeTeam?.teamTricode||"—"),score:g.homeTeam?.score??null}
  }))};
@@ -28,7 +35,7 @@ function fromESPN(data){
    const status=event.status?.type||{};
    const gameStatus=status.completed?3:status.state==="in"?2:1;
    const toTeam=t=>({code:String(t.team?.abbreviation||"—"),score:gameStatus===1?null:(t.score==null?null:Number(t.score))});
-   return{id:String(event.id||""),status:gameStatus,
+   return{id:String(event.id||""),status:gameStatus,period:Number(event.status?.period||0),clock:String(event.status?.displayClock||"")||null,
      statusText:String(status.shortDetail||status.detail||status.description||"Scheduled"),
      timeUTC:event.date||null,away:toTeam(away),home:toTeam(home)};
  })};

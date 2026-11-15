@@ -22,7 +22,7 @@ test("dashboard source fetches real games and distinguishes evidence from scenar
  assert.match(source,/endpoint\("games"/);
  assert.match(source,/historical|model/);
  assert.match(dash,/NOT DRAFT ODDS/);
- assert.match(dash,/No win probabilities are claimed/);
+ assert.match(dash,/provisional|experimental, not calibrated win or growth forecasts/i);
 });
 test("all stat values are sourced or absent, not fixture scores",()=>{
  assert.doesNotMatch(source,/27\.5 PPG.*LeBron/i);
